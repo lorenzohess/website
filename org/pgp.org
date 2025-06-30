@@ -1,0 +1,23 @@
+* PGP Info
+** Keyservers
+- =openpgp.org=: https://keys.openpgp.org/search?q=0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5 (view),  https://keys.openpgp.org/vks/v1/by-fingerprint/0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5 (download)
+- =keyserver.ubuntu.com=: https://keyserver.ubuntu.com/pks/lookup?search=0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5&fingerprint=on&op=index (view), https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0abeda2fce3f0177b5f7b8c4485359764d294bf5 (download)
+- =pgp.com=: https://keyserver.pgp.com/vkd/DownloadKey.event?keyid=0x485359764D294BF5 (download)
+- =circl.lu=: https://openpgp.circl.lu/pks/lookup?search=lorenzohess%40tutanota.com&fingerprint=on&op=index (view), https://openpgp.circl.lu/pks/lookup?op=get&search=0x0abeda2fce3f0177b5f7b8c4485359764d294bf5 (download)
+** Fingerprint Mirrors
+- Github: https://github.com/lorenzohess
+- Gitlab: https://gitlab.com/lorenzohess
+** Key Info
+*Key ID:* =Lorenzo Hess=, =lorenzohess@tutanota.com=
+
+*Master Key:*
+- =0ABE DA2F CE3F 0177 B5F7  B8C4 4853 5976 4D29 4BF5= (=0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5=)
+
+*Encryption Subkey Fingerprint:*
+- =DA6D 49C4 92F7 DA77 C102  08B7 18D8 4C84 2BBA A1EE= (=DA6D49C492F7DA77C10208B718D84C842BBAA1EE=)
+
+*Signing Subkey:*
+- =743C 4FAE B527 70D3 A7FC  3438 00FB 4C5E 80F8 427F= (=743C4FAEB52770D3A7FC343800FB4C5E80F8427F=)
+
+*Authentication Subkey Fingerprint:*
+- =0EB8 093F 9FF9 9D0A CF1A  0A80 9327 13D3 BEAD CDF3= (=0EB8093F9FF99D0ACF1A0A80932713D3BEADCDF3=)

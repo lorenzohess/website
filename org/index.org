@@ -11,7 +11,7 @@
 #+options: html-link-use-abs-url:nil html-postamble:auto html-preamble:t html-scripts:t html-style:t tex:t expand-links:t f:t section-numbers:nil
 #+html_doctype: xhtml-strict
 #+html_equation_reference_format: \eqref{%s}
-Welcome to my small plot of land on the vast Internet. You'll find bio links, projects, and the occasional blog post.
+Welcome to my small plot of land on the vast Internet. You'll find bio links, PGP info, projects, and the occasional blog post.
 
 ** Bio Links
 1. Gitlab: https://gitlab.com/lorenzohess
@@ -24,5 +24,11 @@ All, and I mean all, my dotfiles (configuration files) are in this repo: https:/
 My lengthy Doom Emacs config file: https://gitlab.com/lorenzohess/dotfiles/-/blob/master/config/doom/config.org.
 ** Projects
 A list of my projects is [[file:projects.org][here]], divided into Completed, In Progress, Design Phase, and Suspended.
+** PGP Keys
+I use a Master Key with encryption, signing, and authentication subkeys. I'll probably rotate the encryption subkey every so often. This page will be updated with other online proof that my master key fingerprint is indeed the fingerprint listed below.
+
+*Download*: [[file:~/nextcloud-sync/projects/website/pgp/0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc][0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc]].
+
+[[file:pgp.org][More info.]]
 ** Blog
 This contains some thoughts which I think I explain particularly well.
