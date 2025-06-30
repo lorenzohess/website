@@ -1,0 +1,28 @@
+* My Website
+#+title:lorenzohess.net
+#+date: <2025-06-24 Tue>
+#+author: Lorenzo Hess
+#+email: lorenzohess@tutanota.com
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 29.4 (Org mode 9.7.29)
+
+#+options: html-link-use-abs-url:nil html-postamble:auto html-preamble:t html-scripts:t html-style:t tex:t expand-links:t f:t section-numbers:nil
+#+html_doctype: xhtml-strict
+#+html_equation_reference_format: \eqref{%s}
+Welcome to my small plot of land on the vast Internet. You'll find bio links, projects, and the occasional blog post.
+
+** Bio Links
+1. Gitlab: https://gitlab.com/lorenzohess
+2. Github: https://github.com/lorenzohess
+3. LinkedIn: https://www.linkedin.com/in/lorenzohess/
+4. WPI Merit Pages: https://github.com/lorenzohess
+** Dotfiles
+All, and I mean all, my dotfiles (configuration files) are in this repo: https://gitlab.com/lorenzohess/dotfiles.
+
+My lengthy Doom Emacs config file: https://gitlab.com/lorenzohess/dotfiles/-/blob/master/config/doom/config.org.
+** Projects
+A list of my projects is [[file:projects.org][here]], divided into Completed, In Progress, Design Phase, and Suspended.
+** Blog
+This contains some thoughts which I think I explain particularly well.
