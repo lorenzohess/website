@@ -1,0 +1,3 @@
+* Dotfiles
+Some notable configs:
+- Doom Emacs: https://gitlab.com/lorenzohess/dotfiles/-/blob/master/config/doom/config.org.
