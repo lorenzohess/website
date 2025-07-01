@@ -19,16 +19,13 @@ These projects have achieved at least most of their goals.
    Abstract: Reuse of N95 FFRs helps mitigate the effects of shortages. UV-C exposure is an ideal method for the decontamination necessary for FFR reuse. Recent research quantifies the transmittance of UV-C through the 3M1870+ and 3M9210+ FFRs [1]. Other research measures the reduction in viral load in relation to UV-C exposure time [11]. We design and program a ray tracing simulator in MATLAB to characterize the distribution of scattered photons in N95 FFRs. We implement an object-oriented FFR with configurable physical characteristics. We use the simulator to record the number of photons available for decontamination in each sub-layer of the filtering layers of the 3M1870+ and 3M9210+ for a given number of photons incident to the layers. We make assumptions about the photon absorption and viral deactivation in each sub-layer to derive a relation between the number of incident photons and the number of viruses remaining. The transmittance computed by our simulator matches the experimentally measured transmittance. The diameter of the simulated scattered beam also matches the experimentally measured scattered beam diameters. Our data, combined with our assumptions about absorption and deactivation, however, fail to account for the dropoff in viral load observed at about 25 seconds of exposure time in the 3M1870+.
 2. [[https://gitlab.com/lorenzohess/xml-commedia][XML Commedia]]: Dante's /Divine Comedy/ encoded as XML, down to each word.
 3. [[https://gitlab.com/lorenzohess/dante-site-backend][Commedia Word Counts Website]]: search for words in the /Divine Comedy/, along with their counts and frequencies.
-   - [ ] Update project description: update home server URL
-   - [ ] Update README: update home server URL
-   - [ ] Update README: describe project
-4. [[https://gitlab.com/lorenzohess/eddy-current-brakes-ergometer][Eddy Current Brake Experiment]]
-5. [[https://gitlab.com/lorenzohess/me3310-stretcher-cad][Stretcher CAD Model for ME 3310]]
+4. [[https://gitlab.com/lorenzohess/eddy-current-brakes-ergometer][Eddy Current Brake Ergometer for PHYS 3010]]
+5. [[https://gitlab.com/lorenzohess/me3310-stretcher-cad][Folding Stretcher CAD Model for ME 3310]]
 6. [[https://gitlab.com/lorenzohess/es-1310-cad-files][CAD Files for ES 1310]]
 *** Software
-1. AwesomeWM Desktop Rice for Arch Linux
-2. AwesomeWM Desktop Rice for Qubes OS
-3. [[https://gitlab.com/lorenzohess/divina-commandline][Divina commandline]]
+1. [[https://gitlab.com/lorenzohess/arch-awesomewm-rice][AwesomeWM Desktop Rice for Arch Linux]]: configuration and scripting for the Awesome Window Manager and other desktop environment tools for Arch Linux.
+2. [[https://github.com/lorenzohess/qubes-awesomewm-rice][AwesomeWM Desktop Rice for Qubes OS]]: configuration and scripting for the Awesome Window Manager and other desktop environment tools for Arch Linux.
+3. [[https://gitlab.com/lorenzohess/divina-commandline][Divina Commandline]]: very basic CLI tools for interacting with the /Divine Comedy/ from the CLI.
 4. [[https://gitlab.com/lorenzohess/xml-orlando-furioso][XML Orlando Furioso]]: Ariosto's /Orlando Furioso/ encoded as XML, down to each word.
 *** Mechanical
 **** 3D Modeling

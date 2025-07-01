@@ -11,7 +11,7 @@
 #+options: html-link-use-abs-url:nil html-postamble:auto html-preamble:t html-scripts:t html-style:t tex:t expand-links:t f:t section-numbers:nil
 #+html_doctype: xhtml-strict
 #+html_equation_reference_format: \eqref{%s}
-Welcome to my small plot of land on the vast Internet. You'll find bio links, PGP info, projects, and the occasional blog post.
+Welcome to my small plot of land on the vast Internet. Includes bio links, PGP info, projects, and the occasional blog post.
 
 ** [[file:bio.org][Bio Links]]
 1. Gitlab: https://gitlab.com/lorenzohess
@@ -25,6 +25,6 @@ A list of my projects is [[file:projects.org][here]], divided into Completed, In
 ** [[file:pgp.org][PGP Keys]]
 I use a Master Key with encryption, signing, and authentication subkeys.
 
-*Quick Download*: [[file:~/nextcloud-sync/projects/website/pgp/0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc][0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc]].
+Quick Download: [[file:~/nextcloud-sync/projects/website/pgp/0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc][0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc]].
 ** [[file:blog.org][Blog]]
 This contains some thoughts which I think I explain particularly well.
