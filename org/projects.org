@@ -14,13 +14,11 @@
 ** Completed
 These projects have achieved at least most of their goals.
 *** Academic Projects
-1. Honors Project for Physics BA: https://digitalcollections.bowdoin.edu/view/4961/.
-
-   Abstract: Reuse of N95 FFRs helps mitigate the effects of shortages. UV-C exposure is an ideal method for the decontamination necessary for FFR reuse. Recent research quantifies the transmittance of UV-C through the 3M1870+ and 3M9210+ FFRs [1]. Other research measures the reduction in viral load in relation to UV-C exposure time [11]. We design and program a ray tracing simulator in MATLAB to characterize the distribution of scattered photons in N95 FFRs. We implement an object-oriented FFR with configurable physical characteristics. We use the simulator to record the number of photons available for decontamination in each sub-layer of the filtering layers of the 3M1870+ and 3M9210+ for a given number of photons incident to the layers. We make assumptions about the photon absorption and viral deactivation in each sub-layer to derive a relation between the number of incident photons and the number of viruses remaining. The transmittance computed by our simulator matches the experimentally measured transmittance. The diameter of the simulated scattered beam also matches the experimentally measured scattered beam diameters. Our data, combined with our assumptions about absorption and deactivation, however, fail to account for the dropoff in viral load observed at about 25 seconds of exposure time in the 3M1870+.
-2. [[https://gitlab.com/lorenzohess/xml-commedia][XML Commedia]]: Dante's /Divine Comedy/ encoded as XML, down to each word.
-3. [[https://gitlab.com/lorenzohess/dante-site-backend][Commedia Word Counts Website]]: search for words in the /Divine Comedy/, along with their counts and frequencies.
-4. [[https://gitlab.com/lorenzohess/eddy-current-brakes-ergometer][Eddy Current Brake Ergometer for PHYS 3010]]
-5. [[https://gitlab.com/lorenzohess/me3310-stretcher-cad][Folding Stretcher CAD Model for ME 3310]]
+1. Physics BA Honors Thesis, 2023: https://digitalcollections.bowdoin.edu/view/4961/: reuse of N95 FFRs helps mitigate the effects of shortages. UV-C exposure is an ideal method for the decontamination necessary for FFR reuse. We design and program a ray tracing simulator in MATLAB to characterize the distribution of scattered photons in N95 FFRs.
+2. [[https://gitlab.com/lorenzohess/dante-site-backend][Commedia Word Counts Website]]: search for words in the /Divine Comedy/, along with their counts and frequencies.
+3. [[https://gitlab.com/lorenzohess/eddy-current-brakes-ergometer][Eddy Current Brake Ergometer for PHYS 3010]]
+4. [[https://gitlab.com/lorenzohess/me3310-stretcher-cad][Folding Stretcher CAD Model for ME 3310]]
+5. [[https://gitlab.com/lorenzohess/xml-commedia][XML Commedia]]: Dante's /Divine Comedy/ encoded as XML, down to each word.
 6. [[https://gitlab.com/lorenzohess/es-1310-cad-files][CAD Files for ES 1310]]
 *** Software
 1. [[https://gitlab.com/lorenzohess/arch-awesomewm-rice][AwesomeWM Desktop Rice for Arch Linux]]: configuration and scripting for the Awesome Window Manager and other desktop environment tools for Arch Linux.
@@ -29,13 +27,13 @@ These projects have achieved at least most of their goals.
 4. [[https://gitlab.com/lorenzohess/xml-orlando-furioso][XML Orlando Furioso]]: Ariosto's /Orlando Furioso/ encoded as XML, down to each word.
 *** Mechanical
 **** 3D Modeling
-1. Pill Gate Gadget
-2. Fruit Fly Liquid Trap
+1. [[https://github.com/lorenzohess/pill-gate-kirkland-393914][Pill Gate Gadget]]: increases the convenience with which one can retrieve a single Vitamin D pill from Costco's Item =393914= bottle.
+2. [[https://gitlab.com/lorenzohess/fruit-fly-liquid-trap][Fruit Fly Liquid Trap]]: simple 3D model of a fruit fly trap.
 **** Laser Cutting
-1. Greek Alphabet in LaTeX
-2. Self-Complementary Graphs (n \leq 5)
+1. [[https://gitlab.com/lorenzohess/greek-alphabetex][Greek Alphabet in LaTeX]]: aka "Greek AlphabeTeX", a reference to the LaTeX greek alphabet letters.
+2. [[https://gitlab.com/lorenzohess/self-complementary-graphs-gift][Self-Complementary Graphs]]: visualization of fourteen self-complementary graphs (n = 1, 4, 5, 8).
 *** Sports
-1. Water Polo Cheat Sheet
+1. [[https://gitlab.com/lorenzohess/water-polo-crash-course][Water Polo Crash Course]]: a crash course in water polo, intended as review for players with some experience.
 ** In Progress
 These projects have not achieved suitable goals and I am currently working on them. There are a lot on the list, and I usually work on some while thinking about solutions for others.
 ** Design Phase
