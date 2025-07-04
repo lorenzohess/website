@@ -63,3 +63,25 @@ These are ideas for project which I could conceivably accomplish, but which are 
    - ability change days in schedule after creation
    - slightly more modern UI
 ** Suspended
+These projects were begun, even if only in the Design Phase, but were suspended for one reason or another. They could theoretically be resumed under certain conditions:
+1. [[https://gitlab.com/lhess2021/degorge][degOrge]]: a calorie tracker in Emacs Org Mode, a [[https://www.merriam-webster.com/dictionary/portmanteau][portmanteau]] of "de-gorge" and "Org".
+   - Implementation Stage: 50% of the code. I had difficulty wrapping my mind around writing Elisp code that was more than a single Emacs config setting or custom function.
+   - Why Suspended: I discovered it was easy enough to count calories using written notes.
+2. Bookseer: an attempt at using computer vision and OCR to identify library book spine labels and extract their Library of Congress codes, with the eventual goal of building a handheld device to identify misplaced books.
+   - Implementation Stage: somewhat reliable label identification and somewhat reliable OCR.
+   - Why Suspended: we learned that library books contain RFID chips in the spine and that existing products can scan these chips to identify misplaced books. Our product would only have value to the niche group of libraries with no RFID system or no money for those RFID scanner.
+3. [[https://gitlab.com/lhess2021/nextcloud-temp-systray][Nextcloud temp systray]]: an idea for a systemtray widget that would disply the CPU temperature of my home Raspberry Pi server.
+   - Implementation Stage: I verified an online tutorial for a systray icon with mutable state.
+   - Why Suspended: I got a fan for my Pi and now it stays cool enough that I don't need to monitor the temp.
+4. [[https://gitlab.com/lhess2021/qubes-split-passman][Qubes split passman]]: a split password manager system for Qubes OS which allows a password manager (e.g. Bitwarden) running in a vault Qube to send information (e..g a password) to other Qubes.
+   - Implementation Stage: working python scripts for Bitwarden.
+   - Why Suspended: I switched away from Qubes (to Arch Linux).
+5. Latex Preview Pane Rewrite: an attempt at rewriting the Latex Preview Pane Emacs package because it had several bugs.
+   - Implementation Stage: I understood most of the LPP code.
+   - Why Suspended: I switched to Sioyek for PDF viewing, and it offered better functionality than LPP ever could.
+6. Simple Web Calculator: attempt at programming with friends to learn Git and web development.
+   - Implementation Stage: 30% of the code.
+   - Why Suspended: we had learned enough and were busy with classes.
+7. Threatmodel.info Website: a website which offers a template for users to design a threatmodel based on Techlore's matrix (link).
+   - Implementation Stage: basic version working.
+   - Why Suspended: it needs more features to actually be useful, and I lost interest.
