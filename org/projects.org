@@ -14,27 +14,52 @@
 ** Completed
 These projects have achieved at least most of their goals.
 *** Academic Projects
-1. Physics BA Honors Thesis, 2023: https://digitalcollections.bowdoin.edu/view/4961/: reuse of N95 FFRs helps mitigate the effects of shortages. UV-C exposure is an ideal method for the decontamination necessary for FFR reuse. We design and program a ray tracing simulator in MATLAB to characterize the distribution of scattered photons in N95 FFRs.
-2. [[https://gitlab.com/lorenzohess/dante-site-backend][Commedia Word Counts Website]]: search for words in the /Divine Comedy/, along with their counts and frequencies.
-3. [[https://gitlab.com/lorenzohess/eddy-current-brakes-ergometer][Eddy Current Brake Ergometer for PHYS 3010]]
-4. [[https://gitlab.com/lorenzohess/me3310-stretcher-cad][Folding Stretcher CAD Model for ME 3310]]
-5. [[https://gitlab.com/lorenzohess/xml-commedia][XML Commedia]]: Dante's /Divine Comedy/ encoded as XML, down to each word.
-6. [[https://gitlab.com/lorenzohess/es-1310-cad-files][CAD Files for ES 1310]]
+1. [[https://digitalcollections.bowdoin.edu/view/4961/][Physics BA Honors Thesis]], 2023: reuse of N95 FFRs helps mitigate the effects of shortages. UV-C exposure is an ideal method for the decontamination necessary for FFR reuse. We design and program a ray tracing simulator in MATLAB to characterize the distribution of scattered photons in N95 FFRs.
+2. [[https://gitlab.com/lorenzohess/dante-site-backend][Commedia Word Counts Website]], 2022: search for words in the /Divine Comedy/, along with their counts and frequencies.
+3. [[https://gitlab.com/lorenzohess/eddy-current-brakes-ergometer][Eddy Current Brake Ergometer for PHYS 3010]], 2022: building parts of an upper body ergometer with eddy current brakes.
+4. [[https://gitlab.com/lorenzohess/me3310-stretcher-cad][Folding Stretcher CAD Model for ME 3310]], 2024:
+5. [[https://gitlab.com/lorenzohess/xml-commedia][XML Commedia]], 2022: Dante's /Divine Comedy/ encoded as XML, down to each word.
+6. [[https://gitlab.com/lorenzohess/es-1310-cad-files][CAD Files for ES 1310]], 2023:
 *** Software
-1. [[https://gitlab.com/lorenzohess/arch-awesomewm-rice][AwesomeWM Desktop Rice for Arch Linux]]: configuration and scripting for the Awesome Window Manager and other desktop environment tools for Arch Linux.
-2. [[https://github.com/lorenzohess/qubes-awesomewm-rice][AwesomeWM Desktop Rice for Qubes OS]]: configuration and scripting for the Awesome Window Manager and other desktop environment tools for Arch Linux.
-3. [[https://gitlab.com/lorenzohess/divina-commandline][Divina Commandline]]: very basic CLI tools for interacting with the /Divine Comedy/ from the CLI.
-4. [[https://gitlab.com/lorenzohess/xml-orlando-furioso][XML Orlando Furioso]]: Ariosto's /Orlando Furioso/ encoded as XML, down to each word.
+1. [[https://gitlab.com/lorenzohess/arch-awesomewm-rice][AwesomeWM Desktop Rice for Arch Linux]], 2025: configuration and scripting for the Awesome Window Manager and other desktop environment tools for Arch Linux.
+2. [[https://github.com/lorenzohess/qubes-awesomewm-rice][AwesomeWM Desktop Rice for Qubes OS]], 2023: configuration and scripting for the Awesome Window Manager and other desktop environment tools for Arch Linux.
+3. [[https://gitlab.com/lorenzohess/divina-commandline][Divina Commandline]], 2022: very basic CLI tools for interacting with the /Divine Comedy/ from the CLI.
+4. [[https://gitlab.com/lorenzohess/xml-orlando-furioso][XML Orlando Furioso]], 2023: Ariosto's /Orlando Furioso/ encoded as XML, down to each word.
 *** Mechanical
 **** 3D Modeling
-1. [[https://github.com/lorenzohess/pill-gate-kirkland-393914][Pill Gate Gadget]]: increases the convenience with which one can retrieve a single Vitamin D pill from Costco's Item =393914= bottle.
-2. [[https://gitlab.com/lorenzohess/fruit-fly-liquid-trap][Fruit Fly Liquid Trap]]: simple 3D model of a fruit fly trap.
+1. [[https://github.com/lorenzohess/pill-gate-kirkland-393914][Pill Gate Gadget]], 2025: increases the convenience with which one can retrieve a single Vitamin D pill from Costco's Item =393914= bottle.
+2. [[https://gitlab.com/lorenzohess/fruit-fly-liquid-trap][Fruit Fly Liquid Trap]], 2024: simple 3D model of a fruit fly trap.
 **** Laser Cutting
-1. [[https://gitlab.com/lorenzohess/greek-alphabetex][Greek Alphabet in LaTeX]]: aka "Greek AlphabeTeX", a reference to the LaTeX greek alphabet letters.
-2. [[https://gitlab.com/lorenzohess/self-complementary-graphs-gift][Self-Complementary Graphs]]: visualization of fourteen self-complementary graphs (n = 1, 4, 5, 8).
+1. [[https://gitlab.com/lorenzohess/greek-alphabetex][Greek Alphabet in LaTeX]], 2024: aka "Greek AlphabeTeX", a reference to the LaTeX greek alphabet letters.
+2. [[https://gitlab.com/lorenzohess/self-complementary-graphs-gift][Self-Complementary Graphs]], 2024: visualization of fourteen self-complementary graphs (n = 1, 4, 5, 8).
 *** Sports
-1. [[https://gitlab.com/lorenzohess/water-polo-crash-course][Water Polo Crash Course]]: a crash course in water polo, intended as review for players with some experience.
+1. [[https://gitlab.com/lorenzohess/water-polo-crash-course][Water Polo Crash Course]], 2024: a crash course in water polo, intended as review for players with some experience.
 ** In Progress
 These projects have not achieved suitable goals and I am currently working on them. There are a lot on the list, and I usually work on some while thinking about solutions for others.
+*** Software
+1. NYC Street Parking Scheduler, 2025:
+*** Mechanical
+1. Meat Slicer Aesthetic CAD Model, 2024:
+2. Silent Pill Carry Bottle, 2025:
+3. Analysis of Spring-Loaded Cable Retractor, 2025:
+4. Gear Nomenclature Physical Reference, 2025:
+*** HaptiClock
+*** TeX Support
+*** Tech Maps
 ** Design Phase
+These projects' goals are still being fully determined, and in some cases, the feasibility of the project itself is unclear.
+*** Mechanical
+1. Premium USB Cable Retractor
+2. Shower Shaving Station
+3. Subaru Outback HVAC Screen Buttons
+*** Ouroborous Tech
+** Just Ideas
+These are ideas for project which I could conceivably accomplish, but which are unrealistic due to e.g. lack of knowledge, resources, etc.
+*** Software
+1. When3Meet (When2Meet Alternative): When2Meet needs several features (and it makes sense to name an updated version When3Meet):
+   - option to invert already selected times if dragging over them as part of another time selection
+   - ability to leave notes about (un)availability in specific future weeks, ideally as granular as each 15 minute slot
+   - ability to remove people from a group after creation
+   - ability change days in schedule after creation
+   - slightly more modern UI
 ** Suspended
