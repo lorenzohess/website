@@ -11,4 +11,5 @@ Italics, spacing, and plurality.
 **** Filler Words
 ** The Significance of Significant Figures
 ** Optimizing Humanities for Engineers
-** Open Source Project Names
+** Call Your FOSS Project Something Normal
+I get that personal projects which are open sourced

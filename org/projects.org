@@ -53,6 +53,52 @@ These projects' goals are still being fully determined, and in some cases, the f
 2. Shower Shaving Station
 3. Subaru Outback HVAC Screen Buttons
 *** Ouroborous Tech
+*** Protocol for Writing Revision Comments
+Leaving comments on writing often entails explaining different types of information. A sentence might need grammatical, spelling, vocabulary, and structural fixes. Often, a fix for one problem affects another problem. For example, a fix for a structural error may end up eliminating a word that's misspelled in the original. If, however, the author declines to accept the editor's structural fix, however, the misspelled word will remain, and still needs fixing.
+
+In existing software such as Google Docs and Microsoft Onedrive, the editor cannot leave two comments on the misspelled word (one for spelling, and one for structure). Thus, a new system is necessary to leave multiple comments, or different types of comments, on the same word. An editor should be able to both note a spelling error and suggest a structural fix that eliminates that spelling error. If the author declines the structural fix, the spelling error comment should become visible.
+
+We can represent comments as nodes in a tree. If one path is taken e.g. applying the fix for the structural error, then other paths may become inaccessible, e.g. applying the fix for the spelling error.
+
+We would use keywords, e.g. =typo=, =structure=, =word-swap=, etc to represent different types of comments.
+
+_Example:_
+- Original text: "A misspleling and structural errors, this sentence has."
+- Comment 1
+  - =typo=: "misspleling " \to "misspelling"
+- Comment 2
+  - =structural=: "This sentence is now correct."
+
+Editing Paths:
+1. Original -> Comment 1 -> Comment 2
+2. Original -> Comment 2
+
+In Path 1, we first fix the typo and can then make the structural fix. In Path 2, we first make the structural fix; this eliminates the typo, so Comment 1 becomes inaccessible. If we reversed Comment 2, though, Comment 1 would reappear.
+
+We need some Git commit-like method for marking new comments and maybe creating a node or branch-like version history of the document and its comments.
+
+Users can chose to show comments as inline diffs, side-by-side diffs, as notes on the side, as highlights, etc.
+
+As a bonus, this software should be able to import any type of text-related document and output any type of text-related document.
+
+If necessary, comments should be independent of the continuity of text. They should be able to reference portions of text from different sentences, i.e. words from different sentences can be part of the same comment.
+
+A Global Comment is not tied to any one instance of text, but must be applied to at least one instance. These are useful when a certain fix needs to be applied multiple times. If an author always misspells a certain word, then a Global Comment would be a typo fix for that word. Instead of creating a Typo comment for each misspelling, a Global Comment can be applied to each misspelling.
+
+This software should be local because you shouldn't need an internet connection. It should be cross-platform.
+
+The commenting process during a first read-through, or when reading new writing, is different from commenting on familiar writing, because you may leave a comment that you don't know will need modification until you read newer writing. There should be utilities to help modify previous comments.
+
+Users should be able to add reference text to a previous comment.
+**** Types of Comments
+Edits can be defined as OOP classes or even simple types. Subclassing/subtyping will be used to specify more granular edits. Each Comment class/type will specify inputs and outputs.
+
+Differentiating between types of comments allows the author to immediately see what the editor is suggesting. It avoids the editor having to explain the purpose of the comment, in some cases, and can help reduce confusion about the purpose. Also, the author can see statistics about what comments have been given. If 90% of comments are typos, which take little time to resolve, then the author can expect that reviewing and implementing the comments won't take as much time. If 90% of comments are major comments, e.g. restructuring, rewording, adding context, then the author can expect to spend more time reviewing and implementing them.
+
+1. Typo :: Word -> Word (modify a word)
+2. Add Character
+   1. Add Space (add a space anywhere)
+3. Reword. This should be accompanied by specific adjectives which characterize why a phrase needs rewording. Is it clunky? Verbose? High register?
 ** Just Ideas
 These are ideas for project which I could conceivably accomplish, but which are unrealistic due to e.g. lack of knowledge, resources, etc.
 *** Software
@@ -62,6 +108,17 @@ These are ideas for project which I could conceivably accomplish, but which are 
    - ability to remove people from a group after creation
    - ability change days in schedule after creation
    - slightly more modern UI
+2. Digital Lab Notebooks backed by Git and public-key cryptography
+
+   _Problem:_ lab notebooks are essential research tools. They track experimental procedure and implemented sequence, lab notes, and the genesis of creative ideas. Writing on paper, however, even in non-erasable ink, does not provide any integrity to the data and metadata that lab notebooks must track. A written note can be altered after-the-fact, providing no assurance as to the chronology of the lab notes or their data integrity.
+
+   _Solution:_ use a digital lab notebook with Git to track chronology and preserve integrity as well as GPG to provide a second layer of assurance, proof of digital notebook ownership, and privacy and security via encryption.
+
+   _Implementation:_ a program manages your lab notebooks starting with a root directory, which contains =notebooks=. Each =notebook= is its own Git repo and receives its own digital signatures. Users can decide the semantics of a =notebook=, for example whether one notebook corresponds to one laboratory, to one day of work, to one lab session, to one lab assistant. These can of course be mixed and matched and do not affect how the program works. All the program does is track each notebook with Git and GPG.
+
+   If a user keeps a hand-written lab notebook, then the program can use photos of the pages as evidence. They could be OCRed to provide basic search functionality.
+*** Mechanical
+1. PB&J Bread Mold: a mold to make slices of bread with walls. These would hold in the PB&J better and prevent it from spilling out the sides.
 ** Suspended
 These projects were begun, even if only in the Design Phase, but were suspended for one reason or another. They could theoretically be resumed under certain conditions:
 1. [[https://gitlab.com/lhess2021/degorge][degOrge]]: a calorie tracker in Emacs Org Mode, a [[https://www.merriam-webster.com/dictionary/portmanteau][portmanteau]] of "de-gorge" and "Org".
