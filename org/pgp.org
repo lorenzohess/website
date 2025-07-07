@@ -1,5 +1,5 @@
 * PGP Info
-I use a Master Key with encryption, signing, and authentication subkeys. I'll probably rotate the encryption subkey every so often. Fingerprints, fingerprint mirrors, and keyservers.
+I use a Master Key with encryption, signing, and authentication Subkeys. I'll probably rotate the encryption subkey every so often. Fingerprints, fingerprint mirrors, and keyservers.
 
 *Download*: [[file:~/nextcloud-sync/projects/website/pgp/0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc][0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc]].
 ** Keyservers
@@ -8,8 +8,8 @@ I use a Master Key with encryption, signing, and authentication subkeys. I'll pr
 - =pgp.com=: https://keyserver.pgp.com/vkd/DownloadKey.event?keyid=0x485359764D294BF5 (download)
 - =circl.lu=: https://openpgp.circl.lu/pks/lookup?search=lorenzohess%40tutanota.com&fingerprint=on&op=index (view), https://openpgp.circl.lu/pks/lookup?op=get&search=0x0abeda2fce3f0177b5f7b8c4485359764d294bf5 (download)
 ** Fingerprint Mirrors
-- Github: https://github.com/lorenzohess
-- Gitlab: https://gitlab.com/lorenzohess
+- Github: [[https://github.com/lorenzohess][github.com/lorenzohess]]
+- Gitlab: [[https://gitlab.com/lorenzohess][gitlab.com/lorenzohess]]
 ** Key Info
 *Key ID:* =Lorenzo Hess=, =lorenzohess@tutanota.com=
 

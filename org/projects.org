@@ -1,10 +1,8 @@
 * Projects
 #+title:lorenzohess.net
-#+date: <2025-06-24 Tue>
 #+author: Lorenzo Hess
 #+email: lorenzohess@tutanota.com
 #+language: en
-#+select_tags: export
 #+exclude_tags: noexport
 #+creator: Emacs 29.4 (Org mode 9.7.29)
 

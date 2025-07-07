@@ -1,10 +1,8 @@
 * My Website
 #+title:lorenzohess.net
-#+date: <2025-06-24 Tue>
 #+author: Lorenzo Hess
 #+email: lorenzohess@tutanota.com
 #+language: en
-#+select_tags: export
 #+exclude_tags: noexport
 #+creator: Emacs 29.4 (Org mode 9.7.29)
 
@@ -14,16 +12,16 @@
 Welcome to my small plot of land on the vast Internet. Includes bio links, PGP info, projects, and the occasional blog post.
 
 ** [[file:bio.org][Bio Links]]
-1. Gitlab: https://gitlab.com/lorenzohess
-2. Github: https://github.com/lorenzohess
-3. LinkedIn: https://www.linkedin.com/in/lorenzohess/
-4. WPI Merit Pages: https://github.com/lorenzohess
-** [[file:dotfiles.org][Dotfiles]]
-All, and I mean all, my dotfiles (configuration files) are in this repo: https://gitlab.com/lorenzohess/dotfiles.
+1. Gitlab: [[https://gitlab.com/lorenzohess][gitlab.com/lorenzohess]]
+2. Github: [[https://github.com/lorenzohess][github.com/lorenzohess]]
+3. LinkedIn: [[https://www.linkedin.com/in/lorenzohess][linkedin.com/in/lorenzohess]]
+4. WPI Merit Pages: [[https://meritpages.com/lorenzohess][meritpages.com/lorenzohess]]
+** [[file:dotfiles.org][Configuration Files (Dotfiles)]]
+All, /and I mean all/, my dotfiles are in this repo: [[https://gitlab.com/lorenzohess/dotfiles][gitlab.com/lorenzohess/dotfiles]].
 ** [[file:projects.org][Projects]]
-A list of my projects is [[file:projects.org][here]], divided into Completed, In Progress, Design Phase, and Suspended.
+A list of my projects divided into: Completed, In Progress, Design Phase, Just Ideas, and Suspended.
 ** [[file:pgp.org][PGP Keys]]
-I use a Master Key with encryption, signing, and authentication subkeys.
+I use a Master Key with encryption, signing, and authentication Subkeys.
 
 Quick Download: [[file:~/nextcloud-sync/projects/website/pgp/0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc][0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc]].
 ** [[file:blog.org][Blog]]
