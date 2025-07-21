@@ -1,7 +1,7 @@
 * PGP Info
 I use a Master Key with encryption, signing, and authentication Subkeys. I'll probably rotate the encryption subkey every so often. Fingerprints, fingerprint mirrors, and keyservers.
 
-*Download*: [[file:~/nextcloud-sync/projects/website/pgp/0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc][0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc]].
+*Download*: [[../pgp/0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc][0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc]].
 ** Keyservers
 - =openpgp.org=: https://keys.openpgp.org/search?q=0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5 (view),  https://keys.openpgp.org/vks/v1/by-fingerprint/0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5 (download)
 - =keyserver.ubuntu.com=: https://keyserver.ubuntu.com/pks/lookup?search=0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5&fingerprint=on&op=index (view), https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0abeda2fce3f0177b5f7b8c4485359764d294bf5 (download)

@@ -23,6 +23,6 @@ A list of my projects divided into: Completed, In Progress, Design Phase, Just I
 ** [[file:pgp.org][PGP Keys]]
 I use a Master Key with encryption, signing, and authentication Subkeys.
 
-Quick Download: [[file:~/nextcloud-sync/projects/website/pgp/0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc][0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc]].
+Quick Download: [[../pgp/0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc][0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc]].
 ** [[file:blog.org][Blog]]
 This contains some thoughts which I think I explain particularly well.
