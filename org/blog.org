@@ -12,4 +12,7 @@ Italics, spacing, and plurality.
 ** The Significance of Significant Figures
 ** Optimizing Humanities for Engineers
 ** Call Your FOSS Project Something Normal
-I get that personal projects which are open sourced
+** Use Your Car's Parking Brake
+** Units or Acronyms?
+** European Bottlecaps
+** Clarifying the Philosophical Foundations of Free Software

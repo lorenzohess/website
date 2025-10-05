@@ -115,8 +115,25 @@ These are ideas for project which I could conceivably accomplish, but which are 
    _Implementation:_ a program manages your lab notebooks starting with a root directory, which contains =notebooks=. Each =notebook= is its own Git repo and receives its own digital signatures. Users can decide the semantics of a =notebook=, for example whether one notebook corresponds to one laboratory, to one day of work, to one lab session, to one lab assistant. These can of course be mixed and matched and do not affect how the program works. All the program does is track each notebook with Git and GPG.
 
    If a user keeps a hand-written lab notebook, then the program can use photos of the pages as evidence. They could be OCRed to provide basic search functionality.
+3. Ohm.AI: tool which can tell you the resistance of a resistor based on its color bands.
+   - Integrate into AR glasses, or at least a small handheld device with a camera
+   - Helps colorblind people
+   - Helps everyone when the resistor band direction is unclear
+   - Doesn't even need AI, could probably use just computer vision if only one resistor in the photo
+     - Upgrade CV to detect resistors before processing them
+     - Maybe better to use algorithms that detect presence and locations of certain colors, rather than trying to identify each band and then get the color from that?
+*** Electronic
+1. TRRS Cable Tester
 *** Mechanical
 1. PB&J Bread Mold: a mold to make slices of bread with walls. These would hold in the PB&J better and prevent it from spilling out the sides.
+2. Constant force stirring spoon
+3. Delayed double toilet flush
+*** Robots
+1. Autonomous kitchen stirrer. Constant force. Two-axis gantry with arm.
+2. Autonomous pancake stacker with butter and syrup placement.
+3. Autonomous egg poacher.
+*** Other
+1. Dipping Integrity Score
 ** Suspended
 These projects were begun, even if only in the Design Phase, but were suspended for one reason or another. They could theoretically be resumed under certain conditions:
 1. [[https://gitlab.com/lhess2021/degorge][degOrge]]: a calorie tracker in Emacs Org Mode, a [[https://www.merriam-webster.com/dictionary/portmanteau][portmanteau]] of "de-gorge" and "Org".
