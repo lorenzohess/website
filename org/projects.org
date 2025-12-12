@@ -32,7 +32,7 @@ These projects have achieved at least most of their goals.
 2. [[https://gitlab.com/lorenzohess/self-complementary-graphs-gift][Self-Complementary Graphs]], 2024: visualization of fourteen self-complementary graphs (n = 1, 4, 5, 8).
 *** Sports
 1. [[https://gitlab.com/lorenzohess/water-polo-crash-course][Water Polo Crash Course]], 2024: a crash course in water polo, intended as review for players with some experience.
-** In Progress
+** Development Stage
 These projects have not achieved suitable goals and I am currently working on them. There are a lot on the list, and I usually work on some while thinking about solutions for others.
 *** Software
 1. NYC Street Parking Scheduler, 2025:
@@ -44,7 +44,7 @@ These projects have not achieved suitable goals and I am currently working on th
 *** HaptiClock
 *** TeX Support
 *** Tech Maps
-** Design Phase
+** Concept Stage
 These projects' goals are still being fully determined, and in some cases, the feasibility of the project itself is unclear.
 *** Mechanical
 1. Premium USB Cable Retractor
@@ -97,8 +97,8 @@ Differentiating between types of comments allows the author to immediately see w
 2. Add Character
    1. Add Space (add a space anywhere)
 3. Reword. This should be accompanied by specific adjectives which characterize why a phrase needs rewording. Is it clunky? Verbose? High register?
-** Just Ideas
-These are ideas for project which I could conceivably accomplish, but which are unrealistic due to e.g. lack of knowledge, resources, etc.
+** Ideas
+There are ideas for projects, which may later enter the Concept stage.
 *** Software
 1. When3Meet (When2Meet Alternative): When2Meet needs several features (and it makes sense to name an updated version When3Meet):
    - option to invert already selected times if dragging over them as part of another time selection
@@ -115,14 +115,34 @@ These are ideas for project which I could conceivably accomplish, but which are 
    _Implementation:_ a program manages your lab notebooks starting with a root directory, which contains =notebooks=. Each =notebook= is its own Git repo and receives its own digital signatures. Users can decide the semantics of a =notebook=, for example whether one notebook corresponds to one laboratory, to one day of work, to one lab session, to one lab assistant. These can of course be mixed and matched and do not affect how the program works. All the program does is track each notebook with Git and GPG.
 
    If a user keeps a hand-written lab notebook, then the program can use photos of the pages as evidence. They could be OCRed to provide basic search functionality.
-3. Ohm.AI: tool which can tell you the resistance of a resistor based on its color bands.
+3. App to run a bunch of ROS2 command in a certain sequence.
+4. Computer app to flash the screen if you haven't blinked in a certain time threshold.
+*** Electronic
+1. TRRS Cable Tester
+*** Mechanical
+1. PB&J Bread Mold: a mold to make slices of bread with walls. These would hold in the PB&J better and prevent it from spilling out the sides.
+2. Constant force stirring spoon
+3. Delayed double toilet flusher
+4. Baking soda dispenser
+5. Pneumatic device for clearing used grounds from Moka espresso pot funnel
+*** Robots
+1. Autonomous kitchen stirrer. Constant force. Two-axis gantry with arm.
+2. Autonomous pancake stacker with butter and syrup placement.
+3. Autonomous egg poacher.
+4. Universal BIOS button. Spams F11, F12, Delete, etc for you.
+*** Other
+1. Dipping Integrity Score
+** Permanent Ideas
+These are ideas for project which I could conceivably accomplish, but which are unrealistic due to e.g. lack of knowledge, resources, etc.
+*** Software
+1. Ohm.AI: tool which can tell you the resistance of a resistor based on its color bands.
    - Integrate into AR glasses, or at least a small handheld device with a camera
    - Helps colorblind people
    - Helps everyone when the resistor band direction is unclear
    - Doesn't even need AI, could probably use just computer vision if only one resistor in the photo
      - Upgrade CV to detect resistors before processing them
      - Maybe better to use algorithms that detect presence and locations of certain colors, rather than trying to identify each band and then get the color from that?
-4. DIY Professional Headshot App: phone app which helps produce the highest quality professional headshots that your phone is capable of.
+2. DIY Professional Headshot App: phone app which helps produce the highest quality professional headshots that your phone is capable of.
    - takes a photo and can apply edits to help (brightness, noise, etc)
    - UI overlay: places guides on the screen to help make clothes, shoulders, head, and facial geometries symmetric
      - clothes
@@ -143,20 +163,8 @@ These are ideas for project which I could conceivably accomplish, but which are 
      - too many shadows
      - brighter/darker areas
    - companion computer app can control the phone: view the screen, take photos, set timer, turn of camera UI overlay
-*** Electronic
-1. TRRS Cable Tester
-*** Mechanical
-1. PB&J Bread Mold: a mold to make slices of bread with walls. These would hold in the PB&J better and prevent it from spilling out the sides.
-2. Constant force stirring spoon
-3. Delayed double toilet flush
-*** Robots
-1. Autonomous kitchen stirrer. Constant force. Two-axis gantry with arm.
-2. Autonomous pancake stacker with butter and syrup placement.
-3. Autonomous egg poacher.
-*** Other
-1. Dipping Integrity Score
 ** Suspended
-These projects were begun, even if only in the Design Phase, but were suspended for one reason or another. They could theoretically be resumed under certain conditions:
+These projects were begun, even if only in the Concept Stage, but were suspended for one reason or another. They could theoretically be resumed under certain conditions:
 1. [[https://gitlab.com/lhess2021/degorge][degOrge]]: a calorie tracker in Emacs Org Mode, a [[https://www.merriam-webster.com/dictionary/portmanteau][portmanteau]] of "de-gorge" and "Org".
    - Implementation Stage: 50% of the code. I had difficulty wrapping my mind around writing Elisp code that was more than a single Emacs config setting or custom function.
    - Why Suspended: I discovered it was easy enough to count calories using written notes.
