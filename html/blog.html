@@ -3,195 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2025-12-12 Fri 12:53 -->
+<!-- 2025-12-20 Sat 01:05 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
 <meta name="generator" content="Org Mode" />
-<style type="text/css">
-  #content { max-width: 60em; margin: auto; }
-  .title  { text-align: center;
-             margin-bottom: .2em; }
-  .subtitle { text-align: center;
-              font-size: medium;
-              font-weight: bold;
-              margin-top:0; }
-  .todo   { font-family: monospace; color: red; }
-  .done   { font-family: monospace; color: green; }
-  .priority { font-family: monospace; color: orange; }
-  .tag    { background-color: #eee; font-family: monospace;
-            padding: 2px; font-size: 80%; font-weight: normal; }
-  .timestamp { color: #bebebe; }
-  .timestamp-kwd { color: #5f9ea0; }
-  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
-  .underline { text-decoration: underline; }
-  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
-  p.verse { margin-left: 3%; }
-  pre {
-    border: 1px solid #e6e6e6;
-    border-radius: 3px;
-    background-color: #f2f2f2;
-    padding: 8pt;
-    font-family: monospace;
-    overflow: auto;
-    margin: 1.2em;
-  }
-  pre.src {
-    position: relative;
-    overflow: auto;
-  }
-  pre.src:before {
-    display: none;
-    position: absolute;
-    top: -8px;
-    right: 12px;
-    padding: 3px;
-    color: #555;
-    background-color: #f2f2f299;
-  }
-  pre.src:hover:before { display: inline; margin-top: 14px;}
-  /* Languages per Org manual */
-  pre.src-asymptote:before { content: 'Asymptote'; }
-  pre.src-awk:before { content: 'Awk'; }
-  pre.src-authinfo::before { content: 'Authinfo'; }
-  pre.src-C:before { content: 'C'; }
-  /* pre.src-C++ doesn't work in CSS */
-  pre.src-clojure:before { content: 'Clojure'; }
-  pre.src-css:before { content: 'CSS'; }
-  pre.src-D:before { content: 'D'; }
-  pre.src-ditaa:before { content: 'ditaa'; }
-  pre.src-dot:before { content: 'Graphviz'; }
-  pre.src-calc:before { content: 'Emacs Calc'; }
-  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-fortran:before { content: 'Fortran'; }
-  pre.src-gnuplot:before { content: 'gnuplot'; }
-  pre.src-haskell:before { content: 'Haskell'; }
-  pre.src-hledger:before { content: 'hledger'; }
-  pre.src-java:before { content: 'Java'; }
-  pre.src-js:before { content: 'Javascript'; }
-  pre.src-latex:before { content: 'LaTeX'; }
-  pre.src-ledger:before { content: 'Ledger'; }
-  pre.src-lisp:before { content: 'Lisp'; }
-  pre.src-lilypond:before { content: 'Lilypond'; }
-  pre.src-lua:before { content: 'Lua'; }
-  pre.src-matlab:before { content: 'MATLAB'; }
-  pre.src-mscgen:before { content: 'Mscgen'; }
-  pre.src-ocaml:before { content: 'Objective Caml'; }
-  pre.src-octave:before { content: 'Octave'; }
-  pre.src-org:before { content: 'Org mode'; }
-  pre.src-oz:before { content: 'OZ'; }
-  pre.src-plantuml:before { content: 'Plantuml'; }
-  pre.src-processing:before { content: 'Processing.js'; }
-  pre.src-python:before { content: 'Python'; }
-  pre.src-R:before { content: 'R'; }
-  pre.src-ruby:before { content: 'Ruby'; }
-  pre.src-sass:before { content: 'Sass'; }
-  pre.src-scheme:before { content: 'Scheme'; }
-  pre.src-screen:before { content: 'Gnu Screen'; }
-  pre.src-sed:before { content: 'Sed'; }
-  pre.src-sh:before { content: 'shell'; }
-  pre.src-sql:before { content: 'SQL'; }
-  pre.src-sqlite:before { content: 'SQLite'; }
-  /* additional languages in org.el's org-babel-load-languages alist */
-  pre.src-forth:before { content: 'Forth'; }
-  pre.src-io:before { content: 'IO'; }
-  pre.src-J:before { content: 'J'; }
-  pre.src-makefile:before { content: 'Makefile'; }
-  pre.src-maxima:before { content: 'Maxima'; }
-  pre.src-perl:before { content: 'Perl'; }
-  pre.src-picolisp:before { content: 'Pico Lisp'; }
-  pre.src-scala:before { content: 'Scala'; }
-  pre.src-shell:before { content: 'Shell Script'; }
-  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
-  /* additional language identifiers per "defun org-babel-execute"
-       in ob-*.el */
-  pre.src-cpp:before  { content: 'C++'; }
-  pre.src-abc:before  { content: 'ABC'; }
-  pre.src-coq:before  { content: 'Coq'; }
-  pre.src-groovy:before  { content: 'Groovy'; }
-  /* additional language identifiers from org-babel-shell-names in
-     ob-shell.el: ob-shell is the only babel language using a lambda to put
-     the execution function name together. */
-  pre.src-bash:before  { content: 'bash'; }
-  pre.src-csh:before  { content: 'csh'; }
-  pre.src-ash:before  { content: 'ash'; }
-  pre.src-dash:before  { content: 'dash'; }
-  pre.src-ksh:before  { content: 'ksh'; }
-  pre.src-mksh:before  { content: 'mksh'; }
-  pre.src-posh:before  { content: 'posh'; }
-  /* Additional Emacs modes also supported by the LaTeX listings package */
-  pre.src-ada:before { content: 'Ada'; }
-  pre.src-asm:before { content: 'Assembler'; }
-  pre.src-caml:before { content: 'Caml'; }
-  pre.src-delphi:before { content: 'Delphi'; }
-  pre.src-html:before { content: 'HTML'; }
-  pre.src-idl:before { content: 'IDL'; }
-  pre.src-mercury:before { content: 'Mercury'; }
-  pre.src-metapost:before { content: 'MetaPost'; }
-  pre.src-modula-2:before { content: 'Modula-2'; }
-  pre.src-pascal:before { content: 'Pascal'; }
-  pre.src-ps:before { content: 'PostScript'; }
-  pre.src-prolog:before { content: 'Prolog'; }
-  pre.src-simula:before { content: 'Simula'; }
-  pre.src-tcl:before { content: 'tcl'; }
-  pre.src-tex:before { content: 'TeX'; }
-  pre.src-plain-tex:before { content: 'Plain TeX'; }
-  pre.src-verilog:before { content: 'Verilog'; }
-  pre.src-vhdl:before { content: 'VHDL'; }
-  pre.src-xml:before { content: 'XML'; }
-  pre.src-nxml:before { content: 'XML'; }
-  /* add a generic configuration mode; LaTeX export needs an additional
-     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
-  pre.src-conf:before { content: 'Configuration File'; }
-
-  table { border-collapse:collapse; }
-  caption.t-above { caption-side: top; }
-  caption.t-bottom { caption-side: bottom; }
-  td, th { vertical-align:top;  }
-  th.org-right  { text-align: center;  }
-  th.org-left   { text-align: center;   }
-  th.org-center { text-align: center; }
-  td.org-right  { text-align: right;  }
-  td.org-left   { text-align: left;   }
-  td.org-center { text-align: center; }
-  dt { font-weight: bold; }
-  .footpara { display: inline; }
-  .footdef  { margin-bottom: 1em; }
-  .figure { padding: 1em; }
-  .figure p { text-align: center; }
-  .equation-container {
-    display: table;
-    text-align: center;
-    width: 100%;
-  }
-  .equation {
-    vertical-align: middle;
-  }
-  .equation-label {
-    display: table-cell;
-    text-align: right;
-    vertical-align: middle;
-  }
-  .inlinetask {
-    padding: 10px;
-    border: 2px solid gray;
-    margin: 10px;
-    background: #ffffcc;
-  }
-  #org-div-home-and-up
-   { text-align: right; font-size: 70%; white-space: nowrap; }
-  textarea { overflow-x: auto; }
-  .linenr { font-size: smaller }
-  .code-highlighted { background-color: #ffff00; }
-  .org-info-js_info-navigation { border-style: none; }
-  #org-info-js_console-label
-    { font-size: 10px; font-weight: bold; white-space: nowrap; }
-  .org-info-js_search-highlight
-    { background-color: #ffff00; color: #000000; font-weight: bold; }
-  .org-svg { }
-</style>
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
 <div id="content" class="content">
@@ -239,21 +56,112 @@ Italics, spacing, and plurality.
 </div>
 <div id="outline-container-org13e50d7" class="outline-3">
 <h3 id="org13e50d7">The Significance of Significant Figures</h3>
+<div class="outline-text-3" id="text-org13e50d7">
+<p>
+In the wild I&rsquo;ve come to see three categories of sigfig usage:
+</p>
+<ol class="org-ol">
+<li>No awareness: the author reports values exactly as they were calculated (usually this means to two decimal places) with no regard to context.</li>
+<li>Apparent awareness: the author appears to have some awareness of sig figs, but they probably don&rsquo;t have a substantive understanding of why. While decimals are usually not reported, you can tell they lack substantive understanding because they&rsquo;ll still report unnecessary digits with respect to the context (usually the ones digits remains included).</li>
+<li>Full awareness: the author reports sig figs correctly and prefixes values to emphasize they are approximated (e.g. 10258 in a relevant range of 0 to 100000 -&gt; &ldquo;about 10000&rdquo;).</li>
+</ol>
+
+<p>
+You should report sig figs correctly, i.e. with full awareness. To do so you must determine the context of the reported value. As far as I have come up with, this means determining:
+</p>
+<ol class="org-ol">
+<li>The potential range of your reported value.</li>
+<li>The resolution necessary to achieve your goal with the value.</li>
+</ol>
+
+<p>
+<span class="underline">Example 1: Politician&rsquo;s Approval Rating</span>
+The range is 0-100%. The necessary resolution depends on the goal. If the goal is to give a lay-TV audience a picture of a politician&rsquo;s standing among the people, probably a 5% resolution is necessary, so reporting values as about 30%, about 35%, about 40%, etc is necessary. If the goal is for a napkin math computation of the percent of the popular vote the politician may receive, probably a 1% resolution is necessary. If the goal is a rigorous computation for a professional pollster, probably a hundredths of a % resolution is necessary.
+</p>
+
+<p>
+<span class="underline">Example 2: Exam Scores</span>
+The range is 0-100 (assume no extra credit). Assume the goal is to compute the class average for your own analysis of how the class is doing. Then probably a 1% resolution is necessary. Assume the average will be used by students to determine their standing relative to classmates. Now we need additional information to determine the context. Namely, we need the range of actual scores, because 1% resolution may not be precise enough to provide meaningful information about relative standing. This would be the case, for example, if the range of scores is between 90 and 91. Let&rsquo;s say the average is 90 (e.g. 90.4, rounded down). Then we have two problems wrto. relative standing: 1) students who got between 90 and the true average (90.4) will think they did better than the reported average (90), even though they actually did worse; 2) distinctions on the scale of tenths or hundredths of points, out of 100, are not useful for comparing relative standing: if you got a 90.5 and I got a 90.6, an average reported to 1% resolution (90) doesn&rsquo;t really help us determine who did better. You will have done 0.555% better than average, and I will have done 0.666% better than average, or 20% better than you. Whereas with the true average (90.4), you will have done only 0.111% better and I will have done 0.221% better, or 100% better than you.
+</p>
+
+<p>
+Let&rsquo;s say that the range of actual scores is 0 to 100. Then probably a 5% resolution is necessary. If the range is 80 to 100, probably a 1% resolution is necessary. If the range is 80 to 85, probably a tenths or hundredths resolution is necessary.
+</p>
+
+<p>
+<span class="underline">Example 3: Vehicle Wheelbase</span>
+Now we must deal not only with range and resolution with but the contextual relevance of different units. The range is not set by definition, but by empirical data is probably between 2.5m and 3m. Assume the goal is a rough computation of the longitudinal coordinate of the vehicle&rsquo;s center of mass. Then probably a resolution down to the cm is good enough. If we want a rigorous computation, then probably a resolution down to the mm is good enough. However, should we report the value in mm using units of m, cm, or mm? For example, a wheelbase of 2840mm could be conceivably reported as 2.840m, 2.84m, 284.0cm, 284cm, and 2840mm (these are conceivable insofar as no rounding occurs). Using mm puts the reader in a rigorous mindset, and using m or cm down to mm precision can introduce confusion as to whether we have approximate the left sig fig, so mm is probably necessary.
+</p>
+
+<p>
+<span class="underline">Example 4: Huge Numbers</span>
+For huge numbers you can probably drop lots of sig figs because they contribute so little at the large order of magnitude. For example, let&rsquo;s say you do some math and determine that there&rsquo;s 1.0232792349 mol of stars in the universe. A mol is huge, so although you may really want to show your exact value as proof of your rigorous approach, you should probably just report the value as &ldquo;1 mol&rdquo; (or 10<sup>23</sup>). That extra 4.327&#x2026;% of a mol, while large (~10<sup>21</sup>), isn&rsquo;t really useful for communicating the sheer size. A mol is so huge already that adding 10<sup>21</sup> won&rsquo;t affect our mental representation of the quantity.
+</p>
+
+<p>
+<span class="underline">When to prefix &ldquo;about&rdquo;?</span>
+If you&rsquo;ve altered the value enough that it&rsquo;s fairly different from the original. I&rsquo;d prefix about in the following cases taken from the examples:
+</p>
+<ol class="org-ol">
+<li>Approval rating of 43.4% with a goal of informing the audience about the politician&rsquo;s standing relative to a particularly important mark of 47% approval rating. Report as &ldquo;about 40%&rdquo;, because 43% is closer to 40% than it is to 47%, even though if we rounded 43% to 45%, then the rounded value (45%) would be closer to 47% than to 43%.</li>
+<li>True average of 72.45. Report as &ldquo;about 70&rdquo; by simple rounding.</li>
+<li>Vehicle wheelbase of 2840mm reported in m. Report as &ldquo;about 2.8m&rdquo; because even though we may be using m in a scenario where a casual approximation is suitable, it&rsquo;s good to emphasize that the value is approximate because those extra 40mm do matter.</li>
+</ol>
+</div>
 </div>
 <div id="outline-container-org8ff1e36" class="outline-3">
 <h3 id="org8ff1e36">Optimizing Humanities for Engineers</h3>
 </div>
-<div id="outline-container-orga66b09b" class="outline-3">
-<h3 id="orga66b09b">Call Your FOSS Project Something Normal</h3>
+<div id="outline-container-orgeada0e8" class="outline-3">
+<h3 id="orgeada0e8">Don&rsquo;t Call Your FOSS Project Something Unprofessional</h3>
+<div class="outline-text-3" id="text-orgeada0e8">
+<p>
+Please don&rsquo;t call your FOSS tools something unprofessional like &ldquo;Doom Emacs&rdquo;. Note that I am a Doom Emacs user. However, I don&rsquo;t want my Professors wondering why some app on my screen has &ldquo;Doom&rdquo; in the titlebar.
+</p>
+</div>
 </div>
 <div id="outline-container-org8f1edbb" class="outline-3">
 <h3 id="org8f1edbb">Use Your Car&rsquo;s Parking Brake</h3>
+<div class="outline-text-3" id="text-org8f1edbb">
+<p>
+The parking brake keeps your car exactly where you parked it. The benefits of this include:
+</p>
+<ul class="org-ul">
+<li>Enhanced safety. Your car won&rsquo;t slip, which can be particularly bad in tight parking spaces or if you must get out of the car just after you park.</li>
+<li>Determinism. The world is already chaotic enough, might as well make it slightly less so.</li>
+</ul>
+</div>
 </div>
 <div id="outline-container-orge943bc7" class="outline-3">
 <h3 id="orge943bc7">Units or Acronyms?</h3>
 </div>
 <div id="outline-container-orgcf57cbb" class="outline-3">
 <h3 id="orgcf57cbb">European Bottlecaps</h3>
+<div class="outline-text-3" id="text-orgcf57cbb">
+<p>
+In 2018 the European Parliament initiated the process to regulate bottlecaps for plastic bottles with volume under 3L. The regulation went into effect in 2024. It enumerates a functional requirement that bottlecaps shall remain attached to the bottles. For a primer, read <a href="https://www.corvaglia.com/tethered-caps/">https://www.corvaglia.com/tethered-caps/</a>.
+</p>
+
+<p>
+The new European bottlecaps have four practical downsides:
+</p>
+<ol class="org-ol">
+<li>The bottlecap has the potential to get in the way, so it requires cognitive load when opening to first observe the resulting orientation and then decide the appropriate course of action. Opening and drinking or pouring from a bottle shouldn&rsquo;t require this type of cognitive load (see 2 and 3 for examples of added cognitive load).</li>
+<li>When drinking from the bottle directly they get in your face, which is unpleasant due to the sharp plastic edges of the bottlecap. The course of action to avoid this is to rotate the bottle or rotate the cap. This means using your other hand, unless you feel comfortable rotating the bottle with one hand.</li>
+<li>When pouring from the bottle, if the bottlecap attachment ring is loose, the bottlecap rotates due to gravity and gets right in the way of the liquid being poured. So you must hold it aside with another hand.</li>
+<li>Sometimes they require more force to open.</li>
+</ol>
+
+<p>
+The new European bottlecap is associated with X moral downsides:
+</p>
+<ol class="org-ol">
+<li>Government overreach: no inter-national governing body should be able to decide functional requirements for something as trivial bottlecap for member countries.</li>
+<li>Useless purpose: I can hardly imagine how keeping bottlecaps attached to bottles with help the environment. Even if it helps a tiny bit, it&rsquo;s still effectively useless with respect to policies such as a carbon tax.</li>
+<li>Negative effect for the people: the bottlecaps are badly designed and make quality of life worse.</li>
+<li>Government overreach combined with a useless purpose as well as with negative effect for the people: moral downsides 2 and 3 make the government overreach even worse.</li>
+</ol>
+</div>
 </div>
 <div id="outline-container-orgf4a0d95" class="outline-3">
 <h3 id="orgf4a0d95">Clarifying the Philosophical Foundations of Free Software</h3>
@@ -270,11 +178,122 @@ Italics, spacing, and plurality.
 </ol>
 </div>
 </div>
+<div id="outline-container-org2cb30a7" class="outline-3">
+<h3 id="org2cb30a7">Safe Driving</h3>
+<div class="outline-text-3" id="text-org2cb30a7">
+</div>
+<div id="outline-container-orgf8a439f" class="outline-4">
+<h4 id="orgf8a439f">Quick tips</h4>
+<div class="outline-text-4" id="text-orgf8a439f">
+<ul class="org-ul">
+<li>Two hands on steering wheel at all times</li>
+<li>Hands on steering wheel at 2 and 10 o&rsquo;clock positions</li>
+<li>Don&rsquo;t drive much over 60 mph</li>
+<li>Don&rsquo;t drive over 60 mph in the rain</li>
+<li>Stop for a break every 2hrs</li>
+<li>Wait a half second at traffic start events when it&rsquo;s your turn to go
+<ul class="org-ul">
+<li>e.g. traffic light red -&gt; green</li>
+</ul></li>
+<li>There&rsquo;s no such thing as too much distance to the car ahead of you</li>
+<li>Maintain a hard minimum distance to the car ahead of you of 1 car length for every 10 mph</li>
+<li>Always assume there&rsquo;s something about to pop out from behind a parked car</li>
+<li>Before going at an intersection where you just got green, wait for incoming cars which just got red to stop, or slow down to &lt;10mph</li>
+<li>Going an extra few mph won&rsquo;t save much time at all, but it will introduce lots more risk, even at slow speeds
+<ul class="org-ul">
+<li>i.e. no need to go 25mph (vs 15-20mph) in a city, or 75mph (vs 60mph) on the highway</li>
+<li>The time of a short trip (~ a few miles) is dominated by speed-invariant phenomenon, e.g. number of stop lights, so going 15mph instead of 10mph isn&rsquo;t really helping much</li>
+<li>The time of a long trip on the highway and on small roads (&gt;10 miles) is dominated by the distance, so a bit more speed saves a bit of time. But, this increase in speed introduces lots of risk: on the highway, 60mph to 70mph is a big risk; on small roads, 30mph to 40mph is a big risk given the frequent twists and turns</li>
+</ul></li>
+<li>Driving is inherently very risky (though not necessarily statistically dangerous) so there&rsquo;s really no way to guarantee safety, which means you can&rsquo;t get out of these rules</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org84f2afa" class="outline-4">
+<h4 id="org84f2afa">Frameworks</h4>
+<div class="outline-text-4" id="text-org84f2afa">
+</div>
+<div id="outline-container-org2f6a0b2" class="outline-5">
+<h5 id="org2f6a0b2">Perception as an Event Loop</h5>
+<div class="outline-text-5" id="text-org2f6a0b2">
+<p>
+Accurate, consistent, and frequent perception is critical for safe driving. This perception involves lots of data and moderate to high cognitive load. We can improve consistency, increase frequency, and reduce cognitive load by following an event loop as we drive.
+</p>
+
+<p>
+The loop:
+</p>
+<ul class="org-ul">
+<li>Check rearview mirror</li>
+<li>Check left side mirror</li>
+<li>Check right side mirror</li>
+</ul>
+
+<p>
+Certain events will interrupt our loop, and each event should trigger its own loop:
+</p>
+<ul class="org-ul">
+<li>Lane change
+<ul class="org-ul">
+<li>Check all mirrors</li>
+<li>Check next lane</li>
+<li>Verify empty blind spot</li>
+<li>Signal</li>
+</ul></li>
+<li>Other passing
+<ul class="org-ul">
+<li>Verify that other car&rsquo;s speed and velocity are nominal</li>
+<li>Estimate if other car&rsquo;s distance will be too close</li>
+<li>Verify that distance is enough as the car is passing</li>
+</ul></li>
+</ul>
+
+<p>
+More difficult things to add to the loop:
+</p>
+<ul class="org-ul">
+<li>Track distance to the car behind you (tailgate, moderate, or long)</li>
+<li>Path planning of cars around you</li>
+<li>For each lane left and right of you, maintain binary values for can/cannot do a quick lane change evasive maneuver into that lane</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc66fe70" class="outline-5">
+<h5 id="orgc66fe70">Slower = Safer</h5>
+</div>
+<div id="outline-container-orgdcd3647" class="outline-5">
+<h5 id="orgdcd3647">Predict the Paths of Other Vehicles</h5>
+<div class="outline-text-5" id="text-orgdcd3647">
+<p>
+If you can predict the paths of other vehicles you&rsquo;ll be better prepared to react if something goes wrong with them. This is particularly useful:
+</p>
+<ul class="org-ul">
+<li>At highway speeds</li>
+<li>When other vehicles switch lanes</li>
+<li>At complex intersections</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7ecbd59" class="outline-5">
+<h5 id="org7ecbd59">Optimizing Cognitive Load for Long Drives</h5>
+<div class="outline-text-5" id="text-org7ecbd59">
+<p>
+Unfortunately, employing all the tips and frameworks described here requires high cognitive effort. This makes long drives difficult (&gt; 15 minutes, in my experience). Thus, we should optimize which tips and frameworks to leave out.
+</p>
+<ul class="org-ul">
+<li>When there&rsquo;s no pedestrians or other vehicles around, you can ease up on exteroception</li>
+<li>At slow (&lt;20 mph) speeds, you can use less precise path planning and control</li>
+<li>At stop lights you can physically relax</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="email">Email: <a href="mailto:lorenzohess@tutanota.com">lorenzohess@tutanota.com</a></p>
-<p class="date">Created: 2025-12-12 Fri 12:53</p>
+<p class="date">Created: 2025-12-20 Sat 01:05</p>
 </div>
 </body>
 </html>

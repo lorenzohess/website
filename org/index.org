@@ -6,7 +6,8 @@
 #+exclude_tags: noexport
 #+creator: Emacs 29.4 (Org mode 9.7.29)
 
-#+options: html-link-use-abs-url:nil html-postamble:auto html-preamble:t html-scripts:t html-style:t tex:t expand-links:t f:t section-numbers:nil
+#+options: html-link-use-abs-url:nil html-postamble:auto html-preamble:t html-scripts:t tex:t expand-links:t f:t section-numbers:nil
+#+options: html-style:nil
 #+html_doctype: xhtml-strict
 #+html_equation_reference_format: \eqref{%s}
 Welcome to my small plot of land on the vast Internet. Includes bio links, PGP info, projects, and the occasional blog post.

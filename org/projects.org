@@ -125,6 +125,7 @@ There are ideas for projects, which may later enter the Concept stage.
 3. Delayed double toilet flusher
 4. Baking soda dispenser
 5. Pneumatic device for clearing used grounds from Moka espresso pot funnel
+6. Wearable laptop tray: straps on to your belly and holds a small, light computer for on the go hacking.
 *** Robots
 1. Autonomous kitchen stirrer. Constant force. Two-axis gantry with arm.
 2. Autonomous pancake stacker with butter and syrup placement.
