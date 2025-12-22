@@ -1,0 +1,29 @@
+* [[file:significance-of-sig-figs.org][Significance Of Sig Figs]]
+In the wild I've come to see three categories of sig fig usage:
+1. No awareness: the author reports values exactly as they were calculated (usually this means to two decimal places) with no regard to context.
+2. Apparent awareness: the author appears to have some awareness of sig figs, but they probably don't have a substantive understanding of why. While decimals are usually not reported, you can tell they lack substantive understanding because they'll still report unnecessary digits with respect to the context (usually the ones digits remains included).
+3. Full awareness: the author reports sig figs correctly and prefixes values to emphasize they are approximated (e.g. 10258 in a relevant range of 0 to 100000 -> "about 10000").
+
+You should report sig figs correctly, i.e. with full awareness. To do so you must determine the context of the reported value. As far as I have come up with, this means determining:
+1. The potential range of your reported value.
+2. The resolution necessary to achieve your goal with the value.
+
+_Example 1: Politician's Approval Rating_
+The range is 0-100%. The necessary resolution depends on the goal. If the goal is to give a lay-TV audience a picture of a politician's standing among the people, probably a 5% resolution is necessary, so reporting values as about 30%, about 35%, about 40%, etc is necessary. If the goal is for a napkin math computation of the percent of the popular vote the politician may receive, probably a 1% resolution is necessary. If the goal is a rigorous computation for a professional pollster, probably a hundredths of a % resolution is necessary.
+
+_Example 2: Exam Scores_
+The range is 0-100 (assume no extra credit). Assume the goal is to compute the class average for your own analysis of how the class is doing. Then probably a 1% resolution is necessary. Assume the average will be used by students to determine their standing relative to classmates. Now we need additional information to determine the context. Namely, we need the range of actual scores, because 1% resolution may not be precise enough to provide meaningful information about relative standing. This would be the case, for example, if the range of scores is between 90 and 91. Let's say the average is 90 (e.g. 90.4, rounded down). Then we have two problems wrto. relative standing: 1) students who got between 90 and the true average (90.4) will think they did better than the reported average (90), even though they actually did worse; 2) distinctions on the scale of tenths or hundredths of points, out of 100, are not useful for comparing relative standing: if you got a 90.5 and I got a 90.6, an average reported to 1% resolution (90) doesn't really help us determine who did better. You will have done 0.555% better than average, and I will have done 0.666% better than average, or 20% better than you. Whereas with the true average (90.4), you will have done only 0.111% better and I will have done 0.221% better, or 100% better than you.
+
+Let's say that the range of actual scores is 0 to 100. Then probably a 5% resolution is necessary. If the range is 80 to 100, probably a 1% resolution is necessary. If the range is 80 to 85, probably a tenths or hundredths resolution is necessary.
+
+_Example 3: Vehicle Wheelbase_
+Now we must deal not only with range and resolution with but the contextual relevance of different units. The range is not set by definition, but by empirical data is probably between 2.5m and 3m. Assume the goal is a rough computation of the longitudinal coordinate of the vehicle's center of mass. Then probably a resolution down to the cm is good enough. If we want a rigorous computation, then probably a resolution down to the mm is good enough. However, should we report the value in mm using units of m, cm, or mm? For example, a wheelbase of 2840mm could be conceivably reported as 2.840m, 2.84m, 284.0cm, 284cm, and 2840mm (these are conceivable insofar as no rounding occurs). Using mm puts the reader in a rigorous mindset, and using m or cm down to mm precision can introduce confusion as to whether we have approximate the left sig fig, so mm is probably necessary.
+
+_Example 4: Huge Numbers_
+For huge numbers you can probably drop lots of sig figs because they contribute so little at the large order of magnitude. For example, let's say you do some math and determine that there's 1.0232792349 mol of stars in the universe. A mol is huge, so although you may really want to show your exact value as proof of your rigorous approach, you should probably just report the value as "1 mol" (or 10^23). That extra 4.327...% of a mol, while large (~10^21), isn't really useful for communicating the sheer size. A mol is so huge already that adding 10^21 won't affect our mental representation of the quantity.
+
+_When to prefix "about"?_
+If you've altered the value enough that it's fairly different from the original. I'd prefix about in the following cases taken from the examples:
+1. Approval rating of 43.4% with a goal of informing the audience about the politician's standing relative to a particularly important mark of 47% approval rating. Report as "about 40%", because 43% is closer to 40% than it is to 47%, even though if we rounded 43% to 45%, then the rounded value (45%) would be closer to 47% than to 43%.
+2. True average of 72.45. Report as "about 70" by simple rounding.
+3. Vehicle wheelbase of 2840mm reported in m. Report as "about 2.8m" because even though we may be using m in a scenario where a casual approximation is suitable, it's good to emphasize that the value is approximate because those extra 40mm do matter.

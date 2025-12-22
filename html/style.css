@@ -20,3 +20,10 @@ video {
   max-width: min(70ch, 100% - 4rem);
   margin-inline: auto;
 }
+
+/* Make section numbers look like LaTeX: “1”, “1.1”, “1.1.1” with tight spacing */
+span[class^="section-number-"]{
+  display: inline-block;
+  margin-right: 0.6em;   /* space between number and title */
+  font-weight: normal;   /* LaTeX-like */
+}

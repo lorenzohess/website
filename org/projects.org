@@ -1,13 +1,6 @@
-* Projects
-#+title:lorenzohess.net
-#+author: Lorenzo Hess
-#+email: lorenzohess@tutanota.com
-#+language: en
+#+title: Projects
 #+exclude_tags: noexport
-#+creator: Emacs 29.4 (Org mode 9.7.29)
 
-#+options: html-link-use-abs-url:nil html-postamble:auto html-preamble:t html-scripts:t html-style:t tex:t expand-links:t f:t section-numbers:nil
-#+html_doctype: xhtml-strict
 #+html_equation_reference_format: \eqref{%s}
 ** Completed
 These projects have achieved at least most of their goals.

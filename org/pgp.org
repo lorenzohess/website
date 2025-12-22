@@ -1,4 +1,4 @@
-* PGP Info
+#+title: PGP Info
 I use a Master Key with encryption, signing, and authentication Subkeys. I'll probably rotate the encryption subkey every so often. Fingerprints, fingerprint mirrors, and keyservers.
 
 *Download*: [[../pgp/0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc][0ABEDA2FCE3F0177B5F7B8C4485359764D294BF5.asc]].

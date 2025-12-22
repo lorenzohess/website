@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-12-21 Sun 02:55 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+<div id="content" class="content">
+<div id="outline-container-orgaf61139" class="outline-2">
+<h2 id="orgaf61139"><span class="section-number-2">1.</span> How To Drive More Safely</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orgb652ac8" class="outline-3">
+<h3 id="orgb652ac8"><span class="section-number-3">1.1.</span> Quick tips</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>Two hands on steering wheel at all times</li>
+<li>Hands on steering wheel at 2 and 10 o&rsquo;clock positions</li>
+<li>Don&rsquo;t drive much over 60 mph</li>
+<li>Don&rsquo;t drive over 60 mph in the rain</li>
+<li>Stop for a break every 2hrs</li>
+<li>Wait a half second at traffic start events when it&rsquo;s your turn to go
+<ul class="org-ul">
+<li>e.g. traffic light red -&gt; green</li>
+</ul></li>
+<li>There&rsquo;s no such thing as too much distance to the car ahead of you</li>
+<li>Maintain a hard minimum distance to the car ahead of you of 1 car length for every 10 mph</li>
+<li>Always assume there&rsquo;s something about to pop out from behind a parked car</li>
+<li>Before going at an intersection where you just got green, wait for incoming cars which just got red to stop, or slow down to &lt;10mph</li>
+<li>Going an extra few mph won&rsquo;t save much time at all, but it will introduce lots more risk, even at slow speeds
+<ul class="org-ul">
+<li>i.e. no need to go 25mph (vs 15-20mph) in a city, or 75mph (vs 60mph) on the highway</li>
+<li>The time of a short trip (~ a few miles) is dominated by speed-invariant phenomenon, e.g. number of stop lights, so going 15mph instead of 10mph isn&rsquo;t really helping much</li>
+<li>The time of a long trip on the highway and on small roads (&gt;10 miles) is dominated by the distance, so a bit more speed saves a bit of time. But, this increase in speed introduces lots of risk: on the highway, 60mph to 70mph is a big risk; on small roads, 30mph to 40mph is a big risk given the frequent twists and turns</li>
+</ul></li>
+<li>Driving is inherently very risky (though not necessarily statistically dangerous) so there&rsquo;s really no way to guarantee safety, which means you can&rsquo;t get out of these rules</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgcded69f" class="outline-3">
+<h3 id="orgcded69f"><span class="section-number-3">1.2.</span> Frameworks</h3>
+<div class="outline-text-3" id="text-1-2">
+</div>
+<div id="outline-container-orgb75bee0" class="outline-4">
+<h4 id="orgb75bee0"><span class="section-number-4">1.2.1.</span> Perception as an Event Loop</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<p>
+Accurate, consistent, and frequent perception is critical for safe driving. This perception involves lots of data and moderate to high cognitive load. We can improve consistency, increase frequency, and reduce cognitive load by following an event loop as we drive.
+</p>
+
+<p>
+The loop:
+</p>
+<ul class="org-ul">
+<li>Check rearview mirror</li>
+<li>Check left side mirror</li>
+<li>Check right side mirror</li>
+</ul>
+
+<p>
+Certain events will interrupt our loop, and each event should trigger its own loop:
+</p>
+<ul class="org-ul">
+<li>Lane change
+<ul class="org-ul">
+<li>Check all mirrors</li>
+<li>Check next lane</li>
+<li>Verify empty blind spot</li>
+<li>Signal</li>
+</ul></li>
+<li>Other passing
+<ul class="org-ul">
+<li>Verify that other car&rsquo;s speed and velocity are nominal</li>
+<li>Estimate if other car&rsquo;s distance will be too close</li>
+<li>Verify that distance is enough as the car is passing</li>
+</ul></li>
+</ul>
+
+<p>
+More difficult things to add to the loop:
+</p>
+<ul class="org-ul">
+<li>Track distance to the car behind you (tailgate, moderate, or long)</li>
+<li>Path planning of cars around you</li>
+<li>For each lane left and right of you, maintain binary values for can/cannot do a quick lane change evasive maneuver into that lane</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga6bfe11" class="outline-4">
+<h4 id="orga6bfe11"><span class="section-number-4">1.2.2.</span> Slower = Safer</h4>
+</div>
+<div id="outline-container-orgcfb76d4" class="outline-4">
+<h4 id="orgcfb76d4"><span class="section-number-4">1.2.3.</span> Predict the Paths of Other Vehicles</h4>
+<div class="outline-text-4" id="text-1-2-3">
+<p>
+If you can predict the paths of other vehicles you&rsquo;ll be better prepared to react if something goes wrong with them. This is particularly useful:
+</p>
+<ul class="org-ul">
+<li>At highway speeds</li>
+<li>When other vehicles switch lanes</li>
+<li>At complex intersections</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org407b519" class="outline-4">
+<h4 id="org407b519"><span class="section-number-4">1.2.4.</span> Optimizing Cognitive Load for Long Drives</h4>
+<div class="outline-text-4" id="text-1-2-4">
+<p>
+Unfortunately, employing all the tips and frameworks described here requires high cognitive effort. This makes long drives difficult (&gt; 15 minutes, in my experience). Thus, we should optimize which tips and frameworks to leave out.
+</p>
+<ul class="org-ul">
+<li>When there&rsquo;s no pedestrians or other vehicles around, you can ease up on exteroception</li>
+<li>At slow (&lt;20 mph) speeds, you can use less precise path planning and control</li>
+<li>At stop lights you can physically relax</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="email">Email: <a href="mailto:lorenzohess@tutanota.com">lorenzohess@tutanota.com</a></p>
+<p class="date">Created: 2025-12-21 Sun 02:55</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+* Don't Call Your Foss Project Something Unprofessional
+Please don't call your FOSS tools something unprofessional like "Doom Emacs". Note that I am a Doom Emacs user. However, I don't want my Professors wondering why some app on my screen has "Doom" in the titlebar.
+

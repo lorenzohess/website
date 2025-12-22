@@ -1,0 +1,54 @@
+* How To Drive More Safely
+** Quick tips
+- Two hands on steering wheel at all times
+- Hands on steering wheel at 2 and 10 o'clock positions
+- Don't drive much over 60 mph
+- Don't drive over 60 mph in the rain
+- Stop for a break every 2hrs
+- Wait a half second at traffic start events when it's your turn to go
+  - e.g. traffic light red -> green
+- There's no such thing as too much distance to the car ahead of you
+- Maintain a hard minimum distance to the car ahead of you of 1 car length for every 10 mph
+- Always assume there's something about to pop out from behind a parked car
+- Before going at an intersection where you just got green, wait for incoming cars which just got red to stop, or slow down to <10mph
+- Going an extra few mph won't save much time at all, but it will introduce lots more risk, even at slow speeds
+  - i.e. no need to go 25mph (vs 15-20mph) in a city, or 75mph (vs 60mph) on the highway
+  - The time of a short trip (~ a few miles) is dominated by speed-invariant phenomenon, e.g. number of stop lights, so going 15mph instead of 10mph isn't really helping much
+  - The time of a long trip on the highway and on small roads (>10 miles) is dominated by the distance, so a bit more speed saves a bit of time. But, this increase in speed introduces lots of risk: on the highway, 60mph to 70mph is a big risk; on small roads, 30mph to 40mph is a big risk given the frequent twists and turns
+- Driving is inherently very risky (though not necessarily statistically dangerous) so there's really no way to guarantee safety, which means you can't get out of these rules
+** Frameworks
+*** Perception as an Event Loop
+Accurate, consistent, and frequent perception is critical for safe driving. This perception involves lots of data and moderate to high cognitive load. We can improve consistency, increase frequency, and reduce cognitive load by following an event loop as we drive.
+
+The loop:
+- Check rearview mirror
+- Check left side mirror
+- Check right side mirror
+
+Certain events will interrupt our loop, and each event should trigger its own loop:
+- Lane change
+  - Check all mirrors
+  - Check next lane
+  - Verify empty blind spot
+  - Signal
+- Other passing
+  - Verify that other car's speed and velocity are nominal
+  - Estimate if other car's distance will be too close
+  - Verify that distance is enough as the car is passing
+
+More difficult things to add to the loop:
+- Track distance to the car behind you (tailgate, moderate, or long)
+- Path planning of cars around you
+- For each lane left and right of you, maintain binary values for can/cannot do a quick lane change evasive maneuver into that lane
+*** Slower = Safer
+*** Predict the Paths of Other Vehicles
+If you can predict the paths of other vehicles you'll be better prepared to react if something goes wrong with them. This is particularly useful:
+- At highway speeds
+- When other vehicles switch lanes
+- At complex intersections
+*** Optimizing Cognitive Load for Long Drives 
+Unfortunately, employing all the tips and frameworks described here requires high cognitive effort. This makes long drives difficult (> 15 minutes, in my experience). Thus, we should optimize which tips and frameworks to leave out.
+- When there's no pedestrians or other vehicles around, you can ease up on exteroception
+- At slow (<20 mph) speeds, you can use less precise path planning and control
+- At stop lights you can physically relax
+

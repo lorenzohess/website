@@ -1,0 +1,90 @@
+#+title: Fix Your Dangling Paragraphs
+* What is a Dangling Paragraph?
+This is a dangling paragraph, and it needs fixing.
+[[file:../img/dangling-paragraph.jpg]]
+
+As you can see, one word "dangles" off the end of the paragraph: that is, the paragraph's last line is spans less than half the page. This example showcases the ugliest case, with one word dangling.
+
+This needs fixing because it:
+1. Creates ugly whitespace.
+2. Is slightly jarring to read.
+3. Inflates the length of your writing, even if you don't mean to, which is wrong. Readers may think you did so deliberately.
+4. When left unaddressed, creates the appearance that you either don't pay enough attention to detail to notice this or you don't care enough to fix it. 
+
+Benefits of fixing include:
+1. The inverses of reasons 1-4.
+2. Shortened writing is often better than the original, particularly if the original is only your first draft.
+* How to Fix It
+Simply take 30 seconds and remove a word, or two, from the paragraph.
+** My Approach
+I find the quickest approach to shortening the paragraph is to work backwards through the paragraph. Start by shortening the final sentence. If that cannot be shortened, or if the shortened version doesn't fix the dangle, then go on to shortening the penultimate sentence, and so on. I find this approach has two benefits:
+1. If you're fixing the dangle right after writing the paragraph then the most recent sentence you will have written will be the final one. Your intended meaning of that sentence is still fresh in your mind and it will be easier to rework than the previous ones.
+2. It avoids a downside associated with reworking sentences that occur earlier in the paragraph: if an earlier sentence is changed, subsequent sentences may need to be reworked to ensure they cohere with the new earlier sentence. Let's say you change the first sentence. You will then have to read, and potentially edit, all the subsequent sentences to make sure they still make sense in context of the shortened first sentence. These edits can have cascading effects which require even more work: editing the second sentence to cohere with the first may require editing the third, and so on. If you start with shortening the final sentence, you'll still have to re-read the paragraph, but the likelihood of edits to previous sentences is much lower. This is because the typical paragraph architecture involves sentences which build on previous sentences. The main exception to this is the topic sentence, which may mention concepts introduced in later sentences.
+** Strategies for Shortening Text
+Strategies for quickly shortening a paragraph include:
+1. Remove filler words, such as "very".
+2. Find the longest word and see if it can be replaced with a shorter word.
+3. Replace a negation with the positive form.
+4. Find a phrase and replace it with one or two words. These new words themselves may be a bit long, but they'll probably be shorter than the phrase.
+5. Remove redundancies.
+6. Find a conjunction and replace it with a period, i.e. split one sentence into two. You save space by replacing a word with a period. Often, this makes your writing more emphatic, which is nice.
+7. Find awkward phrases and make them less awkward. Awkward writing correlates with extra words, so fixing an awkward phrase will likely shorten the paragraph.
+   
+If you are using ragged justification, see if you can bring a long word at the start of a line up to the previous line. Even deleting a few characters can make enough space for the justification algorithm to move that word up a line.
+
+You'll notice that the strategies are ordered from least to greatest potential change to the sentence. They have been presented in this way because it's easier to understand the strategies which cause the least change.
+
+When applying these strategies, however, it's more efficient to begin with those which cause the most change. This is because those big changes may happen to eliminate text which needed shortening. For example, rewriting an awkward phrase, using Strategy 6, may involve discarding the phrase, along with any filler words which would have been removed with Strategy 1. If you had begun with Strategy 1, the effort would have been wasted after you applied Strategy 6.
+
+Note that, as mentioned, the quickest approach is to begin with the final sentence. If you do notice that the entire paragraph can be shortened, then you should begin with Strategy 6 first, and end with Strategy 1.
+*** Examples of Strategies
+Let's apply *Strategy 7* and make these edits:
+- "when you think about how the ways in which" \rarr "when you consider how"
+Now our paragraph looks like:
+[[file:../img/dangling-paragraph-strats-7.jpg]]
+
+We have fixed the dangle!
+
+But we can do better. Let's apply *Strategy 6* and make these edits:
+- "like to eat in the morning, because they have a taste" -> "like to eat in the morning. They have a taste"
+[[file:../img/dangling-paragraph-strats-76.jpg]]
+
+Now apply *Strategy 5*:
+- "When you consider how apples and oranges are not the same, it is important to take into consideration the fact" \rarr "When you consider how apples and oranges are not the same, note that"
+[[file:../img/dangling-paragraph-strats-765.jpg]]
+
+We've unfortunately created a new dangling paragraph. No matter. Now apply *Strategy 4*:
+- "people eat in many different places around the world" → "are eaten globally"
+- "while oranges are fruits that people often like to eat" \rarr "while oranges are fruits that are often eaten"
+- "They have a taste that is pleasant but also kind of sharp." \rarr "They have a pleasant but also kind of sharp taste."
+- "in a way that is hard to describe clearly" \rarr "in a peculiar way"
+- "at home alone today" \rarr "while home alone"
+[[file:../img/dangling-paragraph-strats-7654.jpg]]
+  
+Now apply *Strategy 3*:
+- "are not the same" \rarr "differ"
+[[file:../img/dangling-paragraph-strats-76543.jpg]]
+
+Now apply *Strategy 2*:
+- "especially" \rarr "chiefly"
+[[file:../img/dangling-paragraph-strats-765432.jpg]]
+
+Now apply *Strategy 1*:
+- "very popular \rarr popular"
+- "kind of sharp \rarr sharp"
+[[file:../img/dangling-paragraph-strats-123456.jpg]]
+*** More Notes
+You may need to play with different combinations of strategies. Suppose that you can fix the dangle by applying 1 and 2 together or by applying 4. Applying 1, 2, and 4 all together would remove too much and result in a new, dangling paragraph, so you can't do that. You thus have to weigh 1 vs. 2. Perhaps 2 changes the meaning a bit too much, so you apply 1. Or perhaps 1 detracts from deliberate emphasis, so you apply 2.
+
+This task can be mentally daunting because you have to critically analyze your writing with the purpose of finding your bad writing. You will often notice, when applying this technique, that most, if not all, sentences in your paragraph can be shortened. Although fixing the entire paragraph will require additional work, you will have improved it greatly. Also, in my experience, it'll take only one to ten minutes.
+
+You may then feel the urge to check other paragraphs. If you're pressed on time, but still want to do this, the best bang for your buck, in terms of writing clarity, will be to apply strategy 4, and then strategy 3. Filler words are tempting to remove, but awkward phrasing is much more obtrusive to the reader.
+
+Of course, you may find that applying these strategies results in a new paragraph which still dangles! At this point, you have a few options:
+1. Iteratively apply the strategies to fix the dangle. Just because you applied them once doesn't mean they can't be applied again. After all, your new paragraph is a different piece of writing with its own context, and the strategies may remain applicable.
+2. Re-read the paragraph and see if you've removed too much. Add stuff back.
+3. Merge the new paragraph with another one. This is often possible if you've shortened two adjacent paragraphs a lot. Note that if your new paragraph now only has a few sentences, it probably shouldn't be a paragraph anymore and should be merged into another paragraph anyway.
+
+fixed paragraph looks much better, and is slightly better written:
+[[file:../img/dangling-paragraph-fixed.jpg]]
+

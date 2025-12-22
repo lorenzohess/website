@@ -1,0 +1,5 @@
+* Use Your Car's Parking Brake
+The parking brake keeps your car exactly where you parked it. The benefits of this include:
+- Enhanced safety. Your car won't slip, which can be particularly bad in tight parking spaces or if you must get out of the car just after you park.
+- Determinism. The world is already chaotic enough, might as well make it slightly less so.
+
