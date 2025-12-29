@@ -1,0 +1,13 @@
+#+title: Utilization
+
+* Academic Projects
+1. [[https://gitlab.com/lorenzohess/dante-site-backend][Commedia Word Counts Website]], 2022: search for words in the /Divine Comedy/, along with their counts and frequencies.
+2. [[https://gitlab.com/lorenzohess/xml-commedia][XML Commedia]], 2022: Dante's /Divine Comedy/ encoded as XML, down to each word.
+* Software
+1. [[https://gitlab.com/lorenzohess/divina-commandline][Divina Commandline]], 2022: very basic CLI tools for interacting with the /Divine Comedy/ from the CLI.
+* Mechanical
+** 3D Modeling
+1. [[https://github.com/lorenzohess/pill-gate-kirkland-393914][Pill Gate Gadget]], 2025: increases the convenience with which one can retrieve a single Vitamin D pill from Costco's Item =393914= bottle.
+2. [[https://gitlab.com/lorenzohess/fruit-fly-liquid-trap][Fruit Fly Liquid Trap]], 2024: simple 3D model of a fruit fly trap.
+* Sports
+1. [[https://gitlab.com/lorenzohess/water-polo-crash-course][Water Polo Crash Course]], 2024: a crash course in water polo, intended as review for players with some experience.

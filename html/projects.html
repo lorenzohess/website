@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2025-12-21 Sun 02:55 -->
+<!-- 2025-12-30 Tue 00:13 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Projects</title>
@@ -13,420 +13,81 @@
 <body>
 <div id="content" class="content">
 <h1 class="title">Projects</h1>
-<div id="outline-container-org8a9cee5" class="outline-2">
-<h2 id="org8a9cee5"><span class="section-number-2">1.</span> Completed</h2>
+<p>
+I have organized my projects using the ISO/IEC/IEEE 15288:2023 Generic Life Cycle model as a guide. The Model defines the following life cycle stages:
+</p>
+<ol class="org-ol">
+<li>Concept</li>
+<li>Development</li>
+<li>Production</li>
+<li>Utilization</li>
+<li>Support</li>
+<li>Retirement</li>
+</ol>
+
+<p>
+I maintain X categories of Projects, each category with its own webpage:
+</p>
+<ol class="org-ol">
+<li>Unrealizable Concepts</li>
+<li>Pre-Concept</li>
+<li>Concept</li>
+<li>Development</li>
+<li>Production</li>
+<li>Utilization</li>
+<li>Retired</li>
+</ol>
+<div id="outline-container-org8652b8e" class="outline-2">
+<h2 id="org8652b8e"><span class="section-number-2">1.</span> Project Organization</h2>
 <div class="outline-text-2" id="text-1">
+<p>
+Organizing projects, or systems, by Life Cycle Stage is non-trivial because of three nuances:
+</p>
+<ol class="org-ol">
+<li>Stages can overlap in time</li>
+<li>Subsystems can simultaneously occupy different Stages</li>
+<li>A project can return to an earlier Stage</li>
+</ol>
+
+<p>
+The nuances could, in theory, be accomodated by a tailored visualization system. My website, however, is statically generated, has almost no Javascript, and uses hierarchical directories to store files, so I can&rsquo;t create dynamic visualizations or tailor my storage of project data.
+</p>
+
+<p>
+Let&rsquo;s explore the nuances to see if we can reduce their impact on project organization and if my projects happen to inherently avoid the nuances in certain ways. In fact, the nuances won&rsquo;t have too much impact, because:
+</p>
+<ul class="org-ul">
+<li>The Concept, Development, and Production Stages do not frequently overlap in my projects. Thus, we could have a individual webpage for each of them.</li>
+<li>Some of my projects become Retired and are extremely unlikely to ever enter another Life Cycle stage, e.g. a basic project for an undergrad course. Thus, we could have an individual webpage for Retired projects.</li>
+<li>I consider any publically available project to occupy the Support stage.</li>
+<li>I do not frequently return to earlier Stages.</li>
+</ul>
+
+<p>
+The biggest impact is due to overlapping Production and Utilization stages, e.g. my riced window manager.
+</p>
+</div>
+</div>
+<div id="outline-container-org8a9cee5" class="outline-2">
+<h2 id="org8a9cee5"><span class="section-number-2">2.</span> Completed</h2>
+<div class="outline-text-2" id="text-2">
 <p>
 These projects have achieved at least most of their goals.
 </p>
 </div>
-<div id="outline-container-org37335d8" class="outline-3">
-<h3 id="org37335d8"><span class="section-number-3">1.1.</span> Academic Projects</h3>
-<div class="outline-text-3" id="text-1-1">
-<ol class="org-ol">
-<li><a href="https://digitalcollections.bowdoin.edu/view/4961/">Physics BA Honors Thesis</a>, 2023: reuse of N95 FFRs helps mitigate the effects of shortages. UV-C exposure is an ideal method for the decontamination necessary for FFR reuse. We design and program a ray tracing simulator in MATLAB to characterize the distribution of scattered photons in N95 FFRs.</li>
-<li><a href="https://gitlab.com/lorenzohess/dante-site-backend">Commedia Word Counts Website</a>, 2022: search for words in the <i>Divine Comedy</i>, along with their counts and frequencies.</li>
-<li><a href="https://gitlab.com/lorenzohess/eddy-current-brakes-ergometer">Eddy Current Brake Ergometer for PHYS 3010</a>, 2022: building parts of an upper body ergometer with eddy current brakes.</li>
-<li><a href="https://gitlab.com/lorenzohess/me3310-stretcher-cad">Folding Stretcher CAD Model for ME 3310</a>, 2024:</li>
-<li><a href="https://gitlab.com/lorenzohess/xml-commedia">XML Commedia</a>, 2022: Dante&rsquo;s <i>Divine Comedy</i> encoded as XML, down to each word.</li>
-<li><a href="https://gitlab.com/lorenzohess/es-1310-cad-files">CAD Files for ES 1310</a>, 2023:</li>
-</ol>
-</div>
-</div>
-<div id="outline-container-orgee2f78f" class="outline-3">
-<h3 id="orgee2f78f"><span class="section-number-3">1.2.</span> Software</h3>
-<div class="outline-text-3" id="text-1-2">
-<ol class="org-ol">
-<li><a href="https://gitlab.com/lorenzohess/arch-awesomewm-rice">AwesomeWM Desktop Rice for Arch Linux</a>, 2025: configuration and scripting for the Awesome Window Manager and other desktop environment tools for Arch Linux.</li>
-<li><a href="https://github.com/lorenzohess/qubes-awesomewm-rice">AwesomeWM Desktop Rice for Qubes OS</a>, 2023: configuration and scripting for the Awesome Window Manager and other desktop environment tools for Arch Linux.</li>
-<li><a href="https://gitlab.com/lorenzohess/divina-commandline">Divina Commandline</a>, 2022: very basic CLI tools for interacting with the <i>Divine Comedy</i> from the CLI.</li>
-<li><a href="https://gitlab.com/lorenzohess/xml-orlando-furioso">XML Orlando Furioso</a>, 2023: Ariosto&rsquo;s <i>Orlando Furioso</i> encoded as XML, down to each word.</li>
-</ol>
-</div>
-</div>
-<div id="outline-container-org1bcd3c1" class="outline-3">
-<h3 id="org1bcd3c1"><span class="section-number-3">1.3.</span> Mechanical</h3>
-<div class="outline-text-3" id="text-1-3">
-</div>
-<div id="outline-container-org1f25598" class="outline-4">
-<h4 id="org1f25598"><span class="section-number-4">1.3.1.</span> 3D Modeling</h4>
-<div class="outline-text-4" id="text-1-3-1">
-<ol class="org-ol">
-<li><a href="https://github.com/lorenzohess/pill-gate-kirkland-393914">Pill Gate Gadget</a>, 2025: increases the convenience with which one can retrieve a single Vitamin D pill from Costco&rsquo;s Item <code>393914</code> bottle.</li>
-<li><a href="https://gitlab.com/lorenzohess/fruit-fly-liquid-trap">Fruit Fly Liquid Trap</a>, 2024: simple 3D model of a fruit fly trap.</li>
-</ol>
-</div>
-</div>
-<div id="outline-container-org568479e" class="outline-4">
-<h4 id="org568479e"><span class="section-number-4">1.3.2.</span> Laser Cutting</h4>
-<div class="outline-text-4" id="text-1-3-2">
-<ol class="org-ol">
-<li><a href="https://gitlab.com/lorenzohess/greek-alphabetex">Greek Alphabet in LaTeX</a>, 2024: aka &ldquo;Greek AlphabeTeX&rdquo;, a reference to the LaTeX greek alphabet letters.</li>
-<li><a href="https://gitlab.com/lorenzohess/self-complementary-graphs-gift">Self-Complementary Graphs</a>, 2024: visualization of fourteen self-complementary graphs (n = 1, 4, 5, 8).</li>
-</ol>
-</div>
-</div>
-</div>
-<div id="outline-container-org9c7bcd8" class="outline-3">
-<h3 id="org9c7bcd8"><span class="section-number-3">1.4.</span> Sports</h3>
-<div class="outline-text-3" id="text-1-4">
-<ol class="org-ol">
-<li><a href="https://gitlab.com/lorenzohess/water-polo-crash-course">Water Polo Crash Course</a>, 2024: a crash course in water polo, intended as review for players with some experience.</li>
-</ol>
-</div>
-</div>
-</div>
-<div id="outline-container-orge651356" class="outline-2">
-<h2 id="orge651356"><span class="section-number-2">2.</span> Development Stage</h2>
-<div class="outline-text-2" id="text-2">
-<p>
-These projects have not achieved suitable goals and I am currently working on them. There are a lot on the list, and I usually work on some while thinking about solutions for others.
-</p>
-</div>
-<div id="outline-container-org7dd0ad1" class="outline-3">
-<h3 id="org7dd0ad1"><span class="section-number-3">2.1.</span> Software</h3>
+<div id="outline-container-org07405a6" class="outline-3">
+<h3 id="org07405a6"><span class="section-number-3">2.1.</span> Software</h3>
 <div class="outline-text-3" id="text-2-1">
 <ol class="org-ol">
-<li>NYC Street Parking Scheduler, 2025:</li>
+<li><a href="https://gitlab.com/lorenzohess/arch-awesomewm-rice">AwesomeWM Desktop Rice for Arch Linux</a>, 2025: configuration and scripting for the Awesome Window Manager and other desktop environment tools for Arch Linux.</li>
 </ol>
 </div>
-</div>
-<div id="outline-container-org025c53c" class="outline-3">
-<h3 id="org025c53c"><span class="section-number-3">2.2.</span> Mechanical</h3>
-<div class="outline-text-3" id="text-2-2">
-<ol class="org-ol">
-<li>Meat Slicer Aesthetic CAD Model, 2024:</li>
-<li>Silent Pill Carry Bottle, 2025:</li>
-<li>Analysis of Spring-Loaded Cable Retractor, 2025:</li>
-<li>Gear Nomenclature Physical Reference, 2025:</li>
-</ol>
-</div>
-</div>
-<div id="outline-container-org66fbdf9" class="outline-3">
-<h3 id="org66fbdf9"><span class="section-number-3">2.3.</span> HaptiClock</h3>
-</div>
-<div id="outline-container-orgcc0943b" class="outline-3">
-<h3 id="orgcc0943b"><span class="section-number-3">2.4.</span> TeX Support</h3>
-</div>
-<div id="outline-container-org9a66d28" class="outline-3">
-<h3 id="org9a66d28"><span class="section-number-3">2.5.</span> Tech Maps</h3>
-</div>
-</div>
-<div id="outline-container-org154687b" class="outline-2">
-<h2 id="org154687b"><span class="section-number-2">3.</span> Concept Stage</h2>
-<div class="outline-text-2" id="text-3">
-<p>
-These projects&rsquo; goals are still being fully determined, and in some cases, the feasibility of the project itself is unclear.
-</p>
-</div>
-<div id="outline-container-org7cfd1aa" class="outline-3">
-<h3 id="org7cfd1aa"><span class="section-number-3">3.1.</span> Mechanical</h3>
-<div class="outline-text-3" id="text-3-1">
-<ol class="org-ol">
-<li>Premium USB Cable Retractor</li>
-<li>Shower Shaving Station</li>
-<li>Subaru Outback HVAC Screen Buttons</li>
-</ol>
-</div>
-</div>
-<div id="outline-container-orgcbc045f" class="outline-3">
-<h3 id="orgcbc045f"><span class="section-number-3">3.2.</span> Ouroborous Tech</h3>
-</div>
-<div id="outline-container-org1097fd4" class="outline-3">
-<h3 id="org1097fd4"><span class="section-number-3">3.3.</span> Protocol for Writing Revision Comments</h3>
-<div class="outline-text-3" id="text-3-3">
-<p>
-Leaving comments on writing often entails explaining different types of information. A sentence might need grammatical, spelling, vocabulary, and structural fixes. Often, a fix for one problem affects another problem. For example, a fix for a structural error may end up eliminating a word that&rsquo;s misspelled in the original. If, however, the author declines to accept the editor&rsquo;s structural fix, however, the misspelled word will remain, and still needs fixing.
-</p>
-
-<p>
-In existing software such as Google Docs and Microsoft Onedrive, the editor cannot leave two comments on the misspelled word (one for spelling, and one for structure). Thus, a new system is necessary to leave multiple comments, or different types of comments, on the same word. An editor should be able to both note a spelling error and suggest a structural fix that eliminates that spelling error. If the author declines the structural fix, the spelling error comment should become visible.
-</p>
-
-<p>
-We can represent comments as nodes in a tree. If one path is taken e.g. applying the fix for the structural error, then other paths may become inaccessible, e.g. applying the fix for the spelling error.
-</p>
-
-<p>
-We would use keywords, e.g. <code>typo</code>, <code>structure</code>, <code>word-swap</code>, etc to represent different types of comments.
-</p>
-
-<p>
-<span class="underline">Example:</span>
-</p>
-<ul class="org-ul">
-<li>Original text: &ldquo;A misspleling and structural errors, this sentence has.&rdquo;</li>
-<li>Comment 1
-<ul class="org-ul">
-<li><code>typo</code>: &ldquo;misspleling &rdquo; &rarr; &ldquo;misspelling&rdquo;</li>
-</ul></li>
-<li>Comment 2
-<ul class="org-ul">
-<li><code>structural</code>: &ldquo;This sentence is now correct.&rdquo;</li>
-</ul></li>
-</ul>
-
-<p>
-Editing Paths:
-</p>
-<ol class="org-ol">
-<li>Original -&gt; Comment 1 -&gt; Comment 2</li>
-<li>Original -&gt; Comment 2</li>
-</ol>
-
-<p>
-In Path 1, we first fix the typo and can then make the structural fix. In Path 2, we first make the structural fix; this eliminates the typo, so Comment 1 becomes inaccessible. If we reversed Comment 2, though, Comment 1 would reappear.
-</p>
-
-<p>
-We need some Git commit-like method for marking new comments and maybe creating a node or branch-like version history of the document and its comments.
-</p>
-
-<p>
-Users can chose to show comments as inline diffs, side-by-side diffs, as notes on the side, as highlights, etc.
-</p>
-
-<p>
-As a bonus, this software should be able to import any type of text-related document and output any type of text-related document.
-</p>
-
-<p>
-If necessary, comments should be independent of the continuity of text. They should be able to reference portions of text from different sentences, i.e. words from different sentences can be part of the same comment.
-</p>
-
-<p>
-A Global Comment is not tied to any one instance of text, but must be applied to at least one instance. These are useful when a certain fix needs to be applied multiple times. If an author always misspells a certain word, then a Global Comment would be a typo fix for that word. Instead of creating a Typo comment for each misspelling, a Global Comment can be applied to each misspelling.
-</p>
-
-<p>
-This software should be local because you shouldn&rsquo;t need an internet connection. It should be cross-platform.
-</p>
-
-<p>
-The commenting process during a first read-through, or when reading new writing, is different from commenting on familiar writing, because you may leave a comment that you don&rsquo;t know will need modification until you read newer writing. There should be utilities to help modify previous comments.
-</p>
-
-<p>
-Users should be able to add reference text to a previous comment.
-</p>
-</div>
-<div id="outline-container-orgfcd3f46" class="outline-4">
-<h4 id="orgfcd3f46"><span class="section-number-4">3.3.1.</span> Types of Comments</h4>
-<div class="outline-text-4" id="text-3-3-1">
-<p>
-Edits can be defined as OOP classes or even simple types. Subclassing/subtyping will be used to specify more granular edits. Each Comment class/type will specify inputs and outputs.
-</p>
-
-<p>
-Differentiating between types of comments allows the author to immediately see what the editor is suggesting. It avoids the editor having to explain the purpose of the comment, in some cases, and can help reduce confusion about the purpose. Also, the author can see statistics about what comments have been given. If 90% of comments are typos, which take little time to resolve, then the author can expect that reviewing and implementing the comments won&rsquo;t take as much time. If 90% of comments are major comments, e.g. restructuring, rewording, adding context, then the author can expect to spend more time reviewing and implementing them.
-</p>
-
-<ol class="org-ol">
-<li>Typo :: Word -&gt; Word (modify a word)</li>
-<li>Add Character
-<ol class="org-ol">
-<li>Add Space (add a space anywhere)</li>
-</ol></li>
-<li>Reword. This should be accompanied by specific adjectives which characterize why a phrase needs rewording. Is it clunky? Verbose? High register?</li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-<div id="outline-container-orga74b0e6" class="outline-2">
-<h2 id="orga74b0e6"><span class="section-number-2">4.</span> Ideas</h2>
-<div class="outline-text-2" id="text-4">
-<p>
-There are ideas for projects, which may later enter the Concept stage.
-</p>
-</div>
-<div id="outline-container-org003c461" class="outline-3">
-<h3 id="org003c461"><span class="section-number-3">4.1.</span> Software</h3>
-<div class="outline-text-3" id="text-4-1">
-<ol class="org-ol">
-<li>When3Meet (When2Meet Alternative): When2Meet needs several features (and it makes sense to name an updated version When3Meet):
-<ul class="org-ul">
-<li>option to invert already selected times if dragging over them as part of another time selection</li>
-<li>ability to leave notes about (un)availability in specific future weeks, ideally as granular as each 15 minute slot</li>
-<li>ability to remove people from a group after creation</li>
-<li>ability change days in schedule after creation</li>
-<li>slightly more modern UI</li>
-</ul></li>
-<li><p>
-Digital Lab Notebooks backed by Git and public-key cryptography
-</p>
-
-<p>
-<span class="underline">Problem:</span> lab notebooks are essential research tools. They track experimental procedure and implemented sequence, lab notes, and the genesis of creative ideas. Writing on paper, however, even in non-erasable ink, does not provide any integrity to the data and metadata that lab notebooks must track. A written note can be altered after-the-fact, providing no assurance as to the chronology of the lab notes or their data integrity.
-</p>
-
-<p>
-<span class="underline">Solution:</span> use a digital lab notebook with Git to track chronology and preserve integrity as well as GPG to provide a second layer of assurance, proof of digital notebook ownership, and privacy and security via encryption.
-</p>
-
-<p>
-<span class="underline">Implementation:</span> a program manages your lab notebooks starting with a root directory, which contains <code>notebooks</code>. Each <code>notebook</code> is its own Git repo and receives its own digital signatures. Users can decide the semantics of a <code>notebook</code>, for example whether one notebook corresponds to one laboratory, to one day of work, to one lab session, to one lab assistant. These can of course be mixed and matched and do not affect how the program works. All the program does is track each notebook with Git and GPG.
-</p>
-
-<p>
-If a user keeps a hand-written lab notebook, then the program can use photos of the pages as evidence. They could be OCRed to provide basic search functionality.
-</p></li>
-<li>App to run a bunch of ROS2 command in a certain sequence.</li>
-<li>Computer app to flash the screen if you haven&rsquo;t blinked in a certain time threshold.</li>
-</ol>
-</div>
-</div>
-<div id="outline-container-orgb1c1a70" class="outline-3">
-<h3 id="orgb1c1a70"><span class="section-number-3">4.2.</span> Electronic</h3>
-<div class="outline-text-3" id="text-4-2">
-<ol class="org-ol">
-<li>TRRS Cable Tester</li>
-</ol>
-</div>
-</div>
-<div id="outline-container-org9740e67" class="outline-3">
-<h3 id="org9740e67"><span class="section-number-3">4.3.</span> Mechanical</h3>
-<div class="outline-text-3" id="text-4-3">
-<ol class="org-ol">
-<li>PB&amp;J Bread Mold: a mold to make slices of bread with walls. These would hold in the PB&amp;J better and prevent it from spilling out the sides.</li>
-<li>Constant force stirring spoon</li>
-<li>Delayed double toilet flusher</li>
-<li>Baking soda dispenser</li>
-<li>Pneumatic device for clearing used grounds from Moka espresso pot funnel</li>
-<li>Wearable laptop tray: straps on to your belly and holds a small, light computer for on the go hacking.</li>
-</ol>
-</div>
-</div>
-<div id="outline-container-org9caef07" class="outline-3">
-<h3 id="org9caef07"><span class="section-number-3">4.4.</span> Robots</h3>
-<div class="outline-text-3" id="text-4-4">
-<ol class="org-ol">
-<li>Autonomous kitchen stirrer. Constant force. Two-axis gantry with arm.</li>
-<li>Autonomous pancake stacker with butter and syrup placement.</li>
-<li>Autonomous egg poacher.</li>
-<li>Universal BIOS button. Spams F11, F12, Delete, etc for you.</li>
-</ol>
-</div>
-</div>
-<div id="outline-container-org00b73b3" class="outline-3">
-<h3 id="org00b73b3"><span class="section-number-3">4.5.</span> Other</h3>
-<div class="outline-text-3" id="text-4-5">
-<ol class="org-ol">
-<li>Dipping Integrity Score</li>
-</ol>
-</div>
-</div>
-</div>
-<div id="outline-container-orgefe204e" class="outline-2">
-<h2 id="orgefe204e"><span class="section-number-2">5.</span> Permanent Ideas</h2>
-<div class="outline-text-2" id="text-5">
-<p>
-These are ideas for project which I could conceivably accomplish, but which are unrealistic due to e.g. lack of knowledge, resources, etc.
-</p>
-</div>
-<div id="outline-container-orgb58ae99" class="outline-3">
-<h3 id="orgb58ae99"><span class="section-number-3">5.1.</span> Software</h3>
-<div class="outline-text-3" id="text-5-1">
-<ol class="org-ol">
-<li>Ohm.AI: tool which can tell you the resistance of a resistor based on its color bands.
-<ul class="org-ul">
-<li>Integrate into AR glasses, or at least a small handheld device with a camera</li>
-<li>Helps colorblind people</li>
-<li>Helps everyone when the resistor band direction is unclear</li>
-<li>Doesn&rsquo;t even need AI, could probably use just computer vision if only one resistor in the photo
-<ul class="org-ul">
-<li>Upgrade CV to detect resistors before processing them</li>
-<li>Maybe better to use algorithms that detect presence and locations of certain colors, rather than trying to identify each band and then get the color from that?</li>
-</ul></li>
-</ul></li>
-<li>DIY Professional Headshot App: phone app which helps produce the highest quality professional headshots that your phone is capable of.
-<ul class="org-ul">
-<li>takes a photo and can apply edits to help (brightness, noise, etc)</li>
-<li>UI overlay: places guides on the screen to help make clothes, shoulders, head, and facial geometries symmetric
-<ul class="org-ul">
-<li>clothes
-<ul class="org-ul">
-<li>tie is vertical</li>
-<li>lapels evenly spaced around tie</li>
-</ul></li>
-<li>shoulders pose
-<ul class="org-ul">
-<li>equally spaced within frame</li>
-<li>oriented planar to phone</li>
-<li>one isn&rsquo;t higher than the other</li>
-</ul></li>
-<li>head pose
-<ul class="org-ul">
-<li>centered wrto. shoulders</li>
-<li>yaw and roll are zero, pitch is suitable</li>
-</ul></li>
-<li>facial geometries
-<ul class="org-ul">
-<li>smile</li>
-<li>jaw</li>
-</ul></li>
-</ul></li>
-<li>identifies lighting features to fix
-<ul class="org-ul">
-<li>too warm/cold</li>
-<li>too many shadows</li>
-<li>brighter/darker areas</li>
-</ul></li>
-<li>companion computer app can control the phone: view the screen, take photos, set timer, turn of camera UI overlay</li>
-</ul></li>
-</ol>
-</div>
-</div>
-</div>
-<div id="outline-container-org8313ddd" class="outline-2">
-<h2 id="org8313ddd"><span class="section-number-2">6.</span> Suspended</h2>
-<div class="outline-text-2" id="text-6">
-<p>
-These projects were begun, even if only in the Concept Stage, but were suspended for one reason or another. They could theoretically be resumed under certain conditions:
-</p>
-<ol class="org-ol">
-<li><a href="https://gitlab.com/lhess2021/degorge">degOrge</a>: a calorie tracker in Emacs Org Mode, a <a href="https://www.merriam-webster.com/dictionary/portmanteau">portmanteau</a> of &ldquo;de-gorge&rdquo; and &ldquo;Org&rdquo;.
-<ul class="org-ul">
-<li>Implementation Stage: 50% of the code. I had difficulty wrapping my mind around writing Elisp code that was more than a single Emacs config setting or custom function.</li>
-<li>Why Suspended: I discovered it was easy enough to count calories using written notes.</li>
-</ul></li>
-<li>Bookseer: an attempt at using computer vision and OCR to identify library book spine labels and extract their Library of Congress codes, with the eventual goal of building a handheld device to identify misplaced books.
-<ul class="org-ul">
-<li>Implementation Stage: somewhat reliable label identification and somewhat reliable OCR.</li>
-<li>Why Suspended: we learned that library books contain RFID chips in the spine and that existing products can scan these chips to identify misplaced books. Our product would only have value to the niche group of libraries with no RFID system or no money for those RFID scanner.</li>
-</ul></li>
-<li><a href="https://gitlab.com/lhess2021/nextcloud-temp-systray">Nextcloud temp systray</a>: an idea for a systemtray widget that would disply the CPU temperature of my home Raspberry Pi server.
-<ul class="org-ul">
-<li>Implementation Stage: I verified an online tutorial for a systray icon with mutable state.</li>
-<li>Why Suspended: I got a fan for my Pi and now it stays cool enough that I don&rsquo;t need to monitor the temp.</li>
-</ul></li>
-<li><a href="https://gitlab.com/lhess2021/qubes-split-passman">Qubes split passman</a>: a split password manager system for Qubes OS which allows a password manager (e.g. Bitwarden) running in a vault Qube to send information (e..g a password) to other Qubes.
-<ul class="org-ul">
-<li>Implementation Stage: working python scripts for Bitwarden.</li>
-<li>Why Suspended: I switched away from Qubes (to Arch Linux).</li>
-</ul></li>
-<li>Latex Preview Pane Rewrite: an attempt at rewriting the Latex Preview Pane Emacs package because it had several bugs.
-<ul class="org-ul">
-<li>Implementation Stage: I understood most of the LPP code.</li>
-<li>Why Suspended: I switched to Sioyek for PDF viewing, and it offered better functionality than LPP ever could.</li>
-</ul></li>
-<li>Simple Web Calculator: attempt at programming with friends to learn Git and web development.
-<ul class="org-ul">
-<li>Implementation Stage: 30% of the code.</li>
-<li>Why Suspended: we had learned enough and were busy with classes.</li>
-</ul></li>
-<li>Threatmodel.info Website: a website which offers a template for users to design a threatmodel based on Techlore&rsquo;s matrix (link).
-<ul class="org-ul">
-<li>Implementation Stage: basic version working.</li>
-<li>Why Suspended: it needs more features to actually be useful, and I lost interest.</li>
-</ul></li>
-</ol>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="email">Email: <a href="mailto:lorenzohess@tutanota.com">lorenzohess@tutanota.com</a></p>
-<p class="date">Created: 2025-12-21 Sun 02:55</p>
+<p class="date">Created: 2025-12-30 Tue 00:13</p>
 </div>
 </body>
 </html>

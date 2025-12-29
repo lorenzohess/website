@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-12-30 Tue 00:13 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pre-Concept</title>
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Pre-Concept</h1>
+<div id="outline-container-org3b5442e" class="outline-2">
+<h2 id="org3b5442e"><span class="section-number-2">1.</span> Ideas</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+There are ideas for projects, which may later enter the Concept stage.
+</p>
+</div>
+<div id="outline-container-org7d0c8b3" class="outline-3">
+<h3 id="org7d0c8b3"><span class="section-number-3">1.1.</span> Software</h3>
+<div class="outline-text-3" id="text-1-1">
+<ol class="org-ol">
+<li>When3Meet (When2Meet Alternative): When2Meet needs several features (and it makes sense to name an updated version When3Meet):
+<ul class="org-ul">
+<li>option to invert already selected times if dragging over them as part of another time selection</li>
+<li>ability to leave notes about (un)availability in specific future weeks, ideally as granular as each 15 minute slot</li>
+<li>ability to remove people from a group after creation</li>
+<li>ability change days in schedule after creation</li>
+<li>slightly more modern UI</li>
+</ul></li>
+<li><p>
+Digital Lab Notebooks backed by Git and public-key cryptography
+</p>
+
+<p>
+<span class="underline">Problem:</span> lab notebooks are essential research tools. They track experimental procedure and implemented sequence, lab notes, and the genesis of creative ideas. Writing on paper, however, even in non-erasable ink, does not provide any integrity to the data and metadata that lab notebooks must track. A written note can be altered after-the-fact, providing no assurance as to the chronology of the lab notes or their data integrity.
+</p>
+
+<p>
+<span class="underline">Solution:</span> use a digital lab notebook with Git to track chronology and preserve integrity as well as GPG to provide a second layer of assurance, proof of digital notebook ownership, and privacy and security via encryption.
+</p>
+
+<p>
+<span class="underline">Implementation:</span> a program manages your lab notebooks starting with a root directory, which contains <code>notebooks</code>. Each <code>notebook</code> is its own Git repo and receives its own digital signatures. Users can decide the semantics of a <code>notebook</code>, for example whether one notebook corresponds to one laboratory, to one day of work, to one lab session, to one lab assistant. These can of course be mixed and matched and do not affect how the program works. All the program does is track each notebook with Git and GPG.
+</p>
+
+<p>
+If a user keeps a hand-written lab notebook, then the program can use photos of the pages as evidence. They could be OCRed to provide basic search functionality.
+</p></li>
+<li>App to run a bunch of ROS2 command in a certain sequence.</li>
+<li>Computer app to flash the screen if you haven&rsquo;t blinked in a certain time threshold.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org7346826" class="outline-3">
+<h3 id="org7346826"><span class="section-number-3">1.2.</span> Electronic</h3>
+<div class="outline-text-3" id="text-1-2">
+<ol class="org-ol">
+<li>TRRS Cable Tester</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgae186c3" class="outline-3">
+<h3 id="orgae186c3"><span class="section-number-3">1.3.</span> Mechanical</h3>
+<div class="outline-text-3" id="text-1-3">
+<ol class="org-ol">
+<li>PB&amp;J Bread Mold: a mold to make slices of bread with walls. These would hold in the PB&amp;J better and prevent it from spilling out the sides.</li>
+<li>Constant force stirring spoon</li>
+<li>Delayed double toilet flusher</li>
+<li>Baking soda dispenser</li>
+<li>Pneumatic device for clearing used grounds from Moka espresso pot funnel</li>
+<li>Wearable laptop tray: straps on to your belly and holds a small, light computer for on the go hacking.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgc0a7d40" class="outline-3">
+<h3 id="orgc0a7d40"><span class="section-number-3">1.4.</span> Mechatronic or Robotic</h3>
+<div class="outline-text-3" id="text-1-4">
+<ol class="org-ol">
+<li>Autonomous kitchen stirrer. Constant force. Two-axis gantry with arm.</li>
+<li>Autonomous pancake stacker with butter and syrup placement.</li>
+<li>Autonomous egg poacher.</li>
+<li>Universal BIOS button. Spams F11, F12, Delete, etc for you.</li>
+<li>Luxury Smart Umbrella
+<ol class="org-ol">
+<li>High build quality: no more
+<ol class="org-ol">
+<li>Tight tolerances</li>
+<li>High rigidty and lightweight materials</li>
+</ol></li>
+<li>Hand warmer in the handle</li>
+<li>Lights to illuminate the ground</li>
+<li>Dynamically extensible umbrella rim for better rain cover</li>
+<li>Safety mechanisms to control or reduce risk of wind damage
+<ol class="org-ol">
+<li>Warning if stress on umbrella exceeds limit</li>
+</ol></li>
+<li>Motorized opening and closing?</li>
+<li>Heads-up display on umbrella interior with maps navigation</li>
+<li>Integrated path planning which optimizes for most natural rain cover (under trees, awnings) (this would probably require a huge satellite image dataset)</li>
+<li>Haptic feedback which indicates if the umbrella should be oriented at an angle to provide better rain cover. If rain is a vector field, sensors must measure the surface average of the vector field through the surface of the umbrella. The haptic feedback then must communicate the angle between the surface average vector and the umbrella&rsquo;s normal vector.</li>
+</ol></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org5c5f82a" class="outline-3">
+<h3 id="org5c5f82a"><span class="section-number-3">1.5.</span> Other</h3>
+<div class="outline-text-3" id="text-1-5">
+<ol class="org-ol">
+<li>Dipping Integrity Score</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="email">Email: <a href="mailto:lorenzohess@tutanota.com">lorenzohess@tutanota.com</a></p>
+<p class="date">Created: 2025-12-30 Tue 00:13</p>
+</div>
+</body>
+</html>

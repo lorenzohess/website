@@ -1,0 +1,39 @@
+#+title: Unrealizable Concepts
+
+These are ideas which are not realizable for one reason or another, e.g. my lack of knowledge or resources, physical infeasibility.
+* Software
+1. Ohm.AI: tool which can tell you the resistance of a resistor based on its color bands.
+   - Integrate into AR glasses, or at least a small handheld device with a camera
+   - Helps colorblind people
+   - Helps everyone when the resistor band direction is unclear
+   - Doesn't even need AI, could probably use just computer vision if only one resistor in the photo
+     - Upgrade CV to detect resistors before processing them
+     - Maybe better to use algorithms that detect presence and locations of certain colors, rather than trying to identify each band and then get the color from that?
+2. DIY Professional Headshot App: phone app which helps produce the highest quality professional headshots that your phone is capable of.
+   - takes a photo and can apply edits to help (brightness, noise, etc)
+   - UI overlay: places guides on the screen to help make clothes, shoulders, head, and facial geometries symmetric
+     - clothes
+       - tie is vertical
+       - lapels evenly spaced around tie
+     - shoulders pose
+       - equally spaced within frame
+       - oriented planar to phone
+       - one isn't higher than the other
+     - head pose
+       - centered wrto. shoulders
+       - yaw and roll are zero, pitch is suitable
+     - facial geometries
+       - smile
+       - jaw
+   - identifies lighting features to fix
+     - too warm/cold
+     - too many shadows
+     - brighter/darker areas
+   - companion computer app can control the phone: view the screen, take photos, set timer, turn of camera UI overlay
+* Chemistry
+1. Exothermic chewing gum. Generates pleasant heat in your mouth.
+* Novels
+1. A detective novel which involves both a real robbery and staged robbery, set in the same location at the same time. Perhaps the real robbery occurs first, and then the robbed party happens to set up a staged robbery as a joke. Or a staged robbery is set up, and then the real robbery occurs.
+2. A science fiction dystopia in which the human brain remains the best AI compute chip in terms of optimizing for cost, waste heat, power efficiency, compute power, cooling, size, reliability, availability, maintainability, etc. People can rent out their brainpower to AI companies.
+   - The renting could be done like in the Matrix, where you get hooked up to a physical network.
+   - Or maybe the company installs a brian chip which uses some fraction of your brainpower.

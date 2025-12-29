@@ -1,0 +1,51 @@
+#+title: Pre-Concept
+
+* Ideas
+There are ideas for projects, which may later enter the Concept stage.
+** Software
+1. When3Meet (When2Meet Alternative): When2Meet needs several features (and it makes sense to name an updated version When3Meet):
+   - option to invert already selected times if dragging over them as part of another time selection
+   - ability to leave notes about (un)availability in specific future weeks, ideally as granular as each 15 minute slot
+   - ability to remove people from a group after creation
+   - ability change days in schedule after creation
+   - slightly more modern UI
+2. Digital Lab Notebooks backed by Git and public-key cryptography
+
+   _Problem:_ lab notebooks are essential research tools. They track experimental procedure and implemented sequence, lab notes, and the genesis of creative ideas. Writing on paper, however, even in non-erasable ink, does not provide any integrity to the data and metadata that lab notebooks must track. A written note can be altered after-the-fact, providing no assurance as to the chronology of the lab notes or their data integrity.
+
+   _Solution:_ use a digital lab notebook with Git to track chronology and preserve integrity as well as GPG to provide a second layer of assurance, proof of digital notebook ownership, and privacy and security via encryption.
+
+   _Implementation:_ a program manages your lab notebooks starting with a root directory, which contains =notebooks=. Each =notebook= is its own Git repo and receives its own digital signatures. Users can decide the semantics of a =notebook=, for example whether one notebook corresponds to one laboratory, to one day of work, to one lab session, to one lab assistant. These can of course be mixed and matched and do not affect how the program works. All the program does is track each notebook with Git and GPG.
+
+   If a user keeps a hand-written lab notebook, then the program can use photos of the pages as evidence. They could be OCRed to provide basic search functionality.
+3. App to run a bunch of ROS2 command in a certain sequence.
+4. Computer app to flash the screen if you haven't blinked in a certain time threshold.
+** Electronic
+1. TRRS Cable Tester
+** Mechanical
+1. PB&J Bread Mold: a mold to make slices of bread with walls. These would hold in the PB&J better and prevent it from spilling out the sides.
+2. Constant force stirring spoon
+3. Delayed double toilet flusher
+4. Baking soda dispenser
+5. Pneumatic device for clearing used grounds from Moka espresso pot funnel
+6. Wearable laptop tray: straps on to your belly and holds a small, light computer for on the go hacking.
+** Mechatronic or Robotic
+1. Autonomous kitchen stirrer. Constant force. Two-axis gantry with arm.
+2. Autonomous pancake stacker with butter and syrup placement.
+3. Autonomous egg poacher.
+4. Universal BIOS button. Spams F11, F12, Delete, etc for you.
+5. Luxury Smart Umbrella
+   1. High build quality: no more
+      1. Tight tolerances
+      2. High rigidty and lightweight materials
+   2. Hand warmer in the handle
+   3. Lights to illuminate the ground
+   4. Dynamically extensible umbrella rim for better rain cover
+   5. Safety mechanisms to control or reduce risk of wind damage
+      1. Warning if stress on umbrella exceeds limit
+   6. Motorized opening and closing?
+   7. Heads-up display on umbrella interior with maps navigation
+   8. Integrated path planning which optimizes for most natural rain cover (under trees, awnings) (this would probably require a huge satellite image dataset)
+   9. Haptic feedback which indicates if the umbrella should be oriented at an angle to provide better rain cover. If rain is a vector field, sensors must measure the surface average of the vector field through the surface of the umbrella. The haptic feedback then must communicate the angle between the surface average vector and the umbrella's normal vector.
+** Other
+1. Dipping Integrity Score

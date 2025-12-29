@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-12-30 Tue 00:13 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Concept</title>
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Concept</h1>
+<div id="outline-container-org6ef86a2" class="outline-2">
+<h2 id="org6ef86a2"><span class="section-number-2">1.</span> Concept Stage</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+These projects&rsquo; goals are still being fully determined, and in some cases, the feasibility of the project itself is unclear.
+</p>
+</div>
+<div id="outline-container-orgc37caaf" class="outline-3">
+<h3 id="orgc37caaf"><span class="section-number-3">1.1.</span> Mechanical</h3>
+<div class="outline-text-3" id="text-1-1">
+<ol class="org-ol">
+<li>Premium USB Cable Retractor</li>
+<li>Shower Shaving Station</li>
+<li>Subaru Outback HVAC Screen Buttons</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org0b8dd72" class="outline-3">
+<h3 id="org0b8dd72"><span class="section-number-3">1.2.</span> Ouroborous Tech</h3>
+</div>
+<div id="outline-container-orge7e6b29" class="outline-3">
+<h3 id="orge7e6b29"><span class="section-number-3">1.3.</span> Protocol for Writing Revision Comments</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+Leaving comments on writing often entails explaining different types of information. A sentence might need grammatical, spelling, vocabulary, and structural fixes. Often, a fix for one problem affects another problem. For example, a fix for a structural error may end up eliminating a word that&rsquo;s misspelled in the original. If, however, the author declines to accept the editor&rsquo;s structural fix, however, the misspelled word will remain, and still needs fixing.
+</p>
+
+<p>
+In existing software such as Google Docs and Microsoft Onedrive, the editor cannot leave two comments on the misspelled word (one for spelling, and one for structure). Thus, a new system is necessary to leave multiple comments, or different types of comments, on the same word. An editor should be able to both note a spelling error and suggest a structural fix that eliminates that spelling error. If the author declines the structural fix, the spelling error comment should become visible.
+</p>
+
+<p>
+We can represent comments as nodes in a tree. If one path is taken e.g. applying the fix for the structural error, then other paths may become inaccessible, e.g. applying the fix for the spelling error.
+</p>
+
+<p>
+We would use keywords, e.g. <code>typo</code>, <code>structure</code>, <code>word-swap</code>, etc to represent different types of comments.
+</p>
+
+<p>
+<span class="underline">Example:</span>
+</p>
+<ul class="org-ul">
+<li>Original text: &ldquo;A misspleling and structural errors, this sentence has.&rdquo;</li>
+<li>Comment 1
+<ul class="org-ul">
+<li><code>typo</code>: &ldquo;misspleling &rdquo; &rarr; &ldquo;misspelling&rdquo;</li>
+</ul></li>
+<li>Comment 2
+<ul class="org-ul">
+<li><code>structural</code>: &ldquo;This sentence is now correct.&rdquo;</li>
+</ul></li>
+</ul>
+
+<p>
+Editing Paths:
+</p>
+<ol class="org-ol">
+<li>Original -&gt; Comment 1 -&gt; Comment 2</li>
+<li>Original -&gt; Comment 2</li>
+</ol>
+
+<p>
+In Path 1, we first fix the typo and can then make the structural fix. In Path 2, we first make the structural fix; this eliminates the typo, so Comment 1 becomes inaccessible. If we reversed Comment 2, though, Comment 1 would reappear.
+</p>
+
+<p>
+We need some Git commit-like method for marking new comments and maybe creating a node or branch-like version history of the document and its comments.
+</p>
+
+<p>
+Users can chose to show comments as inline diffs, side-by-side diffs, as notes on the side, as highlights, etc.
+</p>
+
+<p>
+As a bonus, this software should be able to import any type of text-related document and output any type of text-related document.
+</p>
+
+<p>
+If necessary, comments should be independent of the continuity of text. They should be able to reference portions of text from different sentences, i.e. words from different sentences can be part of the same comment.
+</p>
+
+<p>
+A Global Comment is not tied to any one instance of text, but must be applied to at least one instance. These are useful when a certain fix needs to be applied multiple times. If an author always misspells a certain word, then a Global Comment would be a typo fix for that word. Instead of creating a Typo comment for each misspelling, a Global Comment can be applied to each misspelling.
+</p>
+
+<p>
+This software should be local because you shouldn&rsquo;t need an internet connection. It should be cross-platform.
+</p>
+
+<p>
+The commenting process during a first read-through, or when reading new writing, is different from commenting on familiar writing, because you may leave a comment that you don&rsquo;t know will need modification until you read newer writing. There should be utilities to help modify previous comments.
+</p>
+
+<p>
+Users should be able to add reference text to a previous comment.
+</p>
+</div>
+<div id="outline-container-orgef159e9" class="outline-4">
+<h4 id="orgef159e9"><span class="section-number-4">1.3.1.</span> Types of Comments</h4>
+<div class="outline-text-4" id="text-1-3-1">
+<p>
+Edits can be defined as OOP classes or even simple types. Subclassing/subtyping will be used to specify more granular edits. Each Comment class/type will specify inputs and outputs.
+</p>
+
+<p>
+Differentiating between types of comments allows the author to immediately see what the editor is suggesting. It avoids the editor having to explain the purpose of the comment, in some cases, and can help reduce confusion about the purpose. Also, the author can see statistics about what comments have been given. If 90% of comments are typos, which take little time to resolve, then the author can expect that reviewing and implementing the comments won&rsquo;t take as much time. If 90% of comments are major comments, e.g. restructuring, rewording, adding context, then the author can expect to spend more time reviewing and implementing them.
+</p>
+
+<ol class="org-ol">
+<li>Typo :: Word -&gt; Word (modify a word)</li>
+<li>Add Character
+<ol class="org-ol">
+<li>Add Space (add a space anywhere)</li>
+</ol></li>
+<li>Reword. This should be accompanied by specific adjectives which characterize why a phrase needs rewording. Is it clunky? Verbose? High register?</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="email">Email: <a href="mailto:lorenzohess@tutanota.com">lorenzohess@tutanota.com</a></p>
+<p class="date">Created: 2025-12-30 Tue 00:13</p>
+</div>
+</body>
+</html>

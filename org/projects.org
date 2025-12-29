@@ -2,181 +2,41 @@
 #+exclude_tags: noexport
 
 #+html_equation_reference_format: \eqref{%s}
-** Completed
+
+I have organized my projects using the ISO/IEC/IEEE 15288:2023 Generic Life Cycle model as a guide. The Model defines the following life cycle stages:
+1. Concept
+2. Development
+3. Production
+4. Utilization
+5. Support
+6. Retirement
+
+I maintain X categories of Projects, each category with its own webpage:
+1. Unrealizable Concepts
+2. Pre-Concept
+3. Concept
+4. Development
+5. Production
+6. Utilization
+7. Retired
+
+* Project Organization
+Organizing projects, or systems, by Life Cycle Stage is non-trivial because of three nuances:
+1. Stages can overlap in time
+2. Subsystems can simultaneously occupy different Stages
+3. A project can return to an earlier Stage
+
+The nuances could, in theory, be accomodated by a tailored visualization system. My website, however, is statically generated, has almost no Javascript, and uses hierarchical directories to store files, so I can't create dynamic visualizations or tailor my storage of project data.
+
+Let's explore the nuances to see if we can reduce their impact on project organization and if my projects happen to inherently avoid the nuances in certain ways. In fact, the nuances won't have too much impact, because:
+- The Concept, Development, and Production Stages do not frequently overlap in my projects. Thus, we could have a individual webpage for each of them. 
+- Some of my projects become Retired and are extremely unlikely to ever enter another Life Cycle stage, e.g. a basic project for an undergrad course. Thus, we could have an individual webpage for Retired projects.
+- I consider any publically available project to occupy the Support stage.
+- I do not frequently return to earlier Stages.
+
+The biggest impact is due to overlapping Production and Utilization stages, e.g. my riced window manager.
+
+* Completed
 These projects have achieved at least most of their goals.
-*** Academic Projects
-1. [[https://digitalcollections.bowdoin.edu/view/4961/][Physics BA Honors Thesis]], 2023: reuse of N95 FFRs helps mitigate the effects of shortages. UV-C exposure is an ideal method for the decontamination necessary for FFR reuse. We design and program a ray tracing simulator in MATLAB to characterize the distribution of scattered photons in N95 FFRs.
-2. [[https://gitlab.com/lorenzohess/dante-site-backend][Commedia Word Counts Website]], 2022: search for words in the /Divine Comedy/, along with their counts and frequencies.
-3. [[https://gitlab.com/lorenzohess/eddy-current-brakes-ergometer][Eddy Current Brake Ergometer for PHYS 3010]], 2022: building parts of an upper body ergometer with eddy current brakes.
-4. [[https://gitlab.com/lorenzohess/me3310-stretcher-cad][Folding Stretcher CAD Model for ME 3310]], 2024:
-5. [[https://gitlab.com/lorenzohess/xml-commedia][XML Commedia]], 2022: Dante's /Divine Comedy/ encoded as XML, down to each word.
-6. [[https://gitlab.com/lorenzohess/es-1310-cad-files][CAD Files for ES 1310]], 2023:
-*** Software
+** Software
 1. [[https://gitlab.com/lorenzohess/arch-awesomewm-rice][AwesomeWM Desktop Rice for Arch Linux]], 2025: configuration and scripting for the Awesome Window Manager and other desktop environment tools for Arch Linux.
-2. [[https://github.com/lorenzohess/qubes-awesomewm-rice][AwesomeWM Desktop Rice for Qubes OS]], 2023: configuration and scripting for the Awesome Window Manager and other desktop environment tools for Arch Linux.
-3. [[https://gitlab.com/lorenzohess/divina-commandline][Divina Commandline]], 2022: very basic CLI tools for interacting with the /Divine Comedy/ from the CLI.
-4. [[https://gitlab.com/lorenzohess/xml-orlando-furioso][XML Orlando Furioso]], 2023: Ariosto's /Orlando Furioso/ encoded as XML, down to each word.
-*** Mechanical
-**** 3D Modeling
-1. [[https://github.com/lorenzohess/pill-gate-kirkland-393914][Pill Gate Gadget]], 2025: increases the convenience with which one can retrieve a single Vitamin D pill from Costco's Item =393914= bottle.
-2. [[https://gitlab.com/lorenzohess/fruit-fly-liquid-trap][Fruit Fly Liquid Trap]], 2024: simple 3D model of a fruit fly trap.
-**** Laser Cutting
-1. [[https://gitlab.com/lorenzohess/greek-alphabetex][Greek Alphabet in LaTeX]], 2024: aka "Greek AlphabeTeX", a reference to the LaTeX greek alphabet letters.
-2. [[https://gitlab.com/lorenzohess/self-complementary-graphs-gift][Self-Complementary Graphs]], 2024: visualization of fourteen self-complementary graphs (n = 1, 4, 5, 8).
-*** Sports
-1. [[https://gitlab.com/lorenzohess/water-polo-crash-course][Water Polo Crash Course]], 2024: a crash course in water polo, intended as review for players with some experience.
-** Development Stage
-These projects have not achieved suitable goals and I am currently working on them. There are a lot on the list, and I usually work on some while thinking about solutions for others.
-*** Software
-1. NYC Street Parking Scheduler, 2025:
-*** Mechanical
-1. Meat Slicer Aesthetic CAD Model, 2024:
-2. Silent Pill Carry Bottle, 2025:
-3. Analysis of Spring-Loaded Cable Retractor, 2025:
-4. Gear Nomenclature Physical Reference, 2025:
-*** HaptiClock
-*** TeX Support
-*** Tech Maps
-** Concept Stage
-These projects' goals are still being fully determined, and in some cases, the feasibility of the project itself is unclear.
-*** Mechanical
-1. Premium USB Cable Retractor
-2. Shower Shaving Station
-3. Subaru Outback HVAC Screen Buttons
-*** Ouroborous Tech
-*** Protocol for Writing Revision Comments
-Leaving comments on writing often entails explaining different types of information. A sentence might need grammatical, spelling, vocabulary, and structural fixes. Often, a fix for one problem affects another problem. For example, a fix for a structural error may end up eliminating a word that's misspelled in the original. If, however, the author declines to accept the editor's structural fix, however, the misspelled word will remain, and still needs fixing.
-
-In existing software such as Google Docs and Microsoft Onedrive, the editor cannot leave two comments on the misspelled word (one for spelling, and one for structure). Thus, a new system is necessary to leave multiple comments, or different types of comments, on the same word. An editor should be able to both note a spelling error and suggest a structural fix that eliminates that spelling error. If the author declines the structural fix, the spelling error comment should become visible.
-
-We can represent comments as nodes in a tree. If one path is taken e.g. applying the fix for the structural error, then other paths may become inaccessible, e.g. applying the fix for the spelling error.
-
-We would use keywords, e.g. =typo=, =structure=, =word-swap=, etc to represent different types of comments.
-
-_Example:_
-- Original text: "A misspleling and structural errors, this sentence has."
-- Comment 1
-  - =typo=: "misspleling " \to "misspelling"
-- Comment 2
-  - =structural=: "This sentence is now correct."
-
-Editing Paths:
-1. Original -> Comment 1 -> Comment 2
-2. Original -> Comment 2
-
-In Path 1, we first fix the typo and can then make the structural fix. In Path 2, we first make the structural fix; this eliminates the typo, so Comment 1 becomes inaccessible. If we reversed Comment 2, though, Comment 1 would reappear.
-
-We need some Git commit-like method for marking new comments and maybe creating a node or branch-like version history of the document and its comments.
-
-Users can chose to show comments as inline diffs, side-by-side diffs, as notes on the side, as highlights, etc.
-
-As a bonus, this software should be able to import any type of text-related document and output any type of text-related document.
-
-If necessary, comments should be independent of the continuity of text. They should be able to reference portions of text from different sentences, i.e. words from different sentences can be part of the same comment.
-
-A Global Comment is not tied to any one instance of text, but must be applied to at least one instance. These are useful when a certain fix needs to be applied multiple times. If an author always misspells a certain word, then a Global Comment would be a typo fix for that word. Instead of creating a Typo comment for each misspelling, a Global Comment can be applied to each misspelling.
-
-This software should be local because you shouldn't need an internet connection. It should be cross-platform.
-
-The commenting process during a first read-through, or when reading new writing, is different from commenting on familiar writing, because you may leave a comment that you don't know will need modification until you read newer writing. There should be utilities to help modify previous comments.
-
-Users should be able to add reference text to a previous comment.
-**** Types of Comments
-Edits can be defined as OOP classes or even simple types. Subclassing/subtyping will be used to specify more granular edits. Each Comment class/type will specify inputs and outputs.
-
-Differentiating between types of comments allows the author to immediately see what the editor is suggesting. It avoids the editor having to explain the purpose of the comment, in some cases, and can help reduce confusion about the purpose. Also, the author can see statistics about what comments have been given. If 90% of comments are typos, which take little time to resolve, then the author can expect that reviewing and implementing the comments won't take as much time. If 90% of comments are major comments, e.g. restructuring, rewording, adding context, then the author can expect to spend more time reviewing and implementing them.
-
-1. Typo :: Word -> Word (modify a word)
-2. Add Character
-   1. Add Space (add a space anywhere)
-3. Reword. This should be accompanied by specific adjectives which characterize why a phrase needs rewording. Is it clunky? Verbose? High register?
-** Ideas
-There are ideas for projects, which may later enter the Concept stage.
-*** Software
-1. When3Meet (When2Meet Alternative): When2Meet needs several features (and it makes sense to name an updated version When3Meet):
-   - option to invert already selected times if dragging over them as part of another time selection
-   - ability to leave notes about (un)availability in specific future weeks, ideally as granular as each 15 minute slot
-   - ability to remove people from a group after creation
-   - ability change days in schedule after creation
-   - slightly more modern UI
-2. Digital Lab Notebooks backed by Git and public-key cryptography
-
-   _Problem:_ lab notebooks are essential research tools. They track experimental procedure and implemented sequence, lab notes, and the genesis of creative ideas. Writing on paper, however, even in non-erasable ink, does not provide any integrity to the data and metadata that lab notebooks must track. A written note can be altered after-the-fact, providing no assurance as to the chronology of the lab notes or their data integrity.
-
-   _Solution:_ use a digital lab notebook with Git to track chronology and preserve integrity as well as GPG to provide a second layer of assurance, proof of digital notebook ownership, and privacy and security via encryption.
-
-   _Implementation:_ a program manages your lab notebooks starting with a root directory, which contains =notebooks=. Each =notebook= is its own Git repo and receives its own digital signatures. Users can decide the semantics of a =notebook=, for example whether one notebook corresponds to one laboratory, to one day of work, to one lab session, to one lab assistant. These can of course be mixed and matched and do not affect how the program works. All the program does is track each notebook with Git and GPG.
-
-   If a user keeps a hand-written lab notebook, then the program can use photos of the pages as evidence. They could be OCRed to provide basic search functionality.
-3. App to run a bunch of ROS2 command in a certain sequence.
-4. Computer app to flash the screen if you haven't blinked in a certain time threshold.
-*** Electronic
-1. TRRS Cable Tester
-*** Mechanical
-1. PB&J Bread Mold: a mold to make slices of bread with walls. These would hold in the PB&J better and prevent it from spilling out the sides.
-2. Constant force stirring spoon
-3. Delayed double toilet flusher
-4. Baking soda dispenser
-5. Pneumatic device for clearing used grounds from Moka espresso pot funnel
-6. Wearable laptop tray: straps on to your belly and holds a small, light computer for on the go hacking.
-*** Robots
-1. Autonomous kitchen stirrer. Constant force. Two-axis gantry with arm.
-2. Autonomous pancake stacker with butter and syrup placement.
-3. Autonomous egg poacher.
-4. Universal BIOS button. Spams F11, F12, Delete, etc for you.
-*** Other
-1. Dipping Integrity Score
-** Permanent Ideas
-These are ideas for project which I could conceivably accomplish, but which are unrealistic due to e.g. lack of knowledge, resources, etc.
-*** Software
-1. Ohm.AI: tool which can tell you the resistance of a resistor based on its color bands.
-   - Integrate into AR glasses, or at least a small handheld device with a camera
-   - Helps colorblind people
-   - Helps everyone when the resistor band direction is unclear
-   - Doesn't even need AI, could probably use just computer vision if only one resistor in the photo
-     - Upgrade CV to detect resistors before processing them
-     - Maybe better to use algorithms that detect presence and locations of certain colors, rather than trying to identify each band and then get the color from that?
-2. DIY Professional Headshot App: phone app which helps produce the highest quality professional headshots that your phone is capable of.
-   - takes a photo and can apply edits to help (brightness, noise, etc)
-   - UI overlay: places guides on the screen to help make clothes, shoulders, head, and facial geometries symmetric
-     - clothes
-       - tie is vertical
-       - lapels evenly spaced around tie
-     - shoulders pose
-       - equally spaced within frame
-       - oriented planar to phone
-       - one isn't higher than the other
-     - head pose
-       - centered wrto. shoulders
-       - yaw and roll are zero, pitch is suitable
-     - facial geometries
-       - smile
-       - jaw
-   - identifies lighting features to fix
-     - too warm/cold
-     - too many shadows
-     - brighter/darker areas
-   - companion computer app can control the phone: view the screen, take photos, set timer, turn of camera UI overlay
-** Suspended
-These projects were begun, even if only in the Concept Stage, but were suspended for one reason or another. They could theoretically be resumed under certain conditions:
-1. [[https://gitlab.com/lhess2021/degorge][degOrge]]: a calorie tracker in Emacs Org Mode, a [[https://www.merriam-webster.com/dictionary/portmanteau][portmanteau]] of "de-gorge" and "Org".
-   - Implementation Stage: 50% of the code. I had difficulty wrapping my mind around writing Elisp code that was more than a single Emacs config setting or custom function.
-   - Why Suspended: I discovered it was easy enough to count calories using written notes.
-2. Bookseer: an attempt at using computer vision and OCR to identify library book spine labels and extract their Library of Congress codes, with the eventual goal of building a handheld device to identify misplaced books.
-   - Implementation Stage: somewhat reliable label identification and somewhat reliable OCR.
-   - Why Suspended: we learned that library books contain RFID chips in the spine and that existing products can scan these chips to identify misplaced books. Our product would only have value to the niche group of libraries with no RFID system or no money for those RFID scanner.
-3. [[https://gitlab.com/lhess2021/nextcloud-temp-systray][Nextcloud temp systray]]: an idea for a systemtray widget that would disply the CPU temperature of my home Raspberry Pi server.
-   - Implementation Stage: I verified an online tutorial for a systray icon with mutable state.
-   - Why Suspended: I got a fan for my Pi and now it stays cool enough that I don't need to monitor the temp.
-4. [[https://gitlab.com/lhess2021/qubes-split-passman][Qubes split passman]]: a split password manager system for Qubes OS which allows a password manager (e.g. Bitwarden) running in a vault Qube to send information (e..g a password) to other Qubes.
-   - Implementation Stage: working python scripts for Bitwarden.
-   - Why Suspended: I switched away from Qubes (to Arch Linux).
-5. Latex Preview Pane Rewrite: an attempt at rewriting the Latex Preview Pane Emacs package because it had several bugs.
-   - Implementation Stage: I understood most of the LPP code.
-   - Why Suspended: I switched to Sioyek for PDF viewing, and it offered better functionality than LPP ever could.
-6. Simple Web Calculator: attempt at programming with friends to learn Git and web development.
-   - Implementation Stage: 30% of the code.
-   - Why Suspended: we had learned enough and were busy with classes.
-7. Threatmodel.info Website: a website which offers a template for users to design a threatmodel based on Techlore's matrix (link).
-   - Implementation Stage: basic version working.
-   - Why Suspended: it needs more features to actually be useful, and I lost interest.

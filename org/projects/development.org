@@ -1,0 +1,14 @@
+#+title: Development
+
+* Development Stage
+These projects have not achieved suitable goals and I am currently working on them. There are a lot on the list, and I usually work on some while thinking about solutions for others.
+** Software
+1. NYC Street Parking Scheduler, 2025:
+** Mechanical
+1. Meat Slicer Aesthetic CAD Model, 2024:
+2. Silent Pill Carry Bottle, 2025:
+3. Analysis of Spring-Loaded Cable Retractor, 2025:
+4. Gear Nomenclature Physical Reference, 2025:
+** HaptiClock
+** TeX Support
+** Tech Maps
