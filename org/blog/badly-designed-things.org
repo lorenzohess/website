@@ -1,0 +1,14 @@
+#+title: Badly Designed Things
+
+Here's a list of things that I think are badly designed. Please bear in mind that, as an engineer, I am acutely aware of the myriad constraints on a product, including economic, functional, performance, non-functional, etc. So my intent is not a high-handed critique of the entire product or its designers, who probably put in a lot of effort. Rather, I try to stick with critiques of the functionality which seem so bad that it's hard to believe they made it to shelves.
+
+* Dyson Airblade db
+Website (accessed 2026-01-01): [[https://www.dyson.com/commercial/hand-dryers/airblade-db-nickel-ab14][dyson.com/commercial/hand-dryers/airblade-db-nickel-ab14]].
+
+Example image (from their website):
+[[file:dyson-airblade-db.png]]
+
+Functional problems:
+1. I insert my hands into the top of the dryer, like shown in the image. But the dryer turns on before my wet hands are fully inserted, i.e. my wrists are level with the air jets. So the jets of air spray the water from the uninserted part of my hands up my wrist and arm.
+2. My hands frequently touch the sides of the dryer, which I find unhygienic.
+3. To avoid (1) and (2) I have to use my back and shoulder muscles to position and guide my hands. I shouldn't have to do this to dry my hands.

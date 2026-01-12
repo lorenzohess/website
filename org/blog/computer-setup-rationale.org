@@ -1,0 +1,14 @@
+#+title: Computer Setup Rationale
+
+Most important computer usage principle:
+1. An eye-level monitor, a well-positioned and comfortable keyboard, a mouse, and a desk are each critical for productivity.
+
+Premises:
+1. A laptop has no eye-level monitor
+2. A laptop has an ill-positioned keyboard
+3. A laptop has an uncomfortable keyboard
+4. A laptop has no mouse
+
+From Premises (1), (2), (3), and (4), it follows that a laptop is highly unproductive. Thus, its usage in this configuration should be minimized. If it is used, it should be used on a desk. You should deliberately do work that requires low effort when working on a laptop.
+
+A laptop's purpose should be a portable computer which is brought to and used at existing desks with a monitor, keyboard, and mouse as mentioned above, i.e. a desk at work or at home.

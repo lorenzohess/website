@@ -3,7 +3,7 @@
 
 #+html_equation_reference_format: \eqref{%s}
 
-I have organized my projects using the ISO/IEC/IEEE 15288:2023 Generic Life Cycle model as a guide. The Model defines the following life cycle stages:
+I organize my projects using the ISO/IEC/IEEE 15288:2023 Generic Life Cycle model as a guide. The Model defines the following life cycle stages:
 1. Concept
 2. Development
 3. Production
@@ -11,24 +11,32 @@ I have organized my projects using the ISO/IEC/IEEE 15288:2023 Generic Life Cycl
 5. Support
 6. Retirement
 
-I maintain X categories of Projects, each category with its own webpage:
-1. Unrealizable Concepts
-2. Pre-Concept
-3. Concept
-4. Development
-5. Production
-6. Utilization
-7. Retired
+I maintain seven Project categories based on the Life Cycle Stages. Each category has its own webpage:
+1. [[file:projects/unrealizable-concepts.org][Unrealizable Concepts]]
+2. [[file:projects/pre-concept.org][Pre-Concept]]
+3. [[file:projects/concept.org][Concept]]
+4. [[file:projects/development.org][Development]]
+5. [[file:projects/production.org][Production]]
+6. [[file:projects/utilization.org][Utilization]]
+7. [[file:projects/retired.org][Retired]]
 
 * Project Organization
+I organize my projects using the ISO/IEC/IEEE 15288:2023 Generic Life Cycle model as a guide. The Model defines the following life cycle stages:
+1. Concept
+2. Development
+3. Production
+4. Utilization
+5. Support
+6. Retirement
+   
 Organizing projects, or systems, by Life Cycle Stage is non-trivial because of three nuances:
 1. Stages can overlap in time
 2. Subsystems can simultaneously occupy different Stages
 3. A project can return to an earlier Stage
 
-The nuances could, in theory, be accomodated by a tailored visualization system. My website, however, is statically generated, has almost no Javascript, and uses hierarchical directories to store files, so I can't create dynamic visualizations or tailor my storage of project data.
+The nuances could, in theory, be accomodated by a tailored visualization system. My website, however, is statically generated, uses almost no Javascript, and uses hierarchical directories to store files, so I can't create dynamic visualizations or tailor my storage of project data.
 
-Let's explore the nuances to see if we can reduce their impact on project organization and if my projects happen to inherently avoid the nuances in certain ways. In fact, the nuances won't have too much impact, because:
+Let's explore the nuances to see if we can reduce their impact on project organization and if my projects happen to inherently avoid the nuances in certain ways. In fact, the nuances don't have too much impact, because:
 - The Concept, Development, and Production Stages do not frequently overlap in my projects. Thus, we could have a individual webpage for each of them. 
 - Some of my projects become Retired and are extremely unlikely to ever enter another Life Cycle stage, e.g. a basic project for an undergrad course. Thus, we could have an individual webpage for Retired projects.
 - I consider any publically available project to occupy the Support stage.

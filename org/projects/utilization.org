@@ -5,6 +5,7 @@
 2. [[https://gitlab.com/lorenzohess/xml-commedia][XML Commedia]], 2022: Dante's /Divine Comedy/ encoded as XML, down to each word.
 * Software
 1. [[https://gitlab.com/lorenzohess/divina-commandline][Divina Commandline]], 2022: very basic CLI tools for interacting with the /Divine Comedy/ from the CLI.
+2. [[https://gitlab.com/lorenzohess/nyc-subway-circle-graph][NYC Subway Circle Art Graph]], 2026: re-creation of an art poster I saw of an undirected graph of NYC subway stations and lines.
 * Mechanical
 ** 3D Modeling
 1. [[https://github.com/lorenzohess/pill-gate-kirkland-393914][Pill Gate Gadget]], 2025: increases the convenience with which one can retrieve a single Vitamin D pill from Costco's Item =393914= bottle.

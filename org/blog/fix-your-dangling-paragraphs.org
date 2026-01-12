@@ -87,4 +87,9 @@ Of course, you may find that applying these strategies results in a new paragrap
 
 fixed paragraph looks much better, and is slightly better written:
 [[file:../img/dangling-paragraph-fixed.jpg]]
+* Various Collected Examples
+"A monitor, a keyboard, and a desk are independently critical elements of being productive."
 
+-> "A monitor, a keyboard, and a desk are each critical elements of being productive."
+
+-> "A monitor, a keyboard, and a desk are each critical for productivity."

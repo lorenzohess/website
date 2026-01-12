@@ -1,20 +1,23 @@
 #+title: Blog
 * Writing
 ** Formatting
-*** [[file:how-to-format-units.org][How To Format Units]]
-*** [[file:fix-your-dangling-paragraphs.org][Fix Your Dangling Paragraphs]]
-*** [[file:units-and-acronyms.org][Units and Acronyms]]
+*** TODO [[file:how-to-format-units.org][How To Format Units]]
+*** TODO [[file:fix-your-dangling-paragraphs.org][Fix Your Dangling Paragraphs]]
+*** TODO [[file:units-and-acronyms.org][Units and Acronyms]]
 ** Get Rid Of...
-*** [[file:get-rid-of-extra-words.org][Extra Words]]
-*** [[file:get-rid-of-backslahes.org][Backslashes]]
-*** [[file:get-rid-of-cliches.org][Clichés]]
-*** [[file:get-rid-of-filler-words.org][Filler Words]]
-* [[file:significance-of-sig-figs.org][The Significance of Significant Figures]]
-* [[file:optimizing-humanities-for-engineers.org][Optimizing Humanities for Engineers]]
+*** TODO [[file:get-rid-of-extra-words.org][Extra Words]]
+*** TODO [[file:get-rid-of-backslahes.org][Backslashes]]
+*** TODO [[file:get-rid-of-cliches.org][Clichés]]
+*** TODO [[file:get-rid-of-filler-words.org][Filler Words]]
+* TODO [[file:significance-of-sig-figs.org][The Significance of Significant Figures]]
+* TODO [[file:optimizing-humanities-for-engineers.org][Optimizing Humanities for Engineers]]
 * [[file:dont-call-your-foss-project-something-unprofessional.org][Don't Call Your FOSS Project Something Unprofessional]]
 * [[file:use-your-cars-parking-brake.org][Use Your Car's Parking Brake]]
 * [[file:european-bottlecaps.org][European Bottlecaps]]
-* [[file:lets-clarify-philosophical-foundations-of-free-software.org][Let's Clarify the Philosophical Foundations of Free Software]]
-* [[file:practical-tips-for-staying-in-calorie-deficits.org][Practical Tips for Staying Calorie Deficits]]
-* [[file:how-to-drive-more-safely.org][How To Drive More Safely]]
-
+* TODO [[file:lets-clarify-philosophical-foundations-of-free-software.org][Let's Clarify the Philosophical Foundations of Free Software]]
+* TODO [[file:practical-tips-for-staying-in-calorie-deficits.org][Practical Tips for Staying Calorie Deficits]]
+* TODO [[file:how-to-drive-more-safely.org][How To Drive More Safely]]
+* [[file:computer-setup-rationale.org][Computer Setup Rationale]]
+* [[file:badly-designed-things.org][Badly Designed Things]]
+* Product Reviews
+** [[file:product-reviews/system76-lemur-pro-10.org][System76 Lemur Pro 10]]
