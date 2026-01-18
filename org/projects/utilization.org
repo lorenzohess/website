@@ -6,6 +6,7 @@
 * Software
 1. [[https://gitlab.com/lorenzohess/divina-commandline][Divina Commandline]], 2022: very basic CLI tools for interacting with the /Divine Comedy/ from the CLI.
 2. [[https://gitlab.com/lorenzohess/nyc-subway-circle-graph][NYC Subway Circle Art Graph]], 2026: re-creation of an art poster I saw of an undirected graph of NYC subway stations and lines.
+3. [[https://github.com/lorenzohess/Voice-Assistant-Health-Dashboard][Voice Assistant Health Dashboard]], 2026: a self-hosted, private health tracking system for Raspberry Pi. Combines a web-based dashboard with voice control for hands-free data entry.
 * Mechanical
 ** 3D Modeling
 1. [[https://github.com/lorenzohess/pill-gate-kirkland-393914][Pill Gate Gadget]], 2025: increases the convenience with which one can retrieve a single Vitamin D pill from Costco's Item =393914= bottle.
