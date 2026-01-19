@@ -1,7 +1,10 @@
-#+title: Bio Links
+#+title: Bio Links & Photo
+
+#+attr_html: :style max-width:600px;height:auto;
+[[file:img/headshot.png]]   
+
 1. Gitlab: [[https://gitlab.com/lorenzohess][gitlab.com/lorenzohess]]
 2. Github: [[https://github.com/lorenzohess][github.com/lorenzohess]]
 3. LinkedIn: [[https://www.linkedin.com/in/lorenzohess][linkedin.com/in/lorenzohess]]
 4. WPI Merit Pages: [[https://meritpages.com/lorenzohess][meritpages.com/lorenzohess]]
 
-   
