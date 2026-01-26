@@ -1,0 +1,20 @@
+#+title: Notation For Relative Reference Frames In Robotics
+
+Expressing one reference frame relative to another is a universal problem in robotics because relative reference frames form the basis of rigid body transformations. For example, if you have a robotic hand at the end of an arm you will often want to express the reference frame of the hand relative to the base frame of the arm.
+
+There are at least three notations with which I am familiar for expressing some quantity in one frame relative to another frame. Define a vector $p$ in frame 1. To express $p$ in frame 0, we can write:
+1. $p_1^0$: current frame in the subscript and base frame in the superscript, or $p_\text{curr}^\text{base}$.
+2. $p_0^1$: current frame in the superscript and base frame in the subscript, or $p_\text{base}^\text{curr}$.
+3. $^0p_1$: base frame in the pre-superscript and current frame in the subscript, or $^\text{base}p_\text{curr}$.
+
+The best notation for handwriting is (1), $p_\text{curr}^\text{base}$.
+
+Notation (2) is the worst because it places $p$'s identifier, the current frame, in the superscript. This grossly violates the universal scientific convention of putting a variable's identifier in the subscript, e.g. when you want to note a vector's Cartesian components you write $v_x, v_y, v_z$, not $v^x, v^y, v^z$.
+
+Notation (3) has the benefit of standing out as a relative reference frame due to the prefixed superscript. Some might consider the non-standard superscript a downside because it is not standard. Regardless, notation (3) is worse than (1) when handwriting because prefixing a superscript is awkward and potentially messy. Notation (3) can also lead to confusion with you pre-multiply by another variable. Consider $a$ times $^2p_1$, or $a^2p_1$. This is ambiguous and could easily be interpreted as $a^2$ times $p_1$, particularly when handwriting, which probably wouldn't even make sense in an equation with relative reference frames (because $p_1$ would appear to be a free vector). To avoid this ambiguity, one must take care to put extra space or add a multiplication symbol before $^2p_1$. These steps take time and are downsides to (3).
+
+Some may say Notation (3) has the added benefit of being syntactically compatible with superscripts such as powers, e.g. you can insert a power of two like $^0p_1^2$. They may say that (1) (and (2)) are incompatible with superscripts because you'd end up with something confusing like ${p_1^0}^2$. To avoid this you'd have to use a parenthetical like $({p_1^0})^2$. Now the question is whether the confusion or parenthetical make (1) worse than (3).
+
+I think (3)'s $^0p_1^2$ is almost as confusing as (1)'s ${p_1^0}^2$ because (3) just has too many numbers surrounding the $p$. If you add a parenthetical, like $(^0p_1)^2$, you fall back to (1)'s parenthetical case.
+
+If you are familiar with other notations let me know.

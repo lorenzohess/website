@@ -9,6 +9,7 @@
 #+options: html-style:nil
 #+html_doctype: xhtml-strict
 #+html_equation_reference_format: \eqref{%s}
+#+html_mathjax: t
 
 Welcome to my small plot of land on the vast Internet. Includes bio links, PGP info, projects, and the occasional blog post.
 
