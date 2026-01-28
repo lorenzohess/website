@@ -1,5 +1,7 @@
 #+title: Safe Shell Usage
 
+This list is ongoing.
+
 * Tips
 ** How to Evaluate Commands From the Internet
 1. Never copy-paste these unless you know what they do.
@@ -7,4 +9,4 @@
    - Ideally you would have run this command before
 2. If you're familiar enough with a command to know it won't nuke your system, but you don't remember the details of what it does:
    - Skim the intro paragraph of the man page to refresh your memory
-   - You're looking for default command behavior that does something weird
+   - You're looking for any default behavior that does something weird

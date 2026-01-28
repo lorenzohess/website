@@ -18,9 +18,9 @@
 * TODO [[file:practical-tips-for-staying-in-calorie-deficits.org][Practical Tips for Staying Calorie Deficits]]
 * TODO [[file:how-to-drive-more-safely.org][How To Drive More Safely]]
 * [[file:computer-setup-rationale.org][Computer Setup Rationale]]
-* [[file:badly-designed-things.org][Badly Designed Things]]
 * Product Reviews
 ** [[file:product-reviews/system76-lemur-pro-10.org][System76 Lemur Pro 10]]
-* Safe Shell Usage
-* Chekhov's Dessert
+** [[file:badly-designed-things.org][Badly Designed Things]]
+* [[file:safe-shell-usage.org][Safe Shell Usage]]
+* [[file:chekhovs-dessert.org][Chekhov's Dessert]]
 * [[file:notation-for-relative-reference-frames-in-robotics.org][Notation for Relative Reference Frames in Robotics]]
