@@ -1,3 +1,10 @@
 #+title: Dotfiles
+
+Dotfiles are configuration files. The term "dotfiles" refers to the configuration file naming convention of starting with a dot, ".". The goal of this convention is for config files not to clutter the user's file manager. Most file managers hide files prefixed with a dot, hence the convention.
+
+My dotfiles are in this repo: [[https://gitlab.com/lorenzohess/dotfiles][gitlab.com/lorenzohess/dotfiles]].
+
 Some notable configs:
 - Doom Emacs: [[https://gitlab.com/lorenzohess/dotfiles/-/blob/master/config/doom/config.org][gitlab.com/lorenzohess/dotfiles/-/blob/master/config/doom/config.org]].
+- Bash: [[https://gitlab.com/lorenzohess/dotfiles/-/blob/master/bashrc][gitlab.com/lorenzohess/dotfiles/-/blob/master/bashrc]]. Various useful aliases and commands.
+- Scripts in =.local/bin/=: [[https://gitlab.com/lorenzohess/dotfiles/-/tree/master/local/bin][https://gitlab.com/lorenzohess/dotfiles/-/tree/master/local/bin]].

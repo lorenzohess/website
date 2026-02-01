@@ -1,3 +1,30 @@
-* Don't Call Your Foss Project Something Unprofessional
-Please don't call your FOSS tools something unprofessional like "Doom Emacs". Note that I am a Doom Emacs user. However, I don't want my Professors wondering why some app on my screen has "Doom" in the titlebar.
+#+title: Don't Call Your Open Source Project Something Vulgar
 
+The following definitions of vulgar apply (see [[https://www.merriam-webster.com/dictionary/vulgar][Merriam-Webster]]):
+1. Lacking in cultivation, perception, or taste
+2. Morally crude, undeveloped, or unregenerate
+3. Offensive in language
+4. Lewdly or profanely indecent
+
+Vulgar names have three downsides:
+1. Vulgarity is inherently bad, i.e. it is better to be less vulgar.
+2. Vulgar names generally disturb other people. The name may thus reflect badly on the user of the software.
+   - For example, a work colleague may think you're weird if they see the "Doom Emacs" editor on your screen.
+3. Again, vulgar names generally disturb other people. The name may thus limit the spread of the project, which goes against the principles of open source.
+   - More specifically, limiting the spread undermines fundamental goals of most open source projects, including that the project be accessible to all, that others use the project, and that a broad enough user base develops to help maintain and grow the project.
+
+I should note that while downside (1) always applies, downsides (2) and (3) have some implied premises which vary by context. If those around you won't be disturbed, then (1) doesn't apply. If the goals of your project aren't undermined by limiting the project's spread, then (3) doesn't apply.
+
+A list of projects with vulgar names:
+- [[https://www.gnu.org/software/bash/][Bash]]. The word "bash" means "to strike violently", "to injure or damage by striking", or "to attack physically or verbally".
+- [[https://git-scm.com/][Git]]. The word "git" means "a foolish or worthless person".
+- [[https:doomemacs.org][Doom Emacs]]. The word "doom" means "unhappy destiny" or "death" or "ruin".
+- [[https://invidious.io/][Invidious]]. The word "invidious" means "of an unpleasant or objectionable nature", "of a kind to cause harm or resentment", or "tending to cause discontent, animosity, or envy".
+- [[http://www.mutt.org][Mutt]] (and [[https://neomutt.org/][NeoMutt]]). The word "mutt" means "a stupid or insignificant person" or "a mongrel dog".
+  - I'm also including NeoMutt because a new version of a project with a vulgar name should change the name.
+- [[https://github.com/freedomofpress/dangerzone][Dangerzone]]. This is one of the least vulgar in this list. However, it meets definition (1) insofar as it lacks taste because of a "danger zone's" immediately frightening connotation.
+  - I should note that the app sanitizes PDFs, so the name also contradicts the app's purpose, which is to bring users out of a danger zone.
+- [[https://en.wikipedia.org/wiki/Curses_(programming_library)][curses]] (and [[https://ftp.gnu.org/gnu/ncurses/][ncurses]]). The word "curse" means "a prayer or invocation for harm or injury to come upon one" or "a profane or obscene oath or word".
+  - I'm also including ncurses because a new version of a project with a vulgar name should change the name.
+
+Of course more exist, such as [[https://archiveos.org/ubuntu-satanic/][Ubuntu Satanic Edition]], but they are niche and not worth tracking.

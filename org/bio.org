@@ -1,6 +1,6 @@
-#+title: Bio Links & Photo
+#+title: Bio 
 
-#+attr_html: :style max-width:600px;height:auto;
+#+attr_html: :style max-width:300px;height:auto;
 [[file:img/headshot.png]]   
 
 1. Gitlab: [[https://gitlab.com/lorenzohess][gitlab.com/lorenzohess]]

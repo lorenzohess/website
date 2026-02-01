@@ -13,7 +13,7 @@
 
 Welcome to my small plot of land on the vast Internet. Includes bio links, PGP info, projects, and the occasional blog post.
 
-* [[file:bio.org][Bio Links & Photo]]
+* [[file:bio.org][Bio]]
 1. Gitlab: [[https://gitlab.com/lorenzohess][gitlab.com/lorenzohess]]
 2. Github: [[https://github.com/lorenzohess][github.com/lorenzohess]]
 3. LinkedIn: [[https://www.linkedin.com/in/lorenzohess][linkedin.com/in/lorenzohess]]
