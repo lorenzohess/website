@@ -13,7 +13,7 @@ Vulgar names have three downsides:
 3. Again, vulgar names generally disturb other people. The name may thus limit the spread of the project, which goes against the principles of open source.
    - More specifically, limiting the spread undermines fundamental goals of most open source projects, including that the project be accessible to all, that others use the project, and that a broad enough user base develops to help maintain and grow the project.
 
-I should note that while downside (1) always applies, downsides (2) and (3) have some implied premises which vary by context. If those around you won't be disturbed, then (1) doesn't apply. If the goals of your project aren't undermined by limiting the project's spread, then (3) doesn't apply.
+I should note that while downside (1) always applies, downsides (2) and (3) have some implied premises which vary by context. If those around you won't be disturbed, then (2) doesn't apply. If the goals of your project aren't undermined by limiting the project's spread, then (3) doesn't apply.
 
 A list of projects with vulgar names:
 - [[https://www.gnu.org/software/bash/][Bash]]. The word "bash" means "to strike violently", "to injure or damage by striking", or "to attack physically or verbally".
