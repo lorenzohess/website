@@ -11,7 +11,7 @@
 *** TODO [[file:get-rid-of-filler-words.org][Filler Words]] :noexport:
 * TODO [[file:significance-of-sig-figs.org][The Significance of Significant Figures]] :noexport:
 * TODO [[file:optimizing-humanities-for-engineers.org][Optimizing Humanities for Engineers]] :noexport:
-* [[file:dont-call-your-foss-project-something-unprofessional.org][Don't Call Your FOSS Project Something Unprofessional]]
+* [[file:dont-call-your-foss-project-something-vulgar.org][Don't Call Your Open Source Project Something Vulgar]]
 * [[file:use-your-cars-parking-brake.org][Use Your Car's Parking Brake]]
 * [[file:european-bottlecaps.org][European Bottlecaps]]
 * TODO [[file:lets-clarify-philosophical-foundations-of-free-software.org][Let's Clarify the Philosophical Foundations of Free Software]] :noexport:
