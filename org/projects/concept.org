@@ -1,13 +1,11 @@
 #+title: Concept
 
-* Concept Stage
 These projects' goals are still being fully determined, and in some cases, the feasibility of the project itself is unclear.
-** Mechanical
+* Mechanical
 1. Premium USB Cable Retractor
-2. Shower Shaving Station
-3. Subaru Outback HVAC Screen Buttons
-** Ouroborous Tech
-** Protocol for Writing Revision Comments
+2. Subaru Outback HVAC Screen Buttons
+* Ouroborous Tech
+* Protocol for Writing Revision Comments
 Leaving comments on writing often entails explaining different types of information. A sentence might need grammatical, spelling, vocabulary, and structural fixes. Often, a fix for one problem affects another problem. For example, a fix for a structural error may end up eliminating a word that's misspelled in the original. If, however, the author declines to accept the editor's structural fix, however, the misspelled word will remain, and still needs fixing.
 
 In existing software such as Google Docs and Microsoft Onedrive, the editor cannot leave two comments on the misspelled word (one for spelling, and one for structure). Thus, a new system is necessary to leave multiple comments, or different types of comments, on the same word. An editor should be able to both note a spelling error and suggest a structural fix that eliminates that spelling error. If the author declines the structural fix, the spelling error comment should become visible.
@@ -44,7 +42,7 @@ This software should be local because you shouldn't need an internet connection.
 The commenting process during a first read-through, or when reading new writing, is different from commenting on familiar writing, because you may leave a comment that you don't know will need modification until you read newer writing. There should be utilities to help modify previous comments.
 
 Users should be able to add reference text to a previous comment.
-*** Types of Comments
+** Types of Comments
 Edits can be defined as OOP classes or even simple types. Subclassing/subtyping will be used to specify more granular edits. Each Comment class/type will specify inputs and outputs.
 
 Differentiating between types of comments allows the author to immediately see what the editor is suggesting. It avoids the editor having to explain the purpose of the comment, in some cases, and can help reduce confusion about the purpose. Also, the author can see statistics about what comments have been given. If 90% of comments are typos, which take little time to resolve, then the author can expect that reviewing and implementing the comments won't take as much time. If 90% of comments are major comments, e.g. restructuring, rewording, adding context, then the author can expect to spend more time reviewing and implementing them.

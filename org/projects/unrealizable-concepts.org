@@ -37,3 +37,4 @@ These are ideas which are not realizable for one reason or another, e.g. my lack
 2. A science fiction dystopia in which the human brain remains the best AI compute chip in terms of optimizing for cost, waste heat, power efficiency, compute power, cooling, size, reliability, availability, maintainability, etc. People can rent out their brainpower to AI companies.
    - The renting could be done like in the Matrix, where you get hooked up to a physical network.
    - Or maybe the company installs a brian chip which uses some fraction of your brainpower.
+3. An adaptation of Charlie Chaplin's [[https://www.youtube.com/watch?v=H19jByxrqlw][Barber Shop Scene]] set to The Four Season's Winter Movement 1.

@@ -37,3 +37,4 @@ These projects were begun, even if only in the Concept Stage, but were suspended
 7. Threatmodel.info Website: a website which offers a template for users to design a threatmodel based on Techlore's matrix (link).
    - Implementation Stage: basic version working.
    - Why Suspended: it needs more features to actually be useful, and I lost interest.
+8. Shower Shaving Station
