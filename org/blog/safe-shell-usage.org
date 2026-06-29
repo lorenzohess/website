@@ -1,8 +1,10 @@
-#+title: Safe Shell Usage
+#+title: Shell Tips
 
 This list is ongoing.
 
 * Tips
+1. To make =apt= install automatically you can pass =-y=. You can also hit enter after running the command to automatically accept =Y= in the upcoming confirmation dialog.
+2. You don't need =sudo kill -9= for processes your user started, even though using =sudo= can feel like it'll actually help the process die.
 ** How to Evaluate Commands From the Internet
 1. Never copy-paste these unless you know what they do.
    - This means you know what the command does and what the included flags do
@@ -10,3 +12,5 @@ This list is ongoing.
 2. If you're familiar enough with a command to know it won't nuke your system, but you don't remember the details of what it does:
    - Skim the intro paragraph of the man page to refresh your memory
    - You're looking for any default behavior that does something weird
+** Safety
+1. Spend the least time in critical directories e.g. =/boot= as possible. Unless you need to run something in that dir, you shouldn't be in it.

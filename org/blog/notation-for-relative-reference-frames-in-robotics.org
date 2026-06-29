@@ -2,10 +2,12 @@
 
 Expressing one reference frame relative to another is a universal problem in robotics because relative reference frames form the basis of rigid body transformations. For example, if you have a robotic hand at the end of an arm you will often want to express the reference frame of the hand relative to the base frame of the arm.
 
-There are at least three notations with which I am familiar for expressing some quantity in one frame relative to another frame. Define a vector $p$ in frame 1. To express $p$ in frame 0, we can write:
+There are at least five notations with which I am familiar for expressing some quantity in one frame relative to another frame. Define a vector $p$ in frame 1. To express $p$ in frame 0, we can write:
 1. $p_1^0$: current frame in the subscript and base frame in the superscript, or $p_\text{curr}^\text{base}$.
 2. $p_0^1$: current frame in the superscript and base frame in the subscript, or $p_\text{base}^\text{curr}$.
 3. $^0p_1$: base frame in the pre-superscript and current frame in the subscript, or $^\text{base}p_\text{curr}$.
+4. $^0_1p$: base frame in the pre-superscript and current frame in the pre-subscript, or $^\text{base}p_\text{curr}$.
+5. $p_{10}$: current and base frames in the subscripts.
 
 The best notation for handwriting is (1), $p_\text{curr}^\text{base}$.
 

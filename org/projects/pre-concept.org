@@ -21,6 +21,7 @@ There are ideas for projects which may later enter the Concept stage.
 4. Computer app to flash the screen if you haven't blinked in a certain time threshold.
 * Electronic
 1. TRRS Cable Tester
+2. USB Info Dongle: sits between your computer (just for power) and a USB stick, and has a tiny screen which displays USB info, including: partitions, filesystems, size (used, available, unallocated), as well as any ISOs that might be flashed
 * Mechanical
 1. PB&J Bread Mold: a mold to make slices of bread with walls. These would hold in the PB&J better and prevent it from spilling out the sides.
 2. Constant force stirring spoon
@@ -46,5 +47,6 @@ There are ideas for projects which may later enter the Concept stage.
    7. Heads-up display on umbrella interior with maps navigation
    8. Integrated path planning which optimizes for most natural rain cover (under trees, awnings) (this would probably require a huge satellite image dataset)
 6. Haptic feedback which indicates if the umbrella should be oriented at an angle to provide better rain cover. If rain is a vector field, sensors must measure the surface average of the vector field through the surface of the umbrella. The haptic feedback then must communicate the angle between the surface average vector and the umbrella's normal vector.
+7. Suitcase with wheels with user-controlled active suspension. This way if you take a corner while running in the airport, you can use the active suspension to keep both wheels on the ground.
 * Other
 1. Dipping Integrity Score

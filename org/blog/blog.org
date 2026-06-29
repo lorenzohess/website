@@ -24,3 +24,32 @@
 * [[file:safe-shell-usage.org][Safe Shell Usage]]
 * [[file:chekhovs-dessert.org][Chekhov's Dessert]]
 * [[file:notation-for-relative-reference-frames-in-robotics.org][Notation for Relative Reference Frames in Robotics]]
+* How Knowing Physics Helps Learning Engineering :noexport:
+- You'll come into engineering with the experience and grit that'll help you work with:
+  - Taylor expansions
+  - Differential calculus (gradients, div, curl)
+  - Using differential element to derive equations
+    - Dynamics
+    - Stress-strain
+    - Fluid dynamics
+  - ODEs
+  - Complex numbers and Euler's formula
+- You'll learn the importance of formalisms
+  - Proper units and dimensional analysis
+  - Putting vector signs everywhere
+  - Comprehensive diagrams
+
+GPA
+
+3-2 or even 4-2: is it "worth it"?
+
+Bowdoin major coursework vs rest of country
+
+Good things to learn:
+- ODEs rigorously, more than just as part of a physics course
+- For graduate level engineering learn linear algebra rigorously, more than just intro linalg in a math department course
+- Coding, particularly Matlab and Python, C/C++ for robotics
+
+Make exam sheets
+* Engineering Students Should Make Exam Sheets :noexport:
+* On-the-Fly Systems Engineering and Tailoring for Agile Life Cycles

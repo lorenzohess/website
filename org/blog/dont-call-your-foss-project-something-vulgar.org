@@ -26,5 +26,7 @@ A list of projects with vulgar names:
   - I should note that the app sanitizes PDFs, so the name also contradicts the app's purpose, which is to bring users out of a danger zone.
 - [[https://en.wikipedia.org/wiki/Curses_(programming_library)][curses]] (and [[https://ftp.gnu.org/gnu/ncurses/][ncurses]]). The word "curse" means "a prayer or invocation for harm or injury to come upon one" or "a profane or obscene oath or word".
   - I'm also including ncurses because a new version of a project with a vulgar name should change the name.
+- Evil Mode
+- Hugging face
 
 Of course more exist, such as [[https://archiveos.org/ubuntu-satanic/][Ubuntu Satanic Edition]], but they are niche and not worth tracking.
