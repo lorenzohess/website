@@ -3,7 +3,7 @@
 
 #+html_equation_reference_format: \eqref{%s}
 
-I organize my projects using the ISO/IEC/IEEE 15288:2023 Generic Life Cycle model as a guide. The Model defines the following life cycle stages:
+I organize my projects following the ISO/IEC/IEEE 15288:2023 Generic Life Cycle model for project lifecycles. The Model defines the following life cycle stages for a project:
 1. Concept
 2. Development
 3. Production
@@ -11,7 +11,7 @@ I organize my projects using the ISO/IEC/IEEE 15288:2023 Generic Life Cycle mode
 5. Support
 6. Retirement
 
-I maintain seven Project categories based on the Life Cycle Stages. Each category has its own webpage:
+To categorize my projects I maintain seven Project Categories based on these Life Cycle Stages. Each category has its own webpage which lists projects in that category:
 1. [[file:projects/unrealizable-concepts.org][Unrealizable Concepts]]
 2. [[file:projects/pre-concept.org][Pre-Concept]]
 3. [[file:projects/concept.org][Concept]]
@@ -20,7 +20,9 @@ I maintain seven Project categories based on the Life Cycle Stages. Each categor
 6. [[file:projects/utilization.org][Utilization]]
 7. [[file:projects/retired.org][Retired]]
 
-* Project Organization
+* Project Categories Explanation
+TODO: explain Production vs Utilization.
+
 I organize my projects using the ISO/IEC/IEEE 15288:2023 Generic Life Cycle model as a guide. The Model defines the following life cycle stages:
 1. Concept
 2. Development
@@ -29,21 +31,20 @@ I organize my projects using the ISO/IEC/IEEE 15288:2023 Generic Life Cycle mode
 5. Support
 6. Retirement
    
-Organizing projects, or systems, by Life Cycle Stage is non-trivial because of three nuances:
+Categorizing projects, or systems, by Life Cycle Stage is non-trivial because of three nuances:
 1. Stages can overlap in time
 2. Subsystems can simultaneously occupy different Stages
 3. A project can return to an earlier Stage
 
-The nuances could, in theory, be accomodated by a tailored visualization system. My website, however, is statically generated, uses almost no Javascript, and uses hierarchical directories to store files, so I can't create dynamic visualizations or tailor my storage of project data.
+The nuances could, in theory, be accomodated by a tailored visualization system. My website, however, is statically generated, uses almost no Javascript, and uses hierarchical directories to store files, so I can't easily create dynamic visualizations or tailor my storage of project data to accommodate these nuances.
 
-Let's explore the nuances to see if we can reduce their impact on project organization and if my projects happen to inherently avoid the nuances in certain ways. In fact, the nuances don't have too much impact, because:
-- The Concept, Development, and Production Stages do not frequently overlap in my projects. Thus, we could have a individual webpage for each of them. 
+However, not all is lost. Let's explore the nuances to see if we can reduce their impact on project organization and if my projects happen to inherently avoid the nuances in certain ways. In fact, the nuances don't have too much impact, because:
+- The Concept, Development, and Production Stages do not frequently overlap in my projects. Thus, we can have individual webpages for each stage without issues due to Nuance 1.
 - Some of my projects become Retired and are extremely unlikely to ever enter another Life Cycle stage, e.g. a basic project for an undergrad course. Thus, we could have an individual webpage for Retired projects.
-- I consider any publically available project to occupy the Support stage.
-- I do not frequently return to earlier Stages.
+- I consider any publically available project to occupy the Support stage, so we don't need a separate page for Support, rather we imply Support stage if the project is public and in production or utilization.
+- I do not frequently return to earlier Stages, which mitigates Nuance 3.
 
 The biggest impact is due to overlapping Production and Utilization stages, e.g. my riced window manager.
-
 * Completed
 These projects have achieved at least most of their goals.
 ** Software

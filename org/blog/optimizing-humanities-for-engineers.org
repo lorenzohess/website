@@ -1,2 +1,1 @@
-* Optimizing Humanities For Engineers
-
+#+title: Optimizing Humanities For Engineers

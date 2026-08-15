@@ -1,4 +1,5 @@
-* [[file:significance-of-sig-figs.org][Significance Of Sig Figs]]
+#+title: Significance Of Sig Figs
+
 In the wild I've come to see three categories of sig fig usage:
 1. No awareness: the author reports values exactly as they were calculated (usually this means to two decimal places) with no regard to context.
 2. Apparent awareness: the author appears to have some awareness of sig figs, but they probably don't have a substantive understanding of why. While decimals are usually not reported, you can tell they lack substantive understanding because they'll still report unnecessary digits with respect to the context (usually the ones digits remains included).

@@ -1,2 +1,3 @@
-* How To Format Units
+#+title: How To Format Units
+
 Italics, spacing, and plurality.

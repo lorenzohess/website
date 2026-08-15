@@ -1,2 +1,1 @@
-* Let's Clarify the Philosophical Foundations Of Free Software
-
+#+title: Let's Clarify the Philosophical Foundations Of Free Software

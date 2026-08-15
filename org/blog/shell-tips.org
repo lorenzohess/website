@@ -1,10 +1,10 @@
 #+title: Shell Tips
 
-This list is ongoing.
+This list is continuously updated.
 
 * Tips
 1. To make =apt= install automatically you can pass =-y=. You can also hit enter after running the command to automatically accept =Y= in the upcoming confirmation dialog.
-2. You don't need =sudo kill -9= for processes your user started, even though using =sudo= can feel like it'll actually help the process die.
+2. You don't need =sudo= to =kill -9= processes started by your user, even though using =sudo= can feel like it'll actually help the process die. Using =kill -9= is enough.
 ** How to Evaluate Commands From the Internet
 1. Never copy-paste these unless you know what they do.
    - This means you know what the command does and what the included flags do

@@ -1,4 +1,5 @@
-* Practical Tips For Staying In Calorie Deficits
+#+title: Practical Tips For Staying In Calorie Deficits
+
 1. If your calorie limit is <2000, have only two meals. They can be bigger, and will be more psychologically rewarding that three smaller meals. Also, eating a small meal can feel limiting and raises temptations. Three smaller meals only amplifies these feelings, so avoid that by having two bigger ones.
 2. If you're doing two meals, use a 1:2 breakfast:dinner calorie ratio. The big dinner will feel rewarding.
 3. Low calorie toppings: spices, soy sauce.

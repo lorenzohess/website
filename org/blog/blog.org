@@ -13,7 +13,7 @@
 * TODO [[file:optimizing-humanities-for-engineers.org][Optimizing Humanities for Engineers]] :noexport:
 * [[file:dont-call-your-foss-project-something-vulgar.org][Don't Call Your Open Source Project Something Vulgar]]
 * [[file:use-your-cars-parking-brake.org][Use Your Car's Parking Brake]]
-* [[file:european-bottlecaps.org][European Bottlecaps]]
+* [[file:european-bottlecaps.org][European Tethered Bottlecaps]]
 * TODO [[file:lets-clarify-philosophical-foundations-of-free-software.org][Let's Clarify the Philosophical Foundations of Free Software]] :noexport:
 * TODO [[file:practical-tips-for-staying-in-calorie-deficits.org][Practical Tips for Staying Calorie Deficits]] :noexport:
 * TODO [[file:how-to-drive-more-safely.org][How To Drive More Safely]] :noexport:
@@ -21,7 +21,7 @@
 * Product Reviews
 ** [[file:product-reviews/system76-lemur-pro-10.org][System76 Lemur Pro 10]]
 ** [[file:badly-designed-things.org][Badly Designed Things]]
-* [[file:safe-shell-usage.org][Safe Shell Usage]]
+* [[file:shell-tips.org][Shell Tips]]
 * [[file:chekhovs-dessert.org][Chekhov's Dessert]]
 * [[file:notation-for-relative-reference-frames-in-robotics.org][Notation for Relative Reference Frames in Robotics]]
 * How Knowing Physics Helps Learning Engineering :noexport:
@@ -52,4 +52,7 @@ Good things to learn:
 
 Make exam sheets
 * Engineering Students Should Make Exam Sheets :noexport:
-* On-the-Fly Systems Engineering and Tailoring for Agile Life Cycles
+* On-the-Fly Systems Engineering and Tailoring for Agile Life Cycles :noexport:
+* [[file:cheese-ratings.org][Cheese Ratings]]
+* [[file:use-two-hand-driers.org][Use Two Hand Driers]]
+* [[file:5-rational-unscientific-things.org][Five Things That Cannot be Scientifically Proven but Are ALl Rational to Accept]]

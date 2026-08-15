@@ -1,0 +1,11 @@
+#+title: Cheese Ratings
+
+1. Parmigiano
+2. Bufala
+3. Ricotta
+4. Gorgonzola
+5. Burrata
+6. Pecorino sardo
+7. Mascarpone
+8. Caprino
+9. Provolone

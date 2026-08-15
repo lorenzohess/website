@@ -1,2 +1,1 @@
-* Get Rid Of Extra Words
-
+#+title: Get Rid Of Extra Words

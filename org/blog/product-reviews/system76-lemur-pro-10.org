@@ -14,7 +14,7 @@
 - 8GB RAM plus 20GB I added
 - 1/2TB SSD
 
-*Recommendation:* I would recommend this if you're interested in a portable, powerful laptop and you don't care much about build quality. I will not try to determine whether the newest model matches up to this one and is worth the price. That being said, if mine broke I would buy the newest Lemur Pro for $1600, with the default 12c/14t i5 4.3GHz boosted, 8GB RAM, 1TB PCIe SSD, and 2.2lb weight.
+*Recommendation:* I would recommend this if you're interested in a portable, powerful laptop and you don't care much about build quality. I will not try to determine for you whether the latest Lemur Pro model matches up to this one and is worth the price. That being said, if mine broke I would probably buy the newest Lemur Pro for $1600, with the default specs. The other option I'd consider, as of 2026-08-15, would be the Starlabs Starfighter.
 
 *Pros:*
 - Great daily driver
@@ -40,15 +40,16 @@
   - You will have to buy a new one which will run you around $150.
   - The cable for both the new batteries I've received has been too long so I've had to wedge it against the battery and motherboard. Note that the batteries weren't aftermarket, they were from System76 directly.
 - Keyboard shows noticeable wear and tear, but perhaps this is expected for the build quality.
-  - My =E= key has fallen off. The plastic scissor mechanism clip, which holds the key to the keyboard, broke.
+  - My =D= and =E= keys have fallen off. The plastic scissor mechanism clip, which holds the key to the keyboard, broke.
   - The touchpad coating has worn off in two places.
   - The coating on 26 of the keyboard keys has begun to wear off. Some keys have maybe 10% surface area worn while others have 80%.
 - My right USB port doesn't detect hard drives, but the left USB port and the Thunderbolt port do.
   - I may have damaged it by shorting the $\pm5\text{V}$ output in an electronics project, but I feel like it should have better protection?
 - The rubber feet broke off quickly, maybe within 1 month of usage. They just can't withstand the shear force imposed by sliding the laptop back and forth, which I do a lot.
-- The sticker rubbed off the bottom and now I don't know my laptop's serial number.
+- The sticker on the underside of the laptop rubbed off and now I don't know my laptop's serial number.
   - The SN should be hardcoded in software or engraved somewhere.
 - The upper 1/4 inch strip of the touchpad, closest to the keyboard, doesn't respond.
 - The speakers aren't good quality or that loud
   - After 4 years the left speaker started to sound really bad when playing bass
   - They're usable when you need audio output and don't have other options, but for any consistent use (Zoom meetings, Youtube videos) you'll wish you had better speakers
+- I fell down with my laptop in my bag and the screen has some white splotches on it.
