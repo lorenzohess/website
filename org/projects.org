@@ -11,41 +11,36 @@ I organize my projects following the ISO/IEC/IEEE 15288:2023 Generic Life Cycle 
 5. Support
 6. Retirement
 
-To categorize my projects I maintain seven Project Categories based on these Life Cycle Stages. Each category has its own webpage which lists projects in that category:
-1. [[file:projects/unrealizable-concepts.org][Unrealizable Concepts]]
-2. [[file:projects/pre-concept.org][Pre-Concept]]
-3. [[file:projects/concept.org][Concept]]
-4. [[file:projects/development.org][Development]]
-5. [[file:projects/production.org][Production]]
-6. [[file:projects/utilization.org][Utilization]]
-7. [[file:projects/retired.org][Retired]]
+To categorize my projects I maintain six Project Categories based on these Life Cycle Stages. My Categories differ slightly from the ISO model (see Explanation below). Each category has its own webpage which lists projects in that category:
+- [[file:projects/unrealizable-concepts.org][Unrealizable Concepts: ideas which are not realizable.]]
+- [[file:projects/pre-concept.org][Pre-Concept: ideas which may later enter the Concept stage.]]
+- [[file:projects/concept.org][Concept: projects with goals under development; still potentially unfeasible.]]
+- [[file:projects/development.org][Development: projects I'm still working on but which haven't achieved suitable goals.]]
+- [[file:projects/utilization.org][Utilization: projects which are completed to a suitable degree.]]
+- [[file:projects/suspended.org][Suspended: projects which I started but have decided not to finish.]] 
 
+Within these categories I enumerate fields: software, mechanical, mechatronic, academic, and the lesser used chemistry, food, novels, movie scenes, and sports.
 * Project Categories Explanation
-TODO: explain Production vs Utilization.
-
-I organize my projects using the ISO/IEC/IEEE 15288:2023 Generic Life Cycle model as a guide. The Model defines the following life cycle stages:
-1. Concept
-2. Development
-3. Production
-4. Utilization
-5. Support
-6. Retirement
-   
 Categorizing projects, or systems, by Life Cycle Stage is non-trivial because of three nuances:
 1. Stages can overlap in time
 2. Subsystems can simultaneously occupy different Stages
 3. A project can return to an earlier Stage
 
-The nuances could, in theory, be accomodated by a tailored visualization system. My website, however, is statically generated, uses almost no Javascript, and uses hierarchical directories to store files, so I can't easily create dynamic visualizations or tailor my storage of project data to accommodate these nuances.
+The nuances could, in theory, be accomodated by a tailored visualization system. But this requires defining and following some reference model for describing project stages and accommodating these nuances. I'm not interested in this.
 
-However, not all is lost. Let's explore the nuances to see if we can reduce their impact on project organization and if my projects happen to inherently avoid the nuances in certain ways. In fact, the nuances don't have too much impact, because:
-- The Concept, Development, and Production Stages do not frequently overlap in my projects. Thus, we can have individual webpages for each stage without issues due to Nuance 1.
-- Some of my projects become Retired and are extremely unlikely to ever enter another Life Cycle stage, e.g. a basic project for an undergrad course. Thus, we could have an individual webpage for Retired projects.
-- I consider any publically available project to occupy the Support stage, so we don't need a separate page for Support, rather we imply Support stage if the project is public and in production or utilization.
-- I do not frequently return to earlier Stages, which mitigates Nuance 3.
+Fortunately, forgoing a tailored visualization system and reference model actually doesn't have too much impact. Why? My projects happen to inherently avoid the nuances: 
+- I define my stages so they're mutually exclusive. See below. This is how I work in real life, so the mapping works.
+- I rarely return projects to earlier stages.
+- I consider any publically available project to occupy the ISO Support stage, so we don't need a separate page for Support. Rather we just merge this into my Utilization category.
+- I consider "retired" projects as in utilization, since if I mention it on my website, it has at least one purpose, which is for others to see that I've done it.
+** Formal Definitions of Project Categories
+_Idea:_ a coherent abstract thought for a project.
 
-The biggest impact is due to overlapping Production and Utilization stages, e.g. my riced window manager.
-* Completed
-These projects have achieved at least most of their goals.
-** Software
-1. [[https://gitlab.com/lorenzohess/arch-awesomewm-rice][AwesomeWM Desktop Rice for Arch Linux]], 2025: configuration and scripting for the Awesome Window Manager and other desktop environment tools for Arch Linux.
+_Project:_ an idea with at least one physical or digital representation or artifact.
+
+1. *Unrealizable Concepts:* ideas which are not realizable for one reason or another, e.g. my lack of knowledge, lack of resources, or physical infeasibility.
+2. *Pre-Concept:* ideas for realizable projects.
+3. *Concept:* projects whose goals are still being fully determined.
+4. *Development:* projects that have not yet achieved suitable goals and on which I am currently working.
+5. *Utilization:* have been completed to a suitable degree and are in use by me, or could conceivably be used by someone else.
+6. *Suspended:* were begun but were suspended for one reason or another. 

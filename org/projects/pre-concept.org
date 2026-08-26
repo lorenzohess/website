@@ -1,6 +1,6 @@
 #+title: Pre-Concept
 
-There are ideas for projects which may later enter the Concept stage.
+These are raw ideas which may later enter the Concept stage.
 * Software
 1. When3Meet (When2Meet Alternative): When2Meet needs several features (and it makes sense to name an updated version When3Meet):
    - option to invert already selected times if dragging over them as part of another time selection
@@ -27,13 +27,12 @@ There are ideas for projects which may later enter the Concept stage.
 * Mechanical
 1. PB&J Bread Mold: a mold to make slices of bread with walls. These would hold in the PB&J better and prevent it from spilling out the sides.
 2. Constant force stirring spoon
-3. Delayed double toilet flusher
-4. Baking soda dispenser
-5. Pneumatic device for clearing used grounds from Moka espresso pot funnel
-6. Wearable laptop tray: straps on to your belly and holds a small, light computer for on the go hacking.
-7. Cup whose shape is optimized for receiving water quickly with minimal to no splahes.
-8. Bork: the bone fork. A kitchen utensil that grasps onto bones to let you eat the remaining meat off the bone without getting your hands dirty. Great for ribs, chicken wings, etc.
-9. Deluxe movie theater popcorn holder.
+3. Baking soda dispenser
+4. Pneumatic device for clearing used grounds from Moka espresso pot funnel
+5. Wearable laptop tray: straps on to your belly and holds a small, light computer for on the go hacking.
+6. Cup whose shape is optimized for receiving water quickly with minimal to no splahes.
+7. Bork: the bone fork. A kitchen utensil that grasps onto bones to let you eat the remaining meat off the bone without getting your hands dirty. Great for ribs, chicken wings, etc.
+8. Deluxe movie theater popcorn holder.
    1. Fits into theater seat cupholder so you don't have to hold it yourself.
    2. Extends sideways left and right so you and your friend can both enjoy without passing back and forth.
    3. Has a grate and collection chamber at the bottom which collects unpopped kernels.
@@ -41,11 +40,11 @@ There are ideas for projects which may later enter the Concept stage.
    5. Has lid so you can toss with salt.
    6. Microwavable.
    7. Cardboard single-use version.
-10. Food dispensers shaped like fire extinguishers.
-    1. Whipped cream.
-    2. Olive oil.
-    3. Salt, pepper.
-* Mechatronic or Robotic
+9. Food dispensers shaped like fire extinguishers.
+   1. Whipped cream.
+   2. Olive oil.
+   3. Salt, pepper.
+* Mechatronic
 1. Autonomous kitchen stirrer. Constant force. Two-axis gantry with arm.
 2. Autonomous pancake stacker with butter and syrup placement.
 3. Autonomous egg poacher.
@@ -75,5 +74,5 @@ There are ideas for projects which may later enter the Concept stage.
 8. Kitchen utensil cleaner. You use a fork, stick it in the cleaner, and it's washed and dried within a few minutes.
 9. Smart globe. A globe that rotates and zooms in on the country you're looking at. No rotating with your hands.
 10. Car device which makes a hurt sound ("Oof!", "Ouch!", "Ow!") when you go over a bad bump.
-* Other
+* Food
 1. Dipping Integrity Score

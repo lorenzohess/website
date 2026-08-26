@@ -1,21 +1,8 @@
-#+title: Retired
+#+title: Suspended
 
-These projects have completed their life cycle and I am no longer using them and will no longer use them. In many cases, however, the project could conceivably enter utilization again, e.g. putting a website back online.
-
-* Academic Projects
-1. [[https://digitalcollections.bowdoin.edu/view/4961/][Physics BA Honors Thesis]], 2023: reuse of N95 FFRs helps mitigate the effects of shortages. UV-C exposure is an ideal method for the decontamination necessary for FFR reuse. We design and program a ray tracing simulator in MATLAB to characterize the distribution of scattered photons in N95 FFRs.
-1. [[https://gitlab.com/lorenzohess/eddy-current-brakes-ergometer][Eddy Current Brake Ergometer for PHYS 3010]], 2022: building parts of an upper body ergometer with eddy current brakes.
-2. [[https://gitlab.com/lorenzohess/me3310-stretcher-cad][Folding Stretcher CAD Model for ME 3310]], 2024:
-4. [[https://gitlab.com/lorenzohess/es-1310-cad-files][CAD Files for ES 1310]], 2023:
-* Software
-1. [[https://github.com/lorenzohess/qubes-awesomewm-rice][AwesomeWM Desktop Rice for Qubes OS]], 2023: configuration and scripting for the Awesome Window Manager and other desktop environment tools for Arch Linux.
-2. [[https://gitlab.com/lorenzohess/xml-orlando-furioso][XML Orlando Furioso]], 2023: Ariosto's /Orlando Furioso/ encoded as XML, down to each word.
-* Mechanical
-** Laser Cutting
-1. [[https://gitlab.com/lorenzohess/greek-alphabetex][Greek Alphabet in LaTeX]], 2024: aka "Greek AlphabeTeX", a reference to the LaTeX greek alphabet letters.
-2. [[https://gitlab.com/lorenzohess/self-complementary-graphs-gift][Self-Complementary Graphs]], 2024: visualization of fourteen self-complementary graphs (n = 1, 4, 5, 8).
-* Suspended
 These projects were begun, even if only in the Concept Stage, but were suspended for one reason or another. They could theoretically be resumed under certain conditions:
+
+* Suspended
 1. [[https://gitlab.com/lhess2021/degorge][degOrge]]: a calorie tracker in Emacs Org Mode, a [[https://www.merriam-webster.com/dictionary/portmanteau][portmanteau]] of "de-gorge" and "Org".
    - Implementation Stage: 50% of the code. I had difficulty wrapping my mind around writing Elisp code that was more than a single Emacs config setting or custom function.
    - Why Suspended: I discovered it was easy enough to count calories using written notes.
