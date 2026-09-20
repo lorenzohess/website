@@ -15,7 +15,7 @@ Vulgar names have three downsides:
 
 I should note that while downside (1) always applies, downsides (2) and (3) have some implied premises which vary by context. If those around you won't be disturbed, then (2) doesn't apply. If the goals of your project aren't undermined by limiting the project's spread, then (3) doesn't apply.
 
-A list of projects with vulgar names:
+A list of projects with vulgar names (definitions from Merriam-Webster):
 - [[https://www.gnu.org/software/bash/][Bash]]. The word "bash" means "to strike violently", "to injure or damage by striking", or "to attack physically or verbally".
 - [[https://git-scm.com/][Git]]. The word "git" means "a foolish or worthless person".
 - [[https:doomemacs.org][Doom Emacs]]. The word "doom" means "unhappy destiny" or "death" or "ruin".
@@ -24,7 +24,7 @@ A list of projects with vulgar names:
 - [[https://github.com/freedomofpress/dangerzone][Dangerzone]]. This is one of the least vulgar in this list. However, it meets definition (1) insofar as it lacks taste because of a "danger zone's" immediately frightening connotation.
   - I should note that the app sanitizes PDFs, so the name also contradicts the app's purpose, which is to bring users out of a danger zone.
 - [[https://en.wikipedia.org/wiki/Curses_(programming_library)][curses]] (and [[https://ftp.gnu.org/gnu/ncurses/][ncurses]]). The word "curse" means "a prayer or invocation for harm or injury to come upon one" or "a profane or obscene oath or word".
-- Evil Mode
+- [[https://github.com/emacs-evil/evil][Evil Mode]]. The word "evil" means "morally reprehensible", "arising from actual or imputed bad character or conduct", "causing harm", or "marked by misfortune".
 
 Of course more exist, such as [[https://archiveos.org/ubuntu-satanic/][Ubuntu Satanic Edition]], but they are niche and not worth tracking.
 
